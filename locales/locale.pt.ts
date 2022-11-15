@@ -166,7 +166,7 @@ export const locale: Locale = {
     { source: 'invited', target: 'convidado' },
     { source: 'Choose Team', target: 'Escolha de time' },
     { source: 'App Teams', target: 'Times de aplicativos' },
-    { source: 'Built-In Teams', target: 'Times embutidas' },
+    { source: 'Built-In Teams', target: 'Times integrados' },
     { source: 'Clear Team', target: 'Limpar o time' },
     { source: 'Can build application and modify data', target: 'Pode criar aplicativos e modificar dados' },
     { source: 'Can modify data in application', target: 'Pode modificar dados no aplicativo' },
@@ -204,7 +204,7 @@ export const locale: Locale = {
     { source: { label: 'Delete', context: 'permissions' }, target: 'Excluir' },
     { source: 'Custom Access', target: 'Acesso personalizado' },
     { source: 'Read, create, update and delete data', target: 'Leia, crie, atualize e exclua dados' },
-    { source: 'Choose allowed operations granularly', target: 'Escolha operações permitidas granularmente' },
+    { source: 'Choose allowed operations granularly', target: 'Escolha operações permitidas de forma granular' },
     { source: 'Without any access to data', target: 'Sem acesso a dados' },
     { source: 'Name', target: 'Nome' },
     { source: 'Active', target: 'Ativo' },
@@ -240,7 +240,7 @@ export const locale: Locale = {
     { source: 'Photo', target: 'Foto' },
     { source: 'your photo', target: 'sua foto' },
     { source: 'Change', target: 'Mudar' },
-    { source: 'Upload', target: 'Carreger' },//could also be used as Enviar (send) if is an action button
+    { source: 'Upload', target: 'Carregar' }, //could also be used as Enviar (send) if is an action button
     { source: 'First Name', target: 'Primeiro nome' },
     { source: 'Last Name', target: 'Sobrenome' },
     { source: 'Your Email', target: 'Seu email' },

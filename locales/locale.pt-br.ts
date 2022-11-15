@@ -1,8 +1,8 @@
 import { Locale } from './locale';
 
 export const locale: Locale = {
-  name: 'portuguese (Portugal)',
-  language: 'pt',
+  name: 'portuguese (Brazil)',
+  language: 'pt-br',
   items: [
     // General
     { source: 'Save', target: 'Salvar' },

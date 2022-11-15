@@ -24,7 +24,7 @@ export const locale: Locale = {
     { source: 'Enter at least {0} characters', target: 'Digite pelo menos {0} caracteres' },
 
     // List components
-    { source: 'Filter', target: 'Filtrar' }, //Filtro subs. Filtrar verb
+    { source: 'Filter', target: 'Filtrar' }, // Filtro subs. Filtrar verb
     { source: 'Exclude', target: 'Excluir' },
     { source: 'Actions', target: 'Ações' },
     { source: 'Search', target: 'Procurar' },
@@ -33,7 +33,6 @@ export const locale: Locale = {
     { source: 'Selected', target: 'Selecionada' },
     {
       source: 'Unfortunately, no {0} matching your query found',
-      // TODO:
       target: 'Infelizmente, nenhum {0} correspondendo à sua consulta foi encontrada'
     },
     { source: 'We are fetching {0}, please, wait...', target: 'Estamos buscando {0}, por favor, aguarde ...' },
@@ -61,7 +60,7 @@ export const locale: Locale = {
     { source: 'Logout', target: 'Sair' },
     { source: 'Activity Log', target: 'Registro de atividade' },
     { source: 'Collaborations', target: 'Colaborações' },
-    { source: 'Open Visual Builder', target: 'Abrir Visual Builder' }, //Visual builder if literaly translated is Construtor Visual
+    { source: 'Open Visual Builder', target: 'Abrir Visual Builder' }, // Visual builder if literaly translated is Construtor Visual
 
     // Filters
     { source: 'equals', target: 'igual a' },
@@ -240,7 +239,7 @@ export const locale: Locale = {
     { source: 'Photo', target: 'Foto' },
     { source: 'your photo', target: 'sua foto' },
     { source: 'Change', target: 'Mudar' },
-    { source: 'Upload', target: 'Carregar' }, //could also be used as Enviar (send) if is an action button
+    { source: 'Upload', target: 'Carregar' }, // Could also be used as Enviar (send) if is an action button
     { source: 'First Name', target: 'Primeiro nome' },
     { source: 'Last Name', target: 'Sobrenome' },
     { source: 'Your Email', target: 'Seu email' },

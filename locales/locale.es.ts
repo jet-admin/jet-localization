@@ -16,7 +16,7 @@ export const locale: Locale = {
 
     // Fields
     { source: 'optional', target: 'opcional' },
-    { source: 'Choose', target: 'Elegir' },
+    { source: 'choose', target: 'elegir' },
     { source: 'Clear value', target: 'Borrar valor' },
     { source: 'loading...', target: 'cargando...' },
     { source: 'Nothing found', target: 'Nada Encontrado' },
@@ -25,9 +25,23 @@ export const locale: Locale = {
 
     // List components
     { source: 'Filter', target: 'Filtrar' },
+    { source: 'Filter by field', target: 'Filtrar por campo' },
+    { source: 'Filter by...', target: 'Filtrado por...' },
+    { source: 'Back', target: 'atrás' },
+    { source: 'Back to {0} fields', target: 'Volver a {0} campos' },
+    { source: 'Choose {0} from list', target: 'Elija {0} de la lista' },
+    { source: '{0} fields', target: '{0} campos' },
+    { source: '{0} relationships', target: '{0} relaciones' },
+    { source: 'Aggregate {0}', target: 'Agregado {0}' },
+    { source: 'No fields to select', target: 'No hay campos para seleccionar' },
+    { source: 'Enter value...', target: 'Ingrese el valor ...' },
     { source: 'Exclude', target: 'Excluir' },
     { source: 'Actions', target: 'Comportamiento' },
     { source: 'Search', target: 'Búsqueda' },
+    { source: 'Sort 1 → 9', target: 'Ordenar 1 → 9' },
+    { source: 'Sort 9 → 1', target: 'Ordenar 9 → 1' },
+    { source: 'Sort A → Z', target: 'Ordenar A → Z' },
+    { source: 'Sort Z → A', target: 'Ordenar Z → A' },
     { source: 'Refresh automatically', target: 'Actualizar automáticamente' },
     { source: 'All', target: 'Todos' },
     { source: 'Selected', target: 'Seleccionado' },
@@ -37,6 +51,7 @@ export const locale: Locale = {
     },
     { source: 'We are fetching {0}, please, wait...', target: 'Estamos recuperando {0}, por favor, espere...' },
     { source: 'Add filter', target: 'Añadir filtro' },
+    { source: 'Delete this filter', target: 'Eliminar este filtro' },
     { source: 'Toggle ordering', target: 'Alternar pedido' },
     { source: 'Loading failed', target: 'Carga fallida' },
     { source: 'Not configured', target: 'No configurado' },
@@ -64,36 +79,156 @@ export const locale: Locale = {
 
     // Filters
     { source: 'equals', target: 'es igual' },
+    { source: 'does not equal', target: 'no es igual' },
+    { source: '{0} equals {1}', target: '{0} es igual a {1}' },
+    { source: '{0} does not equal {1}', target: '{0} no es igual a {1}' },
+
     { source: 'contains', target: 'contiene' },
+    { source: 'does not contain', target: 'no contiene' },
+    { source: '{0} contains {1}', target: '{0} contiene {1}' },
+    { source: '{0} not contains {1}', target: '{0} no contiene {1}' },
+
     { source: 'starts with', target: 'comienza con' },
+    { source: 'does not start with', target: 'no comienza con' },
+    { source: '{0} starts with {1}', target: '{0} comienza con {1}' },
+    { source: '{0} does not start with {1}', target: '{0} no comienza con {1}' },
+
     { source: 'ends with', target: 'termina con' },
+    { source: 'does not end with', target: 'no termina con' },
+    { source: '{0} ends with {1}', target: '{0} termina con {1}' },
+    { source: '{0} does not end with {1}', target: '{0} no termina con {1}' },
+
     { source: 'greater than', target: 'mas grande que' },
+    { source: 'is not greater than', target: 'no es mayor que' },
+    { source: '{0} is greater than {1}', target: '{0} es mayor que {1}' },
+    { source: '{0} not greater than {1}', target: '{0} no mayor que {1}' },
+
     { source: 'greater than or equals', target: 'mayor que o igual' },
+    { source: 'is not greater than or equals', target: 'no es mayor o igual' },
+    { source: '{0} is greater than or equals {1}', target: '{0} es mayor o es igual a {1}' },
+    { source: '{0} is not greater than or equals {1}', target: '{0} no es mayor o es igual a {1}' },
+
     { source: 'less than', target: 'menos que' },
+    { source: 'is not less than', target: 'no es menos que' },
+    { source: '{0} is less than {1}', target: '{0} es menor que {1}' },
+    { source: '{0} is not less than {1}', target: '{0} no es menor que {1}' },
+
     { source: 'less than or equals', target: 'menor que o igual' },
+    { source: 'is not less than or equals', target: 'no es menor o igual' },
+    { source: '{0} is less than or equals {1}', target: '{0} es menor o es igual a {1}' },
+    { source: '{0} is not less than or equals {1}', target: '{0} no es menor o es igual a {1}' },
+
     { source: 'one of', target: 'uno de' },
+    { source: 'is one of', target: 'es uno de' },
+    { source: 'is not one of', target: 'no es uno de' },
+    { source: '{0} is one of {1}', target: '{0} es uno de {1}' },
+    { source: '{0} is not one of {1}', target: '{0} no es uno de {1}' },
+
     { source: 'is null', target: 'es nulo' },
+    { source: 'is not null', target: 'No es nulo' },
+    { source: '{0} is null', target: '{0} es nulo' },
+    { source: '{0} is not null', target: '{0} no es nulo' },
+
     { source: 'is future', target: 'es futuro' },
+    { source: 'in the future', target: 'en el futuro' },
+    { source: 'is not in the future', target: 'no está en el futuro' },
+    { source: '{0} is in the future', target: '{0} está en el futuro' },
+    { source: '{0} is not in the future', target: '{0} no está en el futuro' },
+
     { source: 'is past', target: 'es pasado' },
+    { source: 'in the past', target: 'en el pasado' },
+    { source: 'is not in the past', target: 'no está en el pasado' },
+    { source: '{0} is in the past', target: '{0} está en el pasado' },
+    { source: '{0} is not in the past', target: '{0} no está en el pasado' },
+
     { source: 'is Today', target: 'es hoy' },
+    { source: 'today', target: 'hoy' },
+    { source: 'is not today', target: 'no es hoy' },
+    { source: '{0} is today', target: '{0} es hoy' },
+    { source: '{0} is not today', target: '{0} no es hoy' },
+
     { source: 'is Yesterday', target: 'es ayer' },
+    { source: 'yesterday', target: 'el dia de ayer' },
+    { source: 'is not yesterday', target: 'no es ayer' },
+    { source: '{0} is yesterday', target: '{0} es ayer' },
+    { source: '{0} is not yesterday', target: '{0} no es ayer' },
+
     { source: 'is Last Week', target: 'es la semana pasada' },
+    { source: 'last week', target: 'la semana pasada' },
+    { source: 'is not last week', target: 'no es la semana pasada' },
+    { source: '{0} is last week', target: '{0} es la semana pasada' },
+    { source: '{0} is not last week', target: '{0} no es la semana pasada' },
+
     { source: 'is Last Month', target: 'es el mes pasado' },
+    { source: 'last month', target: 'el mes pasado' },
+    { source: 'is not last month', target: 'no es el mes pasado' },
+    { source: '{0} is last month', target: '{0} es el mes pasado' },
+    { source: '{0} is not last month', target: '{0} no es el mes pasado' },
+
     { source: 'is Last Quarter', target: 'es el último trimestre' },
+    { source: 'last quarter', target: 'Último cuarto' },
+    { source: 'is not last quarter', target: 'no es el último trimestre' },
+    { source: '{0} is last quarter', target: '{0} es el último trimestre' },
+    { source: '{0} is not last quarter', target: '{0} no es el último trimestre' },
+
     { source: 'is Last Year', target: 'es el año pasado' },
+    { source: 'last year', target: 'el año pasado' },
+    { source: 'is not last year', target: 'no es el año pasado' },
+    { source: '{0} is last year', target: '{0} es el año pasado' },
+    { source: '{0} is not last year', target: '{0} no es el año pasado' },
+
     { source: 'is Last X Days', target: 'son los últimos X días' },
+    { source: 'last X days', target: 'Últimos x días' },
+    { source: 'is not last X days', target: 'no son los últimos x días' },
+    { source: '{0} is last {1} days', target: '{0} es el último {1} días' },
+    { source: '{0} is not last {1} days', target: '{0} no es el último {1} días' },
+
     { source: 'is Previous Week', target: 'es la semana anterior' },
+    { source: 'previous week', target: 'semana pasada' },
+    { source: 'is not previous week', target: 'no es la semana anterior' },
+    { source: '{0} is previous week', target: '{0} es la semana anterior' },
+    { source: '{0} is not previous week', target: '{0} no es la semana anterior' },
+
     { source: 'is Previous Month', target: 'es el mes anterior' },
+    { source: 'previous month', target: 'mes anterior' },
+    { source: 'is not previous month', target: 'no es el mes anterior' },
+    { source: '{0} is previous month', target: '{0} es el mes anterior' },
+    { source: '{0} is not previous month', target: '{0} no es el mes anterior' },
+
     { source: 'is Previous Quarter', target: 'es el trimestre anterior' },
+    { source: 'previous quarter', target: 'cuarto anterior' },
+    { source: 'is not previous quarter', target: 'no es un cuarto anterior' },
+    { source: '{0} is previous quarter', target: '{0} es un cuarto anterior' },
+    { source: '{0} is not previous quarter', target: '{0} no es un cuarto anterior' },
+
     { source: 'is Previous Year', target: 'es el año anterior' },
+    { source: 'previous year', target: 'año anterior' },
+    { source: 'is not previous year', target: 'no es el año anterior' },
+    { source: '{0} is previous year', target: '{0} es el año anterior' },
+    { source: '{0} is not previous year', target: '{0} no es el año anterior' },
+
     { source: 'is Previous X Days', target: 'es X días anteriores' },
+    { source: 'previous X days', target: 'X días anteriores' },
+    { source: 'is not previous X days', target: 'no son los días X anteriores' },
+    { source: '{0} is previous {1} days', target: '{0} es anterior {1} días' },
+    { source: '{0} is not previous {1} days', target: '{0} no es anterior {1} días' },
+
+    { source: 'is empty', target: 'esta vacio' },
+    { source: 'is not empty', target: 'no está vacío' },
+    { source: '{0} is empty', target: '{0} está vacío' },
+    { source: '{0} is not empty', target: '{0} no está vacío' },
+
+    { source: 'covered by', target: 'cubierto por' },
+    { source: 'is not covered by', target: 'no está cubierto por' },
+    { source: '{0} covered by {1}', target: '{0} cubierto por {1}' },
+    { source: '{0} is not covered by {1}', target: '{0} no está cubierto por {1}' },
+
+    // Activity log
     { source: 'No activities found', target: 'No se encontraron actividades' },
     {
       source: 'Start to working with data to log activities.',
       target: 'Comience a trabajar con datos para registrar actividades.'
     },
-
-    // Activity log
     { source: 'All Activity', target: 'Toda la actividad' },
     { source: 'Create Record', target: 'Crear registro' },
     { source: 'Update Record', target: 'Actualizar registro' },
@@ -233,7 +368,6 @@ export const locale: Locale = {
       source: 'We are fetching user data, please, wait...',
       target: 'Estamos obteniendo datos de usuario, por favor, espere...'
     },
-    { source: 'Back', target: 'atrás' },
     { source: 'Profile Settings', target: 'Configuración de perfil' },
     { source: 'Basic information about your account.', target: 'Información básica sobre su cuenta.' },
     { source: 'Photo', target: 'Foto' },

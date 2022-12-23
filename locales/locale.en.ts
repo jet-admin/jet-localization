@@ -16,7 +16,7 @@ export const locale: Locale = {
 
     // Fields
     { source: 'optional', target: '' },
-    { source: 'Choose', target: '' },
+    { source: 'choose', target: '' },
     { source: 'Clear value', target: '' },
     { source: 'loading...', target: '' },
     { source: 'Nothing found', target: '' },
@@ -25,9 +25,23 @@ export const locale: Locale = {
 
     // List components
     { source: 'Filter', target: '' },
+    { source: 'Filter by field', target: '' },
+    { source: 'Filter by...', target: '' },
+    { source: 'Back', target: '' },
+    { source: 'Back to {0} fields', target: '' },
+    { source: 'Choose {0} from list', target: '' },
+    { source: '{0} fields', target: '' },
+    { source: '{0} relationships', target: '' },
+    { source: 'Aggregate {0}', target: '' },
+    { source: 'No fields to select', target: '' },
+    { source: 'Enter value...', target: '' },
     { source: 'Exclude', target: '' },
     { source: 'Actions', target: '' },
     { source: 'Search', target: '' },
+    { source: 'Sort 1 → 9', target: '' },
+    { source: 'Sort 9 → 1', target: '' },
+    { source: 'Sort A → Z', target: '' },
+    { source: 'Sort Z → A', target: '' },
     { source: 'Refresh automatically', target: '' },
     { source: 'All', target: '' },
     { source: 'Selected', target: '' },
@@ -37,6 +51,7 @@ export const locale: Locale = {
     },
     { source: 'We are fetching {0}, please, wait...', target: '' },
     { source: 'Add filter', target: '' },
+    { source: 'Delete this filter', target: '' },
     { source: 'Toggle ordering', target: '' },
     { source: 'Loading failed', target: '' },
     { source: 'Not configured', target: '' },
@@ -64,36 +79,156 @@ export const locale: Locale = {
 
     // Filters
     { source: 'equals', target: '' },
+    { source: 'does not equal', target: '' },
+    { source: '{0} equals {1}', target: '' },
+    { source: '{0} does not equal {1}', target: '' },
+
     { source: 'contains', target: '' },
+    { source: 'does not contain', target: '' },
+    { source: '{0} contains {1}', target: '' },
+    { source: '{0} not contains {1}', target: '' },
+
     { source: 'starts with', target: '' },
+    { source: 'does not start with', target: '' },
+    { source: '{0} starts with {1}', target: '' },
+    { source: '{0} does not start with {1}', target: '' },
+
     { source: 'ends with', target: '' },
+    { source: 'does not end with', target: '' },
+    { source: '{0} ends with {1}', target: '' },
+    { source: '{0} does not end with {1}', target: '' },
+
     { source: 'greater than', target: '' },
+    { source: 'is not greater than', target: '' },
+    { source: '{0} is greater than {1}', target: '' },
+    { source: '{0} not greater than {1}', target: '' },
+
     { source: 'greater than or equals', target: '' },
+    { source: 'is not greater than or equals', target: '' },
+    { source: '{0} is greater than or equals {1}', target: '' },
+    { source: '{0} is not greater than or equals {1}', target: '' },
+
     { source: 'less than', target: '' },
+    { source: 'is not less than', target: '' },
+    { source: '{0} is less than {1}', target: '' },
+    { source: '{0} is not less than {1}', target: '' },
+
     { source: 'less than or equals', target: '' },
+    { source: 'is not less than or equals', target: '' },
+    { source: '{0} is less than or equals {1}', target: '' },
+    { source: '{0} is not less than or equals {1}', target: '' },
+
     { source: 'one of', target: '' },
+    { source: 'is one of', target: '' },
+    { source: 'is not one of', target: '' },
+    { source: '{0} is one of {1}', target: '' },
+    { source: '{0} is not one of {1}', target: '' },
+
     { source: 'is null', target: '' },
+    { source: 'is not null', target: '' },
+    { source: '{0} is null', target: '' },
+    { source: '{0} is not null', target: '' },
+
     { source: 'is future', target: '' },
+    { source: 'in the future', target: '' },
+    { source: 'is not in the future', target: '' },
+    { source: '{0} is in the future', target: '' },
+    { source: '{0} is not in the future', target: '' },
+
     { source: 'is past', target: '' },
+    { source: 'in the past', target: '' },
+    { source: 'is not in the past', target: '' },
+    { source: '{0} is in the past', target: '' },
+    { source: '{0} is not in the past', target: '' },
+
     { source: 'is Today', target: '' },
+    { source: 'today', target: '' },
+    { source: 'is not today', target: '' },
+    { source: '{0} is today', target: '' },
+    { source: '{0} is not today', target: '' },
+
     { source: 'is Yesterday', target: '' },
+    { source: 'yesterday', target: '' },
+    { source: 'is not yesterday', target: '' },
+    { source: '{0} is yesterday', target: '' },
+    { source: '{0} is not yesterday', target: '' },
+
     { source: 'is Last Week', target: '' },
+    { source: 'last week', target: '' },
+    { source: 'is not last week', target: '' },
+    { source: '{0} is last week', target: '' },
+    { source: '{0} is not last week', target: '' },
+
     { source: 'is Last Month', target: '' },
+    { source: 'last month', target: '' },
+    { source: 'is not last month', target: '' },
+    { source: '{0} is last month', target: '' },
+    { source: '{0} is not last month', target: '' },
+
     { source: 'is Last Quarter', target: '' },
+    { source: 'last quarter', target: '' },
+    { source: 'is not last quarter', target: '' },
+    { source: '{0} is last quarter', target: '' },
+    { source: '{0} is not last quarter', target: '' },
+
     { source: 'is Last Year', target: '' },
+    { source: 'last year', target: '' },
+    { source: 'is not last year', target: '' },
+    { source: '{0} is last year', target: '' },
+    { source: '{0} is not last year', target: '' },
+
     { source: 'is Last X Days', target: '' },
+    { source: 'last X days', target: '' },
+    { source: 'is not last X days', target: '' },
+    { source: '{0} is last {1} days', target: '' },
+    { source: '{0} is not last {1} days', target: '' },
+
     { source: 'is Previous Week', target: '' },
+    { source: 'previous week', target: '' },
+    { source: 'is not previous week', target: '' },
+    { source: '{0} is previous week', target: '' },
+    { source: '{0} is not previous week', target: '' },
+
     { source: 'is Previous Month', target: '' },
+    { source: 'previous month', target: '' },
+    { source: 'is not previous month', target: '' },
+    { source: '{0} is previous month', target: '' },
+    { source: '{0} is not previous month', target: '' },
+
     { source: 'is Previous Quarter', target: '' },
+    { source: 'previous quarter', target: '' },
+    { source: 'is not previous quarter', target: '' },
+    { source: '{0} is previous quarter', target: '' },
+    { source: '{0} is not previous quarter', target: '' },
+
     { source: 'is Previous Year', target: '' },
+    { source: 'previous year', target: '' },
+    { source: 'is not previous year', target: '' },
+    { source: '{0} is previous year', target: '' },
+    { source: '{0} is not previous year', target: '' },
+
     { source: 'is Previous X Days', target: '' },
+    { source: 'previous X days', target: '' },
+    { source: 'is not previous X days', target: '' },
+    { source: '{0} is previous {1} days', target: '' },
+    { source: '{0} is not previous {1} days', target: '' },
+
+    { source: 'is empty', target: '' },
+    { source: 'is not empty', target: '' },
+    { source: '{0} is empty', target: '' },
+    { source: '{0} is not empty', target: '' },
+
+    { source: 'covered by', target: '' },
+    { source: 'is not covered by', target: '' },
+    { source: '{0} covered by {1}', target: '' },
+    { source: '{0} is not covered by {1}', target: '' },
+
+    // Activity log
     { source: 'No activities found', target: '' },
     {
       source: 'Start to working with data to log activities.',
       target: ''
     },
-
-    // Activity log
     { source: 'All Activity', target: '' },
     { source: 'Create Record', target: '' },
     { source: 'Update Record', target: '' },
@@ -233,7 +368,6 @@ export const locale: Locale = {
       source: 'We are fetching user data, please, wait...',
       target: ''
     },
-    { source: 'Back', target: '' },
     { source: 'Profile Settings', target: '' },
     { source: 'Basic information about your account.', target: '' },
     { source: 'Photo', target: '' },

@@ -16,7 +16,7 @@ export const locale: Locale = {
 
     // Fields
     { source: 'optional', target: 'választható' },
-    { source: 'Choose', target: 'Választ' },
+    { source: 'choose', target: 'választ' },
     { source: 'Clear value', target: 'Tiszta érték' },
     { source: 'loading...', target: 'Betöltés...' },
     { source: 'Nothing found', target: 'Nincs találat' },
@@ -25,9 +25,23 @@ export const locale: Locale = {
 
     // List components
     { source: 'Filter', target: 'Szűrő' },
+    { source: 'Filter by field', target: 'Szűrőmezőn szűrő' },
+    { source: 'Filter by...', target: 'Szűrés vlami alapján...' },
+    { source: 'Back', target: 'Vissza' },
+    { source: 'Back to {0} fields', target: 'Vissza a {0} mezőkhöz' },
+    { source: 'Choose {0} from list', target: 'Válassza a {0} lehetőséget a listából' },
+    { source: '{0} fields', target: '{0} mezők' },
+    { source: '{0} relationships', target: '{0} kapcsolatok' },
+    { source: 'Aggregate {0}', target: 'Összesített {0}' },
+    { source: 'No fields to select', target: 'Nincsenek kiválasztandó mezők' },
+    { source: 'Enter value...', target: 'Írja be az értéket ...' },
     { source: 'Exclude', target: 'Kizárás' },
     { source: 'Actions', target: 'Akciók' },
     { source: 'Search', target: 'Keresés' },
+    { source: 'Sort 1 → 9', target: 'Válassza az 1 → 9' },
+    { source: 'Sort 9 → 1', target: 'Válassza az 9 → 1' },
+    { source: 'Sort A → Z', target: 'Rendezze A → Z' },
+    { source: 'Sort Z → A', target: 'Rendezze Z → A' },
     { source: 'Refresh automatically', target: 'Automatikus frissítés' },
     { source: 'All', target: 'Összes' },
     { source: 'Selected', target: 'Kiválasztott' },
@@ -37,6 +51,7 @@ export const locale: Locale = {
     },
     { source: 'We are fetching {0}, please, wait...', target: 'A(z) {0} lekérése folyamatban van, kérem, várjon...' },
     { source: 'Add filter', target: 'Szűrő hozzáadása' },
+    { source: 'Delete this filter', target: 'Törölje ezt a szűrőt' },
     { source: 'Toggle ordering', target: 'Váltsd át a rendelést' },
     { source: 'Loading failed', target: 'A betöltés nem sikerült' },
     { source: 'Not configured', target: 'Nincs beállítva' },
@@ -64,29 +79,149 @@ export const locale: Locale = {
 
     // Filters
     { source: 'equals', target: 'egyenlő' },
+    { source: 'does not equal', target: 'nem egyenlő' },
+    { source: '{0} equals {1}', target: '{0} megegyezik {1}' },
+    { source: '{0} does not equal {1}', target: '{0} nem egyenlő {1}' },
+
     { source: 'contains', target: 'tartalmaz' },
+    { source: 'does not contain', target: 'nem tartalmaz' },
+    { source: '{0} contains {1}', target: '{0} tartalmaz {1}' },
+    { source: '{0} not contains {1}', target: '{0} nem tartalmaz {1}' },
+
     { source: 'starts with', target: '-vel kezdődik' },
+    { source: 'does not start with', target: 'nem kezdődik' },
+    { source: '{0} starts with {1}', target: '{0} a {1} -el kezdődik' },
+    { source: '{0} does not start with {1}', target: '{0} nem kezdődik a {1}' },
+
     { source: 'ends with', target: 'végződik' },
+    { source: 'does not end with', target: 'nem ér véget' },
+    { source: '{0} ends with {1}', target: '{0} a {1} -val ér véget' },
+    { source: '{0} does not end with {1}', target: '{0} nem ér véget {1}' },
+
     { source: 'greater than', target: 'nagyobb, mint' },
+    { source: 'is not greater than', target: 'nem nagyobb, mint' },
+    { source: '{0} is greater than {1}', target: '{0} nagyobb, mint {1}' },
+    { source: '{0} not greater than {1}', target: '{0} nem nagyobb, mint {1}' },
+
     { source: 'greater than or equals', target: 'nagyobb vagy egyenlő' },
+    { source: 'is not greater than or equals', target: 'nem nagyobb, mint vagy egyenlő' },
+    { source: '{0} is greater than or equals {1}', target: '{0} nagyobb, mint vagy egyenlő {1}' },
+    { source: '{0} is not greater than or equals {1}', target: '{0} nem nagyobb vagy egyenlő {1}' },
+
     { source: 'less than', target: 'kevesebb, mint' },
+    { source: 'is not less than', target: 'nem kevesebb, mint' },
+    { source: '{0} is less than {1}', target: '{0} kevesebb, mint {1}' },
+    { source: '{0} is not less than {1}', target: '{0} nem kevesebb, mint {1}' },
+
     { source: 'less than or equals', target: 'kisebb vagy egyenlő' },
+    { source: 'is not less than or equals', target: 'nem kevesebb, mint vagy egyenlő' },
+    { source: '{0} is less than or equals {1}', target: '{0} kevesebb vagy egyenlő {1}' },
+    { source: '{0} is not less than or equals {1}', target: '{0} nem kevesebb, vagy egyenlő {1}' },
+
     { source: 'one of', target: 'az egyik' },
+    { source: 'is one of', target: 'egyike a' },
+    { source: 'is not one of', target: 'nem egyike' },
+    { source: '{0} is one of {1}', target: '{0} a {1} egyike' },
+    { source: '{0} is not one of {1}', target: '{0} nem egy a {1}' },
+
     { source: 'is null', target: 'nulla' },
+    { source: 'is not null', target: 'nem nulla' },
+    { source: '{0} is null', target: '{0} null' },
+    { source: '{0} is not null', target: '{0} nem nulla' },
+
     { source: 'is future', target: 'a jövő' },
+    { source: 'in the future', target: 'a jövőben' },
+    { source: 'is not in the future', target: 'nincs a jövőben' },
+    { source: '{0} is in the future', target: '{0} a jövőben van' },
+    { source: '{0} is not in the future', target: '{0} a jövőben nincs' },
+
     { source: 'is past', target: 'elmúlt' },
+    { source: 'in the past', target: 'a múltban' },
+    { source: 'is not in the past', target: 'nincs a múltban' },
+    { source: '{0} is in the past', target: '{0} a múltban van' },
+    { source: '{0} is not in the past', target: '{0} nincs a múltban' },
+
     { source: 'is Today', target: 'ma van' },
+    { source: 'today', target: 'Ma' },
+    { source: 'is not today', target: 'ma nincs' },
+    { source: '{0} is today', target: '{0} ma van' },
+    { source: '{0} is not today', target: '{0} ma nincs' },
+
     { source: 'is Yesterday', target: 'tegnap van' },
+    { source: 'yesterday', target: 'tegnap' },
+    { source: 'is not yesterday', target: 'nincs tegnap' },
+    { source: '{0} is yesterday', target: '{0} tegnap van' },
+    { source: '{0} is not yesterday', target: '{0} nem tegnap van' },
+
     { source: 'is Last Week', target: 'a múlt hét' },
+    { source: 'last week', target: 'múlt hét' },
+    { source: 'is not last week', target: 'nincs a múlt héten' },
+    { source: '{0} is last week', target: '{0} a múlt héten van' },
+    { source: '{0} is not last week', target: '{0} nincs a múlt héten' },
+
     { source: 'is Last Month', target: 'az utolsó hónap' },
+    { source: 'last month', target: 'múlt hónap' },
+    { source: 'is not last month', target: 'nincs a múlt hónapban' },
+    { source: '{0} is last month', target: '{0} a múlt hónapban van' },
+    { source: '{0} is not last month', target: '{0} nincs a múlt hónapban' },
+
     { source: 'is Last Quarter', target: 'az utolsó negyed' },
+    { source: 'last quarter', target: 'utolsó negyed' },
+    { source: 'is not last quarter', target: 'nem utolsó negyedév' },
+    { source: '{0} is last quarter', target: '{0} az utolsó negyedév' },
+    { source: '{0} is not last quarter', target: '{0} nem az utolsó negyedév' },
+
     { source: 'is Last Year', target: 'tavaly van' },
+    { source: 'last year', target: 'tavaly' },
+    { source: 'is not last year', target: 'nem tavaly' },
+    { source: '{0} is last year', target: '{0} tavaly van' },
+    { source: '{0} is not last year', target: '{0} nem tavaly van' },
+
     { source: 'is Last X Days', target: 'az Utolsó X nap' },
+    { source: 'last X days', target: 'utolsó x nap' },
+    { source: 'is not last X days', target: 'nem tart x nap' },
+    { source: '{0} is last {1} days', target: '{0} az utolsó {1} napok' },
+    { source: '{0} is not last {1} days', target: '{0} nem tart be {1} napok' },
+
     { source: 'is Previous Week', target: 'az előző hét' },
+    { source: 'previous week', target: 'előző hét' },
+    { source: 'is not previous week', target: 'nem az előző hét' },
+    { source: '{0} is previous week', target: '{0} az előző hét' },
+    { source: '{0} is not previous week', target: '{0} nem az előző hét' },
+
     { source: 'is Previous Month', target: 'az előző hónap' },
+    { source: 'previous month', target: 'előző hónap' },
+    { source: 'is not previous month', target: 'nem az előző hónap' },
+    { source: '{0} is previous month', target: '{0} az előző hónap' },
+    { source: '{0} is not previous month', target: '{0} nem az előző hónap' },
+
     { source: 'is Previous Quarter', target: 'az előző negyedév' },
+    { source: 'previous quarter', target: 'előző negyedév' },
+    { source: 'is not previous quarter', target: 'nem az előző negyedév' },
+    { source: '{0} is previous quarter', target: '{0} az előző negyedév' },
+    { source: '{0} is not previous quarter', target: '{0} nem az előző negyedév' },
+
     { source: 'is Previous Year', target: 'az Előző év' },
+    { source: 'previous year', target: 'előző év' },
+    { source: 'is not previous year', target: 'nem előző év' },
+    { source: '{0} is previous year', target: '{0} az előző évben van' },
+    { source: '{0} is not previous year', target: '{0} nem az előző év' },
+
     { source: 'is Previous X Days', target: 'az Előző X nap' },
+    { source: 'previous X days', target: 'Az előző x napok' },
+    { source: 'is not previous X days', target: 'nem az előző x napok' },
+    { source: '{0} is previous {1} days', target: '{0} az előző {1} napok' },
+    { source: '{0} is not previous {1} days', target: '{0} nem előző {1} napok' },
+
+    { source: 'is empty', target: 'üres' },
+    { source: 'is not empty', target: 'nem üres' },
+    { source: '{0} is empty', target: '{0} üres' },
+    { source: '{0} is not empty', target: '{0} nem üres' },
+
+    { source: 'covered by', target: 'valamivel borítva' },
+    { source: 'is not covered by', target: 'nem fedezi az általa' },
+    { source: '{0} covered by {1}', target: '{0} {1} borítja' },
+    { source: '{0} is not covered by {1}', target: '{0} nem fedezi a {1}' },
 
     // Activity log
     { source: 'No activities found', target: 'Nem található tevékenység' },
@@ -230,7 +365,6 @@ export const locale: Locale = {
       source: 'We are fetching user data, please, wait...',
       target: 'Felhasználói adatok beolvasása folyamatban van, kérem, várjon...'
     },
-    { source: 'Back', target: 'Vissza' },
     { source: 'Profile Settings', target: 'Profilbeállítások' },
     { source: 'Basic information about your account.', target: 'Alapvető információk a fiókjáról.' },
     { source: 'Photo', target: 'Fénykép' },

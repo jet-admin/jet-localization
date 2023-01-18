@@ -4,77 +4,77 @@
 <title></title>
 <link href="https://tilda.ws/img/tildafavicon.ico" rel="shortcut icon" />
 <style type="text/css">.ExternalClass {
-  width: 100%;
+    width: 100%;
 }
 
 img {
-  border: 0 none;
-  height: auto;
-  line-height: 100%;
-  outline: none;
-  text-decoration: none;
-  -ms-interpolation-mode: bicubic;
+    border: 0 none;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
 }
 
 a img {
-  border: 0 none;
+    border: 0 none;
 }
 
 #outlook a {
-  padding: 0;
+    padding: 0;
 }
 
 #allrecords {
-  height: 100% !important;
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.45;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.45;
 }
 
 #allrecords td {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #allrecords ul {
-  -webkit-padding-start: 30px;
+    -webkit-padding-start: 30px;
 }
 
 @media only screen and (max-width: 600px) {
-  .r {
-    width: 100% !important;
-    min-width: 400px !important;
-  }
+    .r {
+        width: 100% !important;
+        min-width: 400px !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  .t-emailBlock {
-    display: block !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    width: 100% !important;
-  }
+    .t-emailBlock {
+        display: block !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
 
-  .t-emailBlockPadding {
-    padding-top: 15px !important;
-  }
+    .t-emailBlockPadding {
+        padding-top: 15px !important;
+    }
 
-  .t-emailBlockPadding30 {
-    padding-top: 30px !important;
-  }
+    .t-emailBlockPadding30 {
+        padding-top: 30px !important;
+    }
 
-  .t-emailAlignLeft {
-    text-align: left !important;
-    margin-left: 0 !important;
-  }
+    .t-emailAlignLeft {
+        text-align: left !important;
+        margin-left: 0 !important;
+    }
 
-  .t-emailAlignCenter {
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+    .t-emailAlignCenter {
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
 }
 </style>
 <!--allrecords-->
@@ -118,28 +118,20 @@ a img {
             <table align="center" class="r" id="recin62956115" style="margin: 0 auto;border-spacing: 0;width:600px;">
               <tbody>
               <tr>
-                <td style="padding-top:45px;padding-bottom:45px;padding-left:0;padding-right:0;">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tbody>
-                    <tr>
-                      <td align="center">
-                        {% if domain %}
-                        <a href="https://{{domain.domain}}" style="text-decoration: none;">
-                          {% if domain.white_label %}
-                          {% if domain.logo %}
-                          <img src="{{domain.logo}}" style="display:block; width:120px;" width="120" />
-                          {% endif %}
-                          {% else %}
-                          <img src="{{frontend_url}}/assets/images/logo.png" style="display:block; width:120px;" width="120" />
-                          {% endif %}
-                        </a>
-                        {% else %}
-                        <a href="{{frontend_url}}" style="text-decoration: none;"><img src="{{frontend_url}}/assets/images/logo.png" style="display:block; width:120px;" width="120" /></a>
-                        {% endif %}
-                      </td>
-                    </tr>
-                    </tbody>
-                  </table>
+                <td align="center">
+                  {% if domain %}
+                  <a href="https://{{domain.domain}}" style="text-decoration: none;">
+                    {% if domain.white_label %}
+                    {% if domain.logo %}
+                    <img src="{{domain.logo}}" style="display:block; width:120px;" width="120" />
+                    {% endif %}
+                    {% else %}
+                    <img src="{{frontend_url}}/assets/images/logo.png" style="display:block; width:120px;" width="120" />
+                    {% endif %}
+                  </a>
+                  {% else %}
+                  <a href="{{frontend_url}}" style="text-decoration: none;"><img src="{{frontend_url}}/assets/images/logo.png" style="display:block; width:120px;" width="120" /></a>
+                  {% endif %}
                 </td>
               </tr>
               </tbody>
@@ -197,7 +189,7 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
-                          <strong>Password Restore</strong>
+                          <strong>Восстановление пароля</strong>
                         </div>
                       </td>
                     </tr>
@@ -229,7 +221,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          Hello, {{user.first_name}}!
+                          Здравствуйте, {{user.first_name}}!
                         </div>
 
                         <div
@@ -239,9 +231,10 @@ a img {
 
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          You or someone else has requested password change on
-                          {% if domain %}https://{{domain.domain}}{% else %}{{frontend_url}}{% endif %}.
-                          If you haven&#39;t requested password restore please ignore this message. Otherwise click the button below.
+                          Вы или кто-то другой запросили смену пароля на
+                          {% if domain %}https://{{domain.domain}}{ % else %}{{frontend_url}}{% endif %}.
+                          Если вы не запрашивали восстановление пароля, проигнорируйте это сообщение.
+                          В противном случае нажмите кнопку ниже.
                         </div>
                       </td>
                     </tr>
@@ -276,9 +269,9 @@ a img {
                           <tr>
                             <td>
                               {% if domain %}
-                              <a href="https://{{domain.domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Restore Password</a>
+                              <a href="https://{{domain.domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Восстановить пароль</a>
                               {% else %}
-                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Restore Password</a>
+                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Восстановить пароль</a>
                               {% endif %}
                             </td>
                           </tr>

@@ -183,6 +183,30 @@ export const locale: Locale = {
     { source: '{0} is last {1} days', target: '{0} es el último {1} días' },
     { source: '{0} is not last {1} days', target: '{0} no es el último {1} días' },
 
+    { source: 'is Current Week', target: 'es la semana actual' },
+    { source: 'current week', target: 'semana actual' },
+    { source: 'is not current week', target: 'no es la semana actual' },
+    { source: '{0} is current week', target: '{0} es la semana actual' },
+    { source: '{0} is not current week', target: '{0} no es la semana actual' },
+
+    { source: 'is Current Month', target: 'es el mes actual' },
+    { source: 'current month', target: 'mes actual' },
+    { source: 'is not current month', target: 'no es el mes actual' },
+    { source: '{0} is current month', target: '{0} es el mes actual' },
+    { source: '{0} is not current month', target: '{0} no es el mes actual' },
+
+    { source: 'is Current Quarter', target: 'es el trimestre actual' },
+    { source: 'current quarter', target: 'cuarto actual' },
+    { source: 'is not current quarter', target: 'no es un cuarto actual' },
+    { source: '{0} is current quarter', target: '{0} es un cuarto actual' },
+    { source: '{0} is not current quarter', target: '{0} no es un cuarto actual' },
+
+    { source: 'is Current Year', target: 'es el año actual' },
+    { source: 'current year', target: 'año actual' },
+    { source: 'is not current year', target: 'no es el año actual' },
+    { source: '{0} is current year', target: '{0} es el año actual' },
+    { source: '{0} is not current year', target: '{0} no es el año actual' },
+
     { source: 'is Previous Week', target: 'es la semana anterior' },
     { source: 'previous week', target: 'semana pasada' },
     { source: 'is not previous week', target: 'no es la semana anterior' },

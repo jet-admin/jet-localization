@@ -183,6 +183,30 @@ export const locale: Locale = {
     { source: '{0} is last {1} days', target: '' },
     { source: '{0} is not last {1} days', target: '' },
 
+    { source: 'is Current Week', target: '' },
+    { source: 'current week', target: '' },
+    { source: 'is not current week', target: '' },
+    { source: '{0} is current week', target: '' },
+    { source: '{0} is not current week', target: '' },
+
+    { source: 'is Current Month', target: '' },
+    { source: 'current month', target: '' },
+    { source: 'is not current month', target: '' },
+    { source: '{0} is current month', target: '' },
+    { source: '{0} is not current month', target: '' },
+
+    { source: 'is Current Quarter', target: '' },
+    { source: 'current quarter', target: '' },
+    { source: 'is not current quarter', target: '' },
+    { source: '{0} is current quarter', target: '' },
+    { source: '{0} is not current quarter', target: '' },
+
+    { source: 'is Current Year', target: '' },
+    { source: 'current year', target: '' },
+    { source: 'is not current year', target: '' },
+    { source: '{0} is current year', target: '' },
+    { source: '{0} is not current year', target: '' },
+
     { source: 'is Previous Week', target: '' },
     { source: 'previous week', target: '' },
     { source: 'is not previous week', target: '' },

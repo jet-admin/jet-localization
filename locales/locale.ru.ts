@@ -183,6 +183,30 @@ export const locale: Locale = {
     { source: '{0} is last {1} days', target: '{0} за последние {1} дней' },
     { source: '{0} is not last {1} days', target: '{0} не за последние {1} дней' },
 
+    { source: 'is Current Week', target: 'на этой неделе' },
+    { source: 'current week', target: 'на этой неделе' },
+    { source: 'is not current week', target: 'не на этой неделе' },
+    { source: '{0} is current week', target: '{0} на этой неделе' },
+    { source: '{0} is not current week', target: '{0} не на этой неделе' },
+
+    { source: 'is Current Month', target: 'в этом месяце' },
+    { source: 'current month', target: 'в этом месяце' },
+    { source: 'is not current month', target: 'не в этом месяце' },
+    { source: '{0} is current month', target: '{0} в этом месяце' },
+    { source: '{0} is not current month', target: '{0} не в этом месяце' },
+
+    { source: 'is Current Quarter', target: 'в этом квартале' },
+    { source: 'current quarter', target: 'в этом квартале' },
+    { source: 'is not current quarter', target: 'не в этом квартале' },
+    { source: '{0} is current quarter', target: '{0} в этом квартале' },
+    { source: '{0} is not current quarter', target: '{0} не в этом квартале' },
+
+    { source: 'is Current Year', target: 'в этом году' },
+    { source: 'current year', target: 'в этом году' },
+    { source: 'is not current year', target: 'не в этом году' },
+    { source: '{0} is current year', target: '{0} в этом году' },
+    { source: '{0} is not current year', target: '{0} не в этом году' },
+
     { source: 'is Previous Week', target: 'на прошлой неделе' },
     { source: 'previous week', target: 'на прошлой неделе' },
     { source: 'is not previous week', target: 'не на прошлой неделе' },

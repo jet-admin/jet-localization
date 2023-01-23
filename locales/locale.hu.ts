@@ -183,6 +183,30 @@ export const locale: Locale = {
     { source: '{0} is last {1} days', target: '{0} az utolsó {1} napok' },
     { source: '{0} is not last {1} days', target: '{0} nem tart be {1} napok' },
 
+    { source: 'is Current Week', target: 'az aktuális hét' },
+    { source: 'current week', target: 'aktuális hét' },
+    { source: 'is not current week', target: 'nem az aktuális hét' },
+    { source: '{0} is current week', target: '{0} az aktuális hét' },
+    { source: '{0} is not current week', target: '{0} nem az aktuális hét' },
+
+    { source: 'is Current Month', target: 'az aktuális hónap' },
+    { source: 'current month', target: 'aktuális hónap' },
+    { source: 'is not current month', target: 'nem az aktuális hónap' },
+    { source: '{0} is current month', target: '{0} az aktuális hónap' },
+    { source: '{0} is not current month', target: '{0} nem az aktuális hónap' },
+
+    { source: 'is Current Quarter', target: 'az aktuális negyedév' },
+    { source: 'current quarter', target: 'aktuális negyedév' },
+    { source: 'is not current quarter', target: 'nem az aktuális negyedév' },
+    { source: '{0} is current quarter', target: '{0} az aktuális negyedév' },
+    { source: '{0} is not current quarter', target: '{0} nem az aktuális negyedév' },
+
+    { source: 'is Current Year', target: 'az aktuális év' },
+    { source: 'current year', target: 'aktuális év' },
+    { source: 'is not current year', target: 'nem aktuális év' },
+    { source: '{0} is current year', target: '{0} az aktuális évben van' },
+    { source: '{0} is not current year', target: '{0} nem az aktuális év' },
+
     { source: 'is Previous Week', target: 'az előző hét' },
     { source: 'previous week', target: 'előző hét' },
     { source: 'is not previous week', target: 'nem az előző hét' },

@@ -183,6 +183,30 @@ export const locale: Locale = {
     { source: '{0} is last {1} days', target: '{0} est le dernier {1} jours' },
     { source: '{0} is not last {1} days', target: "{0} n'est pas le dernier {1} jours" },
 
+    { source: 'is Current Week', target: 'est la semaine en cours' },
+    { source: 'current week', target: 'la semaine en cours' },
+    { source: 'is not current week', target: "n'est pas la semaine en cours" },
+    { source: '{0} is current week', target: '{0} est la semaine en cours' },
+    { source: '{0} is not current week', target: "{0} n'est pas la semaine en cours" },
+
+    { source: 'is Current Month', target: 'est le mois en cours' },
+    { source: 'current month', target: 'le mois en cours' },
+    { source: 'is not current month', target: "n'est pas le mois en cours" },
+    { source: '{0} is current month', target: '{0} est le mois en cours' },
+    { source: '{0} is not current month', target: "{0} n'est pas le mois en cours" },
+
+    { source: 'is Current Quarter', target: 'est le trimestre en cours' },
+    { source: 'current quarter', target: 'trimestre en cours' },
+    { source: 'is not current quarter', target: "n'est pas le trimestre en cours" },
+    { source: '{0} is current quarter', target: '{0} est le trimestre en cours' },
+    { source: '{0} is not current quarter', target: "{0} n'est pas le trimestre en cours" },
+
+    { source: 'is Current Year', target: "est l'année en cours" },
+    { source: 'current year', target: 'année en cours' },
+    { source: 'is not current year', target: "n'est pas l'année en cours" },
+    { source: '{0} is current year', target: "{0} est l'année en cours" },
+    { source: '{0} is not current year', target: "{0} n'est pas l'année en cours" },
+
     { source: 'is Previous Week', target: 'est la semaine précédente' },
     { source: 'previous week', target: 'la semaine précédente' },
     { source: 'is not previous week', target: "n'est pas la semaine précédente" },

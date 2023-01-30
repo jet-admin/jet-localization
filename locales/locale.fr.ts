@@ -27,7 +27,7 @@ export const locale: Locale = {
     { source: 'Filter', target: 'Filtre' },
     { source: 'Filter by field', target: 'Filtre par champ' },
     { source: 'Filter by...', target: 'Filtrer par...' },
-    { source: 'Back', target: 'Arrière' },
+    { source: 'Back', target: 'Retour' },
     { source: 'Back to {0} fields', target: 'Retour aux champs {0}' },
     { source: 'Choose {0} from list', target: 'Choisissez {0} dans la liste' },
     { source: '{0} fields', target: '{0} champs' },
@@ -54,7 +54,7 @@ export const locale: Locale = {
     { source: 'Delete this filter', target: 'Supprimer ce filtre' },
     { source: 'Toggle ordering', target: 'Basculer la commande' },
     { source: 'Loading failed', target: 'Échec du chargement' },
-    { source: 'Not configured', target: 'Pas configuré' },
+    { source: 'Not configured', target: 'Non configuré' },
     {
       source: 'Unfortunately, this component is not configured yet',
       target: "Malheureusement, ce composant n'est pas encore configuré"
@@ -68,7 +68,7 @@ export const locale: Locale = {
     { source: 'Billing & Plans', target: 'Facturation' },
     { source: 'API keys', target: 'Clés API' },
     { source: 'Dark Mode', target: 'Mode sombre' },
-    { source: 'Light Mode', target: 'Mode lumière' },
+    { source: 'Light Mode', target: 'Mode clair' },
     { source: 'Disable Staff', target: 'Désactiver le personnel' },
     { source: 'Enable Staff', target: 'Activer le personnel' },
     { source: 'Manage Templates', target: 'Gérer les modèles' },
@@ -348,7 +348,7 @@ export const locale: Locale = {
     { source: 'Invite new member', target: 'Inviter un nouveau membre' },
     { source: 'User', target: 'Utilisateur' },
     { source: 'Date Added', target: 'date ajoutée' },
-    { source: 'You', target: 'Tu' },
+    { source: 'You', target: 'Vous' },
     { source: 'Edit', target: 'Éditer' },
     { source: 'No users in this team', target: 'Aucun utilisateur dans cette équipe' },
     { source: 'Page Permissions', target: 'Autorisations de page' },
@@ -357,9 +357,9 @@ export const locale: Locale = {
     { source: 'Page name', target: 'Nom de la page' },
     { source: 'Access', target: 'Accéder' },
     { source: 'Full Access', target: 'Accès total' },
-    { source: 'Read Only', target: 'Lecture seulement' },
-    { source: 'No Access', target: "Pas d'accès" },
-    { source: 'Read', target: 'Lis' },
+    { source: 'Read Only', target: 'Lecture seule' },
+    { source: 'No Access', target: "Aucun accès" },
+    { source: 'Read', target: 'Lire' },
     { source: 'Update', target: 'Mise à jour' },
     { source: 'Write', target: 'Écrire' },
     { source: { label: 'Delete', context: 'permissions' }, target: 'autorisations' },
@@ -377,7 +377,7 @@ export const locale: Locale = {
       source: "Grant permissions to app's collection",
       target: "Accorder des autorisations à la collection de l'application"
     },
-    { source: 'Collection', target: 'Le recueil' },
+    { source: 'Collection', target: 'Collection' },
     {
       source: 'Limit access to your data by team properties',
       target: "Limitez l'accès à vos données par propriétés d'équipe"
@@ -390,7 +390,7 @@ export const locale: Locale = {
 
     // Navigation
     { source: 'Current App', target: 'Application actuelle' },
-    { source: 'Home', target: 'Maison' },
+    { source: 'Home', target: 'Accueil' },
 
     // Profile
     { source: 'Loading', target: 'Chargement' },
@@ -402,8 +402,8 @@ export const locale: Locale = {
     { source: 'Basic information about your account.', target: 'Informations de base sur votre compte.' },
     { source: 'Photo', target: 'Photo' },
     { source: 'your photo', target: 'ta photo' },
-    { source: 'Change', target: 'Changer' },
-    { source: 'Upload', target: 'Télécharger' },
+    { source: 'Change', target: 'Modifier' },
+    { source: 'Upload', target: 'Téléverser' },
     { source: 'First Name', target: 'Prénom' },
     { source: 'Last Name', target: 'Nom de famille' },
     { source: 'Your Email', target: 'Votre e-mail' },
@@ -424,7 +424,7 @@ export const locale: Locale = {
       target: 'Personnalisez des préférences supplémentaires pour votre compte.'
     },
     { source: 'News & Proposals', target: 'Nouvelles' },
-    { source: 'Subscribe to our updates and proposals.', target: 'Abonnez-vous à nos mises à jour et propositions.' },
+    { source: 'Subscribe to our updates and proposals.', target: 'Abonnez-vous à nos mises à jour et nos offres.' },
     { source: 'Save changes', target: 'Sauvegarder les modifications' },
 
     // My Apps
@@ -464,7 +464,7 @@ export const locale: Locale = {
     {
       source: 'Build a custom admin panel based on any databases, apps and APIs like Stripe, Twilio and GraphQL.',
       target:
-        "Créez un panneau d'administration personnalisé basé sur toutes les bases de données, applications et API telles que Stripe, Twilio et GraphQL."
+        "Créez un panneau d'administration personnalisé à partir de n'importe quelles bases de données, applications et API telles que Stripe, Twilio et GraphQL."
     },
     { source: 'All Integrations', target: 'Toutes les intégrations' },
     { source: 'Databases', target: 'Bases de données' },
@@ -473,9 +473,9 @@ export const locale: Locale = {
     { source: 'Storages', target: 'Stockages' },
 
     // Sign In
-    { source: 'Please wait...', target: "S'il vous plaît, attendez..." },
+    { source: 'Please wait...', target: "Merci de patienter..." },
     { source: 'Good morning', target: 'Bonjour' },
-    { source: 'Good afternoon', target: 'Bon après-midi' },
+    { source: 'Good afternoon', target: 'Bonjour' },
     { source: 'Good evening', target: 'Bonsoir' },
     { source: 'Sign In', target: "S'identifier" },
     { source: 'Welcome Back.', target: 'Content de te revoir.' },
@@ -509,7 +509,7 @@ export const locale: Locale = {
     { source: 'Repeat Password', target: 'Répéter le mot de passe' },
     {
       source: 'Creating an account means you’re okay with our',
-      target: "La création d'un compte signifie que vous êtes d'accord avec notre"
+      target: "En créant un compte, vous signifiez que vous êtes d'accord avec notre"
     },
     { source: 'Terms of Service', target: "Conditions d'utilisation" },
     { source: 'Privacy Policy', target: 'Politique de confidentialité' },
@@ -527,20 +527,20 @@ export const locale: Locale = {
       source:
         'Please check your Email – <strong>{0}</strong>. We have sent the validation link you should follow to change your password.',
       target:
-        'Veuillez vérifier votre e-mail - <strong>{0}</strong> . Nous vous avons envoyé le lien de validation que vous devez suivre pour changer votre mot de passe.'
+        'Veuillez vérifier votre e-mail - <strong>{0}</strong> . Nous vous avons envoyé le lien de validation à suivre pour changer votre mot de passe.'
     },
     {
       source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
       target:
-        'Presque terminé, entrez simplement votre nouveau mot de passe ci-dessous.<br> Doit contenir au moins 8 caractères.'
+        'Presque terminé, entrez simplement votre nouveau mot de passe ci-dessous.<br> Il doit contenir au moins 8 caractères.'
     },
     { source: 'Reset password & Sign In', target: 'Réinitialiser le mot de passe' },
     { source: 'Unable to Send Code', target: "Impossible d'envoyer le code" },
-    { source: 'Unable to Change Password', target: 'Impossible de changer le mot de passe' },
+    { source: 'Unable to Change Password', target: 'Impossible de modifier le mot de passe' },
 
     // Users & Teams
     { source: 'Members of {0}', target: 'Membres de {0}' },
-    { source: 'How to get started', target: 'Comment commencer' },
+    { source: 'How to get started', target: 'Comment débuter' },
     { source: 'Users API', target: 'API des utilisateurs' },
     { source: 'Teams API', target: 'API des équipes' },
     { source: 'Invite Member', target: 'Inviter un membre' },

@@ -255,9 +255,9 @@ a img {
                           <tr>
                             <td>
                               {% if domain %}
-                              <a href="https://{{domain.domain}}/verify_email?email={{user.email}}&amp;code={{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Подтвердить электронную почту</a>
+                              <a href="https://{{domain.domain}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Подтвердить электронную почту</a>
                               {% else %}
-                              <a href="{{frontend_url}}/verify_email?email={{user.email}}&amp;code={{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Подтвердить электронную почту</a>
+                              <a href="{{frontend_url}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Подтвердить электронную почту</a>
                               {% endif %}
                             </td>
                           </tr>

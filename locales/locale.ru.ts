@@ -47,7 +47,7 @@ export const locale: Locale = {
     { source: 'Selected', target: 'Выделено' },
     {
       source: 'Unfortunately, no {0} matching your query found',
-      target: 'К сожалению, {0} по вашему запросы не найдены'
+      target: 'К сожалению, {0} по вашему запросу не найдены'
     },
     { source: 'We are fetching {0}, please, wait...', target: 'Загружаются {0}, пожалуйста, подождите...' },
     { source: 'Add filter', target: 'Фильтр' },

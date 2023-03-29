@@ -216,7 +216,7 @@ export const locale: Locale = {
       target: "{0} が今月ではない",
     },
 
-	{ source: "is Current Quarter", target: "が今期" },
+    { source: "is Current Quarter", target: "が今期" },
     { source: "current quarter", target: "今期" },
     {
       source: "is not current quarter",

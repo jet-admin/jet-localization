@@ -195,19 +195,28 @@ export const locale: Locale = {
     { source: "{0} is last {1} days", target: "{0}が過去{1}日間である" },
     { source: "{0} is not last {1} days", target: "{0}が過去{1}日間でない" },
 
-    { source: "is Previous Week", target: "が前週" },
-    { source: "previous week", target: "前週" },
-    { source: "is not previous week", target: "が前週でない" },
-    { source: "{0} is previous week", target: "{0}が前週である" },
-    { source: "{0} is not previous week", target: "{0}が前週でない" },
+    { source: "is Current Week", target: "が今週" },
+    { source: "current week", target: "今週" },
+    {
+      source: "is not Current week",
+      target: "が今週ではない",
+    },
+    { source: "{0} is current week", target: "{0} が今週" },
+    {
+      source: "{0} is not current week",
+      target: "{0} が前週ではない",
+    },
 
-    { source: "is Previous Month", target: "が前月" },
-    { source: "previous month", target: "前月" },
-    { source: "is not previous month", target: "が前月でない" },
-    { source: "{0} is previous month", target: "{0}が前月" },
-    { source: "{0} is not previous month", target: "{0}が前月でない" },
+    { source: "is Current Month", target: "が今月" },
+    { source: "current month", target: "今月" },
+    { source: "is not current month", target: "が今月ではない" },
+    { source: "{0} is current month", target: "{0} が今月" },
+    {
+      source: "{0} is not current month",
+      target: "{0} が今月ではない",
+    },
 
-    { source: "is Current Quarter", target: "が今期" },
+	{ source: "is Current Quarter", target: "が今期" },
     { source: "current quarter", target: "今期" },
     {
       source: "is not current quarter",
@@ -233,24 +242,15 @@ export const locale: Locale = {
 
     { source: "is Previous Week", target: "が前週" },
     { source: "previous week", target: "前週" },
-    {
-      source: "is not previous week",
-      target: "が前週ではない",
-    },
-    { source: "{0} is previous week", target: "{0} が前週" },
-    {
-      source: "{0} is not previous week",
-      target: "{0} が前週ではない",
-    },
+    { source: "is not previous week", target: "が前週でない" },
+    { source: "{0} is previous week", target: "{0}が前週である" },
+    { source: "{0} is not previous week", target: "{0}が前週でない" },
 
     { source: "is Previous Month", target: "が前月" },
     { source: "previous month", target: "前月" },
-    { source: "is not previous month", target: "が前月ではない" },
-    { source: "{0} is previous month", target: "{0} が前月" },
-    {
-      source: "{0} is not previous month",
-      target: "{0} が前月ではない",
-    },
+    { source: "is not previous month", target: "が前月でない" },
+    { source: "{0} is previous month", target: "{0}が前月" },
+    { source: "{0} is not previous month", target: "{0}が前月でない" },
 
     { source: "is Previous Quarter", target: "が前期" },
     { source: "previous quarter", target: "前期" },

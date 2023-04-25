@@ -502,6 +502,10 @@ export const locale: Locale = {
     { source: 'Password', target: 'Clave' },
     { source: 'Repeat Password', target: 'Repita la contraseña' },
     {
+      source: 'By signing in you’re okay with our',
+      target: 'Al iniciar sesión estás de acuerdo con nuestros'
+    },
+    {
       source: 'Creating an account means you’re okay with our',
       target: 'Crear una cuenta significa que está de acuerdo con nuestro'
     },

@@ -502,6 +502,7 @@ export const locale: Locale = {
     { source: 'Enter Email', target: 'Введите Email' },
     { source: 'Password', target: 'Пароль' },
     { source: 'Repeat Password', target: 'Повторите' },
+    { source: 'By signing in you’re okay with our', target: 'Выполняя вход вы соглашаетесь с' },
     { source: 'Creating an account means you’re okay with our', target: 'Создавая аккаунт вы соглашаетесь с' },
     { source: 'Terms of Service', target: 'Пользовательским соглашением' },
     { source: 'Privacy Policy', target: 'Политикой конфиденциальности' },

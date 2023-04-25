@@ -495,6 +495,10 @@ export const locale: Locale = {
     { source: 'Password', target: 'Jelszó' },
     { source: 'Repeat Password', target: 'Jelszó újra' },
     {
+      source: 'By signing in you’re okay with our',
+      target: 'A bejelentkezéssel elfogadja'
+    },
+    {
       source: 'Creating an account means you’re okay with our',
       target: 'A fiók létrehozása azt jelenti, hogy minden rendben van velünk'
     },

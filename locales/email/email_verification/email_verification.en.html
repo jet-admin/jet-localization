@@ -118,7 +118,7 @@ a img {
                     <tr>
                       <td align="center">
                         {% if domain %}
-                        <a href="https://{{domain.domain}}" style="text-decoration: none;">
+                        <a href="https://{{domain.actual_domain}}" style="text-decoration: none;">
                           {% if domain.white_label %}
                           {% if domain.logo %}
                           <img src="{{domain.logo}}" style="display:block; width:120px;" width="120" />
@@ -220,7 +220,7 @@ a img {
 
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
                           You or someone else has registered on
-                          {% if domain %}https://{{domain.domain}}{% else %}{{frontend_url}}{% endif %}.
+                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}.
                           If it wasn&#39;t you&nbsp;please ignore this message. Otherwise click the button below.
                         </div>
                       </td>
@@ -254,7 +254,7 @@ a img {
                           <tr>
                             <td>
                               {% if domain %}
-                              <a href="https://{{domain.domain}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Verify Email</a>
+                              <a href="https://{{domain.actual_domain}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Verify Email</a>
                               {% else %}
                               <a href="{{frontend_url}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Verify Email</a>
                               {% endif %}

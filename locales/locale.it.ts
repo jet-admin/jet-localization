@@ -1,7 +1,7 @@
 import { Locale } from './locale';
 
 export const locale: Locale = {
-  name: 'italiano',
+  name: 'italian',
   language: 'it',
   items: [
     // General

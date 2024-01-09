@@ -2,7 +2,7 @@ import { Locale } from './locale';
 
 export const locale: Locale = {
   name: 'danish',
-  language: 'dk',
+  language: 'da',
   items: [
     // General
     { source: 'Save', target: 'Gem' },

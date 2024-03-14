@@ -311,9 +311,9 @@ export const locale: Locale = {
     { source: 'Updating public access...', target: '공개 접근 업데이트 중...' },
     {
       source:
-          'Anyone with this link will be able to view current page. This way you can also embed current page into another website.',
+        'Anyone with this link will be able to view current page. This way you can also embed current page into another website.',
       target:
-          '이 링크를 가진 사람은 누구나 현재 페이지를 볼 수 있습니다. 이 방법으로 다른 웹사이트에 현재 페이지를 내장할 수도 있습니다.'
+        '이 링크를 가진 사람은 누구나 현재 페이지를 볼 수 있습니다. 이 방법으로 다른 웹사이트에 현재 페이지를 내장할 수도 있습니다.'
     },
     { source: 'Embed code (IFRAME)', target: '내장 코드 (IFRAME)' },
     {
@@ -375,7 +375,7 @@ export const locale: Locale = {
     { source: 'Collection Permissions', target: '컬렉션 권한' },
     {
       source: "Grant permissions to app's collection",
-      target: "앱 컬렉션에 대한 권한 부여"
+      target: '앱 컬렉션에 대한 권한 부여'
     },
     { source: 'Collection', target: '컬렉션' },
     {
@@ -398,7 +398,7 @@ export const locale: Locale = {
       source: 'We are fetching user data, please, wait...',
       target: '사용자 데이터를 가져오는 중입니다. 잠시만 기다려 주세요...'
     },
-    { source: 'Profile Settings', target:'프로필 설정' },
+    { source: 'Profile Settings', target: '프로필 설정' },
     { source: 'Basic information about your account.', target: '계정의 기본 정보입니다.' },
     { source: 'Photo', target: '사진' },
     { source: 'your photo', target: '당신의 사진' },
@@ -526,13 +526,12 @@ export const locale: Locale = {
     { source: 'Return to Sign In', target: '로그인으로 돌아가기' },
     {
       source:
-          'Please check your Email – <strong>{0}</strong>. We have sent the validation link you should follow to change your password.',
+        'Please check your Email – <strong>{0}</strong>. We have sent the validation link you should follow to change your password.',
       target: '이메일을 확인해 주세요 – <strong>{0}</strong>. 비밀번호를 변경할 수 있는 유효성 검사 링크를 보냈습니다.'
     },
     {
       source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
-      target:
-          '거의 완료되었습니다. 아래에 새 비밀번호를 입력하세요. <br>최소 8자 이상이어야 합니다.'
+      target: '거의 완료되었습니다. 아래에 새 비밀번호를 입력하세요. <br>최소 8자 이상이어야 합니다.'
     },
     { source: 'Reset password & Sign In', target: '비밀번호 재설정 및 로그인' },
     { source: 'Unable to Send Code', target: '코드를 보낼 수 없습니다' },

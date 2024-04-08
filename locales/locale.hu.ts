@@ -47,9 +47,9 @@ export const locale: Locale = {
     { source: 'Selected', target: 'Kiválasztott' },
     {
       source: 'Unfortunately, no {0} matching your query found',
-      target: 'Sajnos nem található a lekérdezésének megfelelő elem.'
+      target: 'Sajnos nem található a lekérdezésének megfelelő {0}.'
     },
-    { source: 'We are fetching {0}, please, wait...', target: 'A(z) adat lekérése folyamatban van, kérem, várjon...' },
+    { source: 'We are fetching {0}, please, wait...', target: 'A(z) {0} lekérése folyamatban van, kérem, várjon...' },
     { source: 'Add filter', target: 'Szűrő hozzáadása' },
     { source: 'Delete this filter', target: 'Törölje ezt a szűrőt' },
     { source: 'Toggle ordering', target: 'Rendezés megváltoztatása' },
@@ -59,7 +59,7 @@ export const locale: Locale = {
       source: 'Unfortunately, this component is not configured yet',
       target: 'Sajnos ez a komponens még nincs konfigurálva'
     },
-    { source: 'records', target: 'rekordok' },
+    { source: 'records', target: 'rekord' },
     { source: '{0} items', target: '{0} elem' },
 
     // Menu

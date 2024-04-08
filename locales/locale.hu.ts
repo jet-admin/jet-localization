@@ -17,7 +17,7 @@ export const locale: Locale = {
     // Fields
     { source: 'optional', target: 'választható' },
     { source: 'choose', target: 'válasszon' },
-    { source: 'Clear value', target: 'Érték törlése' }, 
+    { source: 'Clear value', target: 'Érték törlése' },
     { source: 'loading...', target: 'Betöltés...' },
     { source: 'Nothing found', target: 'Nincs találat' },
     { source: 'Search...', target: 'Keresés...' },
@@ -505,8 +505,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Szolgáltatási feltételek' },
     { source: 'Privacy Policy', target: 'Adatvédelmi irányelvek' },
     { source: 'and', target: 'és' },
-    // Temporary solution for avoid the 'free' word where its meaning would be unclear (e.g. customer portals).
-    { source: 'Create your free account', target: 'Fiók létrehozása' },
+    { source: 'Create your free account', target: 'Fiók létrehozása' }, // Temporary solution for avoid the 'free' word where its meaning would be unclear (e.g. customer portals).
     { source: 'Already have an account', target: 'Már van fiókom' },
     { source: 'Unable to Sign Up', target: 'Nem lehet regisztrálni' },
 

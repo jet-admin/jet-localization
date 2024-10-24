@@ -311,9 +311,9 @@ export const locale: Locale = {
     { source: 'Updating public access...', target: 'Aktualizowanie publicznego dostępu...' },
     {
       source:
-      'Anyone with this link will be able to view current page. This way you can also embed current page into another website.',
+        'Anyone with this link will be able to view current page. This way you can also embed current page into another website.',
       target:
-      'Każdy, kto posiada ten link, będzie mógł zobaczyć bieżącą stronę. W ten sposób możesz również osadzić bieżącą stronę w innej witrynie.'
+        'Każdy, kto posiada ten link, będzie mógł zobaczyć bieżącą stronę. W ten sposób możesz również osadzić bieżącą stronę w innej witrynie.'
     },
     { source: 'Embed code (IFRAME)', target: 'Kod osadzania (IFRAME)' },
     {
@@ -404,7 +404,8 @@ export const locale: Locale = {
     { source: 'Password Change', target: 'Zmiana hasła' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
-      target: 'Hasło powinno być wystarczająco silne, aby chronić Twoje konto, dlatego niech będzie co najmniej 12 znaków.'
+      target:
+        'Hasło powinno być wystarczająco silne, aby chronić Twoje konto, dlatego niech będzie co najmniej 12 znaków.'
     },
     { source: 'Current Password', target: 'Obecne hasło' },
     { source: 'New Password', target: 'Nowe hasło' },
@@ -457,7 +458,7 @@ export const locale: Locale = {
     {
       source: 'Build a custom admin panel based on any databases, apps and APIs like Stripe, Twilio and GraphQL.',
       target:
-      'Zbuduj niestandardowy panel administracyjny oparty na dowolnych bazach danych, aplikacjach i interfejsach API, takich jak Stripe, Twilio i GraphQL.'
+        'Zbuduj niestandardowy panel administracyjny oparty na dowolnych bazach danych, aplikacjach i interfejsach API, takich jak Stripe, Twilio i GraphQL.'
     },
     { source: 'All Integrations', target: 'Wszystkie integracje' },
     { source: 'Databases', target: 'Bazy danych' },
@@ -491,7 +492,8 @@ export const locale: Locale = {
     },
     {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
-      target: 'Nie wymagana karta. Otrzymasz wszystkie zaawansowane funkcje za darmo podczas 14-dniowego okresu próbnego PRO.'
+      target:
+        'Nie wymagana karta. Otrzymasz wszystkie zaawansowane funkcje za darmo podczas 14-dniowego okresu próbnego PRO.'
     },
     { source: 'or', target: 'lub' },
     { source: 'Enter First Name', target: 'Wprowadź imię' },
@@ -549,6 +551,6 @@ export const locale: Locale = {
     { source: 'Search members', target: 'Szukaj członków' },
     { source: 'Search teams', target: 'Szukaj zespołów' },
     { source: '{0} pages', target: '{0} strony' },
-    { source: 'No members', target: 'Brak członków' },
+    { source: 'No members', target: 'Brak członków' }
   ]
 };

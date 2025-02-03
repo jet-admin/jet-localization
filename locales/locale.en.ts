@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: '' },
     { source: 'Import', target: '' },
     { source: 'Delete', target: '' },
+    { source: 'Continue', target: '' },
+    { source: 'Cancel', target: '' },
+    { source: 'Loading', target: '' },
+    { source: 'Please wait...', target: '' },
+    { source: 'Loading failed', target: '' },
+    { source: 'Unknown error', target: '' },
+    { source: 'Add', target: '' },
+    { source: 'or', target: '' },
+    { source: 'Hours', target: '' },
+    { source: 'Minutes', target: '' },
+    { source: 'Seconds', target: '' },
+    { source: 'Saved', target: '' },
+    { source: 'Error', target: '' },
+    { source: 'Page not found', target: '' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: ''
+    },
+    { source: 'Not allowed', target: '' },
+    {
+      source: "You don't have permissions to access this page",
+      target: ''
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: '' },
+    { source: 'Action executed successfully', target: '' },
+    { source: 'Action failed', target: '' },
+    {
+      source: "You don't have permission for run this operation",
+      target: ''
+    },
+    { source: 'Specify parameters', target: '' },
+    { source: 'Executing action', target: '' },
+    { source: 'You are executing <strong>{0}</strong>', target: '' },
+    { source: 'Please fill in the parameters below.', target: '' },
+    { source: 'Execute', target: '' },
+    { source: 'Executing', target: '' },
+    { source: 'Finished', target: '' },
+    { source: 'Done', target: '' },
+
+    // Export
+    { source: 'Records Export', target: '' },
+    { source: 'Downloading records data as a file', target: '' },
+    { source: 'Choose format', target: '' },
+    { source: 'Number of exporting records', target: '' },
+    { source: { label: 'Export', context: 'submit' }, target: '' },
+    { source: 'Exporting', target: '' },
+    { source: 'Export completed', target: '' },
+    { source: 'Failed to export', target: '' },
+
+    // Components
     { source: 'optional', target: '' },
     { source: 'choose', target: '' },
     { source: 'Clear value', target: '' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: '' },
     { source: 'Search...', target: '' },
     { source: 'Enter at least {0} characters', target: '' },
+    { source: 'No options', target: '' },
+    { source: 'Drop files here or', target: '' },
+    { source: 'Upload new', target: '' },
+    { source: 'Clear', target: '' },
+    { source: 'Download', target: '' },
+    { source: 'Choose file', target: '' },
+    { source: 'Choose files', target: '' },
+    { source: 'Scan with Camera', target: '' },
+    { source: 'Scan Image file', target: '' },
+    { source: 'Choose camera', target: '' },
+    { source: 'Stop scanning', target: '' },
+    { source: 'Scan again', target: '' },
+    { source: 'Use this scan', target: '' },
+    { source: 'Failed to scan', target: '' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: ''
+    },
+    { source: 'current', target: '' },
+    { source: 'Day', target: '' },
+    { source: 'Week', target: '' },
+    { source: 'Month', target: '' },
+    { source: 'Year', target: '' },
+    { source: 'Today', target: '' },
+    { source: 'Daily', target: '' },
+    { source: 'Weekly', target: '' },
+    { source: 'Monthly', target: '' },
+    { source: 'Quarterly', target: '' },
+    { source: 'Yearly', target: '' },
+    { source: 'Hourly', target: '' },
+    { source: 'Minutely', target: '' },
+    { source: 'Since', target: '' },
+    { source: 'Before', target: '' },
+    { source: 'Between', target: '' },
+    { source: 'From date', target: '' },
+    { source: 'To date', target: '' },
+    { source: 'Coordinates', target: '' },
+    { source: 'Latitude', target: '' },
+    { source: 'Longitude', target: '' },
+    { source: 'Default color', target: '' },
+    { source: 'not specified', target: '' },
+    { source: 'Sign using your finger or pointer', target: '' },
 
     // List components
     { source: 'Filter', target: '' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: '' },
     { source: 'Delete this filter', target: '' },
     { source: 'Toggle ordering', target: '' },
-    { source: 'Loading failed', target: '' },
     { source: 'Not configured', target: '' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -312,8 +403,7 @@ export const locale: Locale = {
     {
       source:
         'Anyone with this link will be able to view current page. This way you can also embed current page into another website.',
-      target:
-        'Cualquier persona con este enlace podrá ver la página actual. De esta manera, también puede incrustar la página actual en otro sitio web.'
+      target: ''
     },
     { source: 'Embed code (IFRAME)', target: '' },
     {
@@ -376,7 +466,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: ''
     },
-    { source: 'Cancel', target: '' },
     { source: 'Save Team', target: '' },
     { source: 'Create Team', target: '' },
     { source: 'Value', target: '' },
@@ -387,7 +476,6 @@ export const locale: Locale = {
     { source: 'Home', target: '' },
 
     // Profile
-    { source: 'Loading', target: '' },
     {
       source: 'We are fetching user data, please, wait...',
       target: ''
@@ -398,21 +486,34 @@ export const locale: Locale = {
     { source: 'your photo', target: '' },
     { source: 'Change', target: '' },
     { source: 'Upload', target: '' },
+    { source: 'Photo was successfully updated', target: '' },
+    { source: 'Photo was successfully deleted', target: '' },
     { source: 'First Name', target: '' },
     { source: 'Last Name', target: '' },
     { source: 'Your Email', target: '' },
+    { source: 'Email Change', target: '' },
+    { source: 'New Email', target: '' },
+    { source: 'Change Email', target: '' },
+    { source: 'Check your inbox', target: '' },
+    { source: 'Confirmation Email was sent to {0}', target: '' },
+    { source: 'Changing Email failed', target: '' },
     { source: 'Password Change', target: '' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
-      target:
-        'Una contraseña debe ser lo suficientemente fuerte para proteger su cuenta, así que hágala de al menos 12 caracteres.'
+      target: ''
     },
     { source: 'Current Password', target: '' },
     { source: 'New Password', target: '' },
     { source: 'Confirm New Password', target: '' },
     { source: 'Change Password', target: '' },
+    { source: 'Current password was successfully updated', target: '' },
+    { source: 'Saving current password failed', target: '' },
+    { source: 'Short password', target: '' },
+    { source: "Passwords don't match", target: '' },
     { source: 'Personal Preferences', target: '' },
     { source: 'Language', target: '' },
+    { source: 'Timezone', target: '' },
+    { source: 'Current time in {0} is', target: '' },
     {
       source: 'Customize additional preferences for your account.',
       target: ''
@@ -423,6 +524,8 @@ export const locale: Locale = {
       target: ''
     },
     { source: 'Save changes', target: '' },
+    { source: 'Current user was successfully updated', target: '' },
+    { source: 'Saving current user failed', target: '' },
 
     // My Apps
     { source: 'Type to search...', target: '' },
@@ -457,8 +560,7 @@ export const locale: Locale = {
     },
     {
       source: 'Build a custom admin panel based on any databases, apps and APIs like Stripe, Twilio and GraphQL.',
-      target:
-        'Cree un panel de administración personalizado basado en cualquier base de datos, aplicaciones y API como Stripe, Twilio y GraphQL.'
+      target: ''
     },
     { source: 'All Integrations', target: '' },
     { source: 'Databases', target: '' },
@@ -467,7 +569,6 @@ export const locale: Locale = {
     { source: 'Storages', target: '' },
 
     // Sign In
-    { source: 'Please wait...', target: '' },
     { source: 'Good morning', target: '' },
     { source: 'Good afternoon', target: '' },
     { source: 'Good evening', target: '' },
@@ -494,7 +595,6 @@ export const locale: Locale = {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
       target: ''
     },
-    { source: 'or', target: '' },
     { source: 'Enter First Name', target: '' },
     { source: 'Enter Last Name (optional)', target: '' },
     { source: 'Enter Email', target: '' },
@@ -533,6 +633,43 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: '' },
     { source: 'Unable to Change Password', target: '' },
 
+    // Email Verification
+    { source: 'Email Verification', target: '' },
+    { source: 'Resend verification code', target: '' },
+    { source: 'Verification email sent', target: '' },
+    { source: 'Your Email is now verified', target: '' },
+    { source: 'Request is incorrect', target: '' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: ''
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: ''
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: ''
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: ''
+    },
+    { source: 'Join', target: '' },
+    { source: 'Go to home page', target: '' },
+    { source: 'Invite link is wrong', target: '' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target: ''
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: ''
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: '' },
     { source: 'How to get started', target: '' },
@@ -541,7 +678,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: '' },
     { source: 'Add User property', target: '' },
     { source: 'Add Team property', target: '' },
-    { source: 'Add', target: '' },
     { source: 'Edit property', target: '' },
     { source: 'Delete property', target: '' },
     { source: 'Users', target: '' },

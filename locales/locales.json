@@ -1,4 +1,4 @@
 {
   "default_locale": "en",
-  "locales": ["da", "en", "es", "fr", "hu", "it", "ja", "ko", "pl", "pt", "pt-br", "ru", "tr"]
+  "locales": ["da", "de", "en", "es", "fr", "hu", "it", "ja", "ko", "pl", "pt", "pt-br", "ru", "tr", "uk"]
 }

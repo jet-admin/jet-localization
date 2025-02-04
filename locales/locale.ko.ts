@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: '내보내기' },
     { source: 'Import', target: '가져오기' },
     { source: 'Delete', target: '삭제' },
+    { source: 'Continue', target: '계속하다' },
+    { source: 'Cancel', target: '취소' },
+    { source: 'Loading', target: '로딩 중' },
+    { source: 'Please wait...', target: '잠시 기다려주세요...' },
+    { source: 'Loading failed', target: '로딩 실패' },
+    { source: 'Unknown error', target: '알 수 없는 오류' },
+    { source: 'Add', target: '추가하기' },
+    { source: 'or', target: '또는' },
+    { source: 'Hours', target: '시간' },
+    { source: 'Minutes', target: '분' },
+    { source: 'Seconds', target: '초' },
+    { source: 'Saved', target: '저장됨' },
+    { source: 'Error', target: '오류' },
+    { source: 'Page not found', target: '페이지를 찾을 수 없음' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: '지정된 주소가 잘못되었거나 페이지가 존재하지 않습니다'
+    },
+    { source: 'Not allowed', target: '허용되지 않음' },
+    {
+      source: "You don't have permissions to access this page",
+      target: '이 페이지에 접근할 권한이 없습니다'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: '작업 실행됨' },
+    { source: 'Action executed successfully', target: '작업이 성공적으로 실행되었습니다' },
+    { source: 'Action failed', target: '작업 실패' },
+    {
+      source: "You don't have permission for run this operation",
+      target: '이 작업을 실행할 권한이 없습니다'
+    },
+    { source: 'Specify parameters', target: '매개변수 지정' },
+    { source: 'Executing action', target: '작업 실행 중' },
+    { source: 'You are executing <strong>{0}</strong>', target: '<strong>{0}</strong>을(를) 실행 중입니다' },
+    { source: 'Please fill in the parameters below.', target: '아래 매개변수를 입력하세요.' },
+    { source: 'Execute', target: '실행하다' },
+    { source: 'Executing', target: '실행 중' },
+    { source: 'Finished', target: '완료' },
+    { source: 'Done', target: '완료됨' },
+
+    // Export
+    { source: 'Records Export', target: '기록 내보내기' },
+    { source: 'Downloading records data as a file', target: '기록 데이터를 파일로 다운로드 중' },
+    { source: 'Choose format', target: '형식 선택' },
+    { source: 'Number of exporting records', target: '내보낼 기록 수' },
+    { source: { label: 'Export', context: 'submit' }, target: '내보내기' },
+    { source: 'Exporting', target: '내보내는 중' },
+    { source: 'Export completed', target: '내보내기 완료됨' },
+    { source: 'Failed to export', target: '내보내기 실패함' },
+
+    // Components
     { source: 'optional', target: '선택 사항' },
     { source: 'choose', target: '선택' },
     { source: 'Clear value', target: '값 지우기' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: '아무것도 찾지 못함' },
     { source: 'Search...', target: '검색...' },
     { source: 'Enter at least {0} characters', target: '최소 {0}자 이상 입력하세요' },
+    { source: 'No options', target: '옵션 없음' },
+    { source: 'Drop files here or', target: '여기에 파일을 드롭하거나' },
+    { source: 'Upload new', target: '새 업로드' },
+    { source: 'Clear', target: '지우기' },
+    { source: 'Download', target: '다운로드' },
+    { source: 'Choose file', target: '파일 선택' },
+    { source: 'Choose files', target: '파일들 선택' },
+    { source: 'Scan with Camera', target: '카메라로 스캔하기' },
+    { source: 'Scan Image file', target: '이미지 파일 스캔하기' },
+    { source: 'Choose camera', target: '카메라 선택' },
+    { source: 'Stop scanning', target: '스캔 중지' },
+    { source: 'Scan again', target: '다시 스캔' },
+    { source: 'Use this scan', target: '이 스캔 사용' },
+    { source: 'Failed to scan', target: '스캔 실패' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: '코드 스캔에 실패했습니다. 다른 이미지를 시도해 보세요'
+    },
+    { source: 'current', target: '현재의' },
+    { source: 'Day', target: '일' },
+    { source: 'Week', target: '주' },
+    { source: 'Month', target: '월' },
+    { source: 'Year', target: '년' },
+    { source: 'Today', target: '오늘' },
+    { source: 'Daily', target: '매일의' },
+    { source: 'Weekly', target: '매주의' },
+    { source: 'Monthly', target: '매월의' },
+    { source: 'Quarterly', target: '분기의' },
+    { source: 'Yearly', target: '매년의' },
+    { source: 'Hourly', target: '매 시의' },
+    { source: 'Minutely', target: '매 분의' },
+    { source: 'Since', target: '이후' },
+    { source: 'Before', target: '이전' },
+    { source: 'Between', target: '사이에' },
+    { source: 'From date', target: '날짜로부터' },
+    { source: 'To date', target: '날짜까지' },
+    { source: 'Coordinates', target: '좌표' },
+    { source: 'Latitude', target: '위도' },
+    { source: 'Longitude', target: '경도' },
+    { source: 'Default color', target: '기본 색상' },
+    { source: 'not specified', target: '지정되지 않음' },
+    { source: 'Sign using your finger or pointer', target: '손가락이나 포인터를 사용하여 서명하세요' },
 
     // List components
     { source: 'Filter', target: '필터' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: '필터 추가' },
     { source: 'Delete this filter', target: '이 필터 삭제' },
     { source: 'Toggle ordering', target: '정렬 토글' },
-    { source: 'Loading failed', target: '로딩 실패' },
     { source: 'Not configured', target: '구성되지 않음' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -328,10 +419,7 @@ export const locale: Locale = {
     { source: 'Clear Team', target: '팀 지우기' },
     { source: 'Can build application and modify data', target: '애플리케이션 구축 및 데이터 수정 가능' },
     { source: 'Can modify data in application', target: '애플리케이션 내 데이터 수정 가능' },
-    {
-      source: 'Can only view data without modification',
-      target: '수정 없이 데이터만 볼 수 있음'
-    },
+    { source: 'Can only view data without modification', target: '수정 없이 데이터만 볼 수 있음' },
     { source: 'Add Team', target: '팀 추가하기' },
     { source: 'Edit Team', target: '팀 편집하기' },
     { source: 'Adding Team', target: '팀 추가 중' },
@@ -382,7 +470,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: '팀 속성에 의해 데이터 접근 제한'
     },
-    { source: 'Cancel', target: '취소' },
     { source: 'Save Team', target: '팀 저장' },
     { source: 'Create Team', target: '팀 생성' },
     { source: 'Value', target: '값' },
@@ -393,7 +480,6 @@ export const locale: Locale = {
     { source: 'Home', target: '홈' },
 
     // Profile
-    { source: 'Loading', target: '로딩 중' },
     {
       source: 'We are fetching user data, please, wait...',
       target: '사용자 데이터를 가져오는 중입니다. 잠시만 기다려 주세요...'
@@ -404,9 +490,17 @@ export const locale: Locale = {
     { source: 'your photo', target: '당신의 사진' },
     { source: 'Change', target: '변경하기' },
     { source: 'Upload', target: '업로드하기' },
+    { source: 'Photo was successfully updated', target: '사진이 성공적으로 업데이트되었습니다' },
+    { source: 'Photo was successfully deleted', target: '사진이 성공적으로 삭제되었습니다' },
     { source: 'First Name', target: '이름' },
     { source: 'Last Name', target: '성' },
     { source: 'Your Email', target: '이메일' },
+    { source: 'Email Change', target: '이메일 변경' },
+    { source: 'New Email', target: '새 이메일' },
+    { source: 'Change Email', target: '이메일 변경하기' },
+    { source: 'Check your inbox', target: '받은 편지함을 확인하세요' },
+    { source: 'Confirmation Email was sent to {0}', target: '확인 이메일이 {0}으로 보내졌습니다' },
+    { source: 'Changing Email failed', target: '이메일 변경 실패' },
     { source: 'Password Change', target: '비밀번호 변경' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -416,15 +510,26 @@ export const locale: Locale = {
     { source: 'New Password', target: '새 비밀번호' },
     { source: 'Confirm New Password', target: '새 비밀번호 확인' },
     { source: 'Change Password', target: '비밀번호 변경하기' },
+    { source: 'Current password was successfully updated', target: '현재 비밀번호가 성공적으로 업데이트되었습니다' },
+    { source: 'Saving current password failed', target: '현재 비밀번호 저장 실패' },
+    { source: 'Short password', target: '비밀번호가 짧습니다' },
+    { source: "Passwords don't match", target: '비밀번호가 일치하지 않습니다' },
     { source: 'Personal Preferences', target: '개인 설정' },
     { source: 'Language', target: '언어' },
+    { source: 'Timezone', target: '표준 시간대' },
+    { source: 'Current time in {0} is', target: '{0}의 현재 시간은' },
     {
       source: 'Customize additional preferences for your account.',
       target: '계정에 대한 추가 설정을 사용자 정의합니다.'
     },
     { source: 'News & Proposals', target: '뉴스 및 제안' },
-    { source: 'Subscribe to our updates and proposals.', target: '우리의 업데이트 및 제안을 구독하세요.' },
+    {
+      source: 'Subscribe to our updates and proposals.',
+      target: '우리의 업데이트 및 제안을 구독하세요.'
+    },
     { source: 'Save changes', target: '변경 사항 저장하기' },
+    { source: 'Current user was successfully updated', target: '현재 사용자가 성공적으로 업데이트되었습니다' },
+    { source: 'Saving current user failed', target: '현재 사용자 저장 실패' },
 
     // My Apps
     { source: 'Type to search...', target: '검색어 입력...' },
@@ -451,10 +556,7 @@ export const locale: Locale = {
     { source: 'stores data in Jet Tables', target: 'Jet Tables에 데이터 저장하기' },
     { source: 'New Data', target: '새 데이터' },
     { source: 'using {0}', target: '{0} 사용 중' },
-    {
-      source: "Can't find resource you're looking for?",
-      target: '찾고 있는 리소스를 찾을 수 없나요?'
-    },
+    { source: "Can't find resource you're looking for?", target: '찾고 있는 리소스를 찾을 수 없나요?' },
     { source: 'Admin Panel', target: '관리 패널' },
     {
       source: 'List, create and update (CRUD) operations on top of your data',
@@ -471,7 +573,6 @@ export const locale: Locale = {
     { source: 'Storages', target: '저장소' },
 
     // Sign In
-    { source: 'Please wait...', target: '잠시 기다려주세요...' },
     { source: 'Good morning', target: '좋은 아침입니다' },
     { source: 'Good afternoon', target: '좋은 오후입니다' },
     { source: 'Good evening', target: '좋은 저녁입니다' },
@@ -489,16 +590,15 @@ export const locale: Locale = {
     { source: 'Minimum password length {0}', target: '최소 비밀번호 길이 {0}' },
     { source: 'Unable to Sign In', target: '로그인할 수 없습니다' },
 
-    // 회원가입
+    // Sign Up
     {
       source: 'Get Started <span class="auth-form__accent">Free today</span>',
       target: '지금 시작하세요 <span class="auth-form__accent">오늘은 무료입니다</span>'
     },
     {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
-      target: '카드ㄱㅏ 필요 없습니다. 14일간의 PRO 시험 기간 동안 모든 고급 기능을 무료로 이용할 수 있습니다.'
+      target: '카드가 필요 없습니다. 14일간의 PRO 시험 기간 동안 모든 고급 기능을 무료로 이용할 수 있습니다.'
     },
-    { source: 'or', target: '또는' },
     { source: 'Enter First Name', target: '이름 입력' },
     { source: 'Enter Last Name (optional)', target: '성 입력 (선택사항)' },
     { source: 'Enter Email', target: '이메일 입력' },
@@ -519,7 +619,7 @@ export const locale: Locale = {
     { source: 'Already have an account', target: '이미 계정이 있습니다' },
     { source: 'Unable to Sign Up', target: '가입할 수 없습니다' },
 
-    // 비밀번호 복구
+    // Restore password
     { source: 'Reset your password', target: '비밀번호 재설정' },
     { source: 'Email Address', target: '이메일 주소' },
     { source: 'Reset password', target: '비밀번호 재설정' },
@@ -537,6 +637,43 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: '코드를 보낼 수 없습니다' },
     { source: 'Unable to Change Password', target: '비밀번호를 변경할 수 없습니다' },
 
+    // Email Verification
+    { source: 'Email Verification', target: '이메일 인증' },
+    { source: 'Resend verification code', target: '인증 코드 재전송' },
+    { source: 'Verification email sent', target: '인증 이메일 전송됨' },
+    { source: 'Your Email is now verified', target: '이메일이 인증되었습니다' },
+    { source: 'Request is incorrect', target: '요청이 잘못되었습니다' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: '<span class="auth-form__accent">{0}</span>에 가입하기'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong>이(가) 당신을 <strong>{1}</strong>에 초대했습니다'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: '누군가 당신을 <strong>{0}</strong>에 초대했습니다'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: '초대 링크를 사용하여 <strong>{0}</strong>에 가입 중입니다'
+    },
+    { source: 'Join', target: '참가하다' },
+    { source: 'Go to home page', target: '홈 페이지로 이동' },
+    { source: 'Invite link is wrong', target: '초대 링크가 잘못되었습니다' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target: '초대 링크가 만료되었거나 잘못된 링크를 따랐을 수 있습니다. 다시 초대해 달라고 요청해 보세요.'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: '안타깝게도 이 초대에 대한 정보를 로드하지 못했습니다'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: '{0}의 멤버들' },
     { source: 'How to get started', target: '시작하는 방법' },
@@ -545,7 +682,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: '멤버 초대하기' },
     { source: 'Add User property', target: '사용자 속성 추가하기' },
     { source: 'Add Team property', target: '팀 속성 추가하기' },
-    { source: 'Add', target: '추가하기' },
     { source: 'Edit property', target: '속성 편집하기' },
     { source: 'Delete property', target: '속성 삭제하기' },
     { source: 'Users', target: '사용자들' },

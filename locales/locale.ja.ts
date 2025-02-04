@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: 'エクスポート' },
     { source: 'Import', target: 'インポート' },
     { source: 'Delete', target: '削除' },
+    { source: 'Continue', target: '続行' },
+    { source: 'Cancel', target: 'キャンセル' },
+    { source: 'Loading', target: 'ロード中' },
+    { source: 'Please wait...', target: 'しばらくお待ちください...' },
+    { source: 'Loading failed', target: '読み込みに失敗しました' },
+    { source: 'Unknown error', target: '不明なエラー' },
+    { source: 'Add', target: '追加' },
+    { source: 'or', target: 'または' },
+    { source: 'Hours', target: '時間' },
+    { source: 'Minutes', target: '分' },
+    { source: 'Seconds', target: '秒' },
+    { source: 'Saved', target: '保存済み' },
+    { source: 'Error', target: 'エラー' },
+    { source: 'Page not found', target: 'ページが見つかりません' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: '指定されたアドレスが正しくないか、ページが存在しません'
+    },
+    { source: 'Not allowed', target: '許可されていません' },
+    {
+      source: "You don't have permissions to access this page",
+      target: 'このページにアクセスする権限がありません'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: 'アクションが実行されました' },
+    { source: 'Action executed successfully', target: 'アクションが正常に実行されました' },
+    { source: 'Action failed', target: 'アクションが失敗しました' },
+    {
+      source: "You don't have permission for run this operation",
+      target: 'この操作を実行する権限がありません'
+    },
+    { source: 'Specify parameters', target: 'パラメータを指定してください' },
+    { source: 'Executing action', target: 'アクションを実行中' },
+    { source: 'You are executing <strong>{0}</strong>', target: '実行中 <strong>{0}</strong>' },
+    { source: 'Please fill in the parameters below.', target: '以下のパラメータを入力してください。' },
+    { source: 'Execute', target: '実行' },
+    { source: 'Executing', target: '実行中' },
+    { source: 'Finished', target: '完了' },
+    { source: 'Done', target: '完了' },
+
+    // Export
+    { source: 'Records Export', target: 'レコードのエクスポート' },
+    { source: 'Downloading records data as a file', target: 'レコードデータをファイルとしてダウンロード中' },
+    { source: 'Choose format', target: 'フォーマットを選択' },
+    { source: 'Number of exporting records', target: 'エクスポートするレコードの数' },
+    { source: { label: 'Export', context: 'submit' }, target: 'エクスポート' },
+    { source: 'Exporting', target: 'エクスポート中' },
+    { source: 'Export completed', target: 'エクスポートが完了しました' },
+    { source: 'Failed to export', target: 'エクスポートに失敗しました' },
+
+    // Components
     { source: 'optional', target: '任意' },
     { source: 'choose', target: '選択' },
     { source: 'Clear value', target: '値をクリア' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: '何も見つかりません' },
     { source: 'Search...', target: '検索...' },
     { source: 'Enter at least {0} characters', target: '{0}文字以上入力してください' },
+    { source: 'No options', target: 'オプションなし' },
+    { source: 'Drop files here or', target: 'ファイルをここにドロップまたは' },
+    { source: 'Upload new', target: '新しくアップロード' },
+    { source: 'Clear', target: 'クリア' },
+    { source: 'Download', target: 'ダウンロード' },
+    { source: 'Choose file', target: 'ファイルを選択' },
+    { source: 'Choose files', target: 'ファイルを選択' },
+    { source: 'Scan with Camera', target: 'カメラでスキャン' },
+    { source: 'Scan Image file', target: '画像ファイルをスキャン' },
+    { source: 'Choose camera', target: 'カメラを選択' },
+    { source: 'Stop scanning', target: 'スキャンを停止' },
+    { source: 'Scan again', target: '再スキャン' },
+    { source: 'Use this scan', target: 'このスキャンを使用' },
+    { source: 'Failed to scan', target: 'スキャンに失敗しました' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: 'コードをスキャンできませんでした。別の画像をお試しください'
+    },
+    { source: 'current', target: '現在' },
+    { source: 'Day', target: '日' },
+    { source: 'Week', target: '週' },
+    { source: 'Month', target: '月' },
+    { source: 'Year', target: '年' },
+    { source: 'Today', target: '今日' },
+    { source: 'Daily', target: '毎日' },
+    { source: 'Weekly', target: '毎週' },
+    { source: 'Monthly', target: '毎月' },
+    { source: 'Quarterly', target: '毎四半期' },
+    { source: 'Yearly', target: '毎年' },
+    { source: 'Hourly', target: '毎時間' },
+    { source: 'Minutely', target: '毎分' },
+    { source: 'Since', target: '以来' },
+    { source: 'Before', target: '前' },
+    { source: 'Between', target: '間' },
+    { source: 'From date', target: '日付から' },
+    { source: 'To date', target: '日付まで' },
+    { source: 'Coordinates', target: '座標' },
+    { source: 'Latitude', target: '緯度' },
+    { source: 'Longitude', target: '経度' },
+    { source: 'Default color', target: 'デフォルトの色' },
+    { source: 'not specified', target: '指定されていません' },
+    { source: 'Sign using your finger or pointer', target: '指やポインターで署名してください' },
 
     // List components
     { source: 'Filter', target: '絞り込み条件' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: '絞り込み条件を追加' },
     { source: 'Delete this filter', target: 'この絞り込み条件を削除' },
     { source: 'Toggle ordering', target: '並べ替えを切り替え' },
-    { source: 'Loading failed', target: '読み込みに失敗しました' },
     { source: 'Not configured', target: '未設定' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -328,10 +419,7 @@ export const locale: Locale = {
     { source: 'Clear Team', target: 'チームをクリア' },
     { source: 'Can build application and modify data', target: 'アプリケーションの構築とデータの変更が可能' },
     { source: 'Can modify data in application', target: 'アプリケーション内のデータの変更が可能' },
-    {
-      source: 'Can only view data without modification',
-      target: 'データを変更なしで閲覧可能'
-    },
+    { source: 'Can only view data without modification', target: 'データを変更なしで閲覧可能' },
     { source: 'Add Team', target: 'チームを追加' },
     { source: 'Edit Team', target: 'チームを編集' },
     { source: 'Adding Team', target: 'チームを追加中' },
@@ -382,7 +470,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: 'チームプロパティによってデータへのアクセスを制限'
     },
-    { source: 'Cancel', target: 'キャンセル' },
     { source: 'Save Team', target: 'チームを保存' },
     { source: 'Create Team', target: 'チームを作成' },
     { source: 'Value', target: '値' },
@@ -393,7 +480,6 @@ export const locale: Locale = {
     { source: 'Home', target: 'ホーム' },
 
     // Profile
-    { source: 'Loading', target: 'ロード中' },
     {
       source: 'We are fetching user data, please, wait...',
       target: 'ユーザーデータを取得しています。しばらくお待ちください...'
@@ -404,9 +490,17 @@ export const locale: Locale = {
     { source: 'your photo', target: '自分の写真' },
     { source: 'Change', target: '変更' },
     { source: 'Upload', target: 'アップロード' },
+    { source: 'Photo was successfully updated', target: '写真が正常に更新されました' },
+    { source: 'Photo was successfully deleted', target: '写真が正常に削除されました' },
     { source: 'First Name', target: '名前' },
     { source: 'Last Name', target: '苗字' },
     { source: 'Your Email', target: 'メールアドレス' },
+    { source: 'Email Change', target: 'メール変更' },
+    { source: 'New Email', target: '新しいメール' },
+    { source: 'Change Email', target: 'メールを変更' },
+    { source: 'Check your inbox', target: '受信箱を確認してください' },
+    { source: 'Confirmation Email was sent to {0}', target: '確認メールが {0} に送信されました' },
+    { source: 'Changing Email failed', target: 'メールの変更に失敗しました' },
     { source: 'Password Change', target: 'パスワードの変更' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -416,15 +510,26 @@ export const locale: Locale = {
     { source: 'New Password', target: '新しいパスワード' },
     { source: 'Confirm New Password', target: '新しいパスワード（確認）' },
     { source: 'Change Password', target: 'パスワードを変更' },
+    { source: 'Current password was successfully updated', target: '現在のパスワードが正常に更新されました' },
+    { source: 'Saving current password failed', target: '現在のパスワードの保存に失敗しました' },
+    { source: 'Short password', target: '短すぎるパスワード' },
+    { source: "Passwords don't match", target: 'パスワードが一致しません' },
     { source: 'Personal Preferences', target: '個人設定' },
     { source: 'Language', target: '言語' },
+    { source: 'Timezone', target: 'タイムゾーン' },
+    { source: 'Current time in {0} is', target: '現在の {0} 時間は' },
     {
       source: 'Customize additional preferences for your account.',
       target: 'アカウントの追加の設定をカスタマイズします。'
     },
     { source: 'News & Proposals', target: 'ニュースと提案' },
-    { source: 'Subscribe to our updates and proposals.', target: 'Jet Adminの更新と提案を購読' },
+    {
+      source: 'Subscribe to our updates and proposals.',
+      target: 'Jet Adminの更新と提案を購読'
+    },
     { source: 'Save changes', target: '変更を保存' },
+    { source: 'Current user was successfully updated', target: '現在のユーザーが正常に更新されました' },
+    { source: 'Saving current user failed', target: '現在のユーザーの保存に失敗しました' },
 
     // My Apps
     { source: 'Type to search...', target: '入力して検索...' },
@@ -451,10 +556,7 @@ export const locale: Locale = {
     { source: 'stores data in Jet Tables', target: 'Jet Tablesにデータを保存' },
     { source: 'New Data', target: '新しいデータ' },
     { source: 'using {0}', target: '{0}を使用中' },
-    {
-      source: "Can't find resource you're looking for?",
-      target: '探しているリソースが見つかりませんか？'
-    },
+    { source: "Can't find resource you're looking for?", target: '探しているリソースが見つかりませんか？' },
     { source: 'Admin Panel', target: '管理パネル' },
     {
       source: 'List, create and update (CRUD) operations on top of your data',
@@ -471,7 +573,6 @@ export const locale: Locale = {
     { source: 'Storages', target: 'ストレージ' },
 
     // Sign In
-    { source: 'Please wait...', target: 'しばらくお待ちください...' },
     { source: 'Good morning', target: 'おはようございます' },
     { source: 'Good afternoon', target: 'こんにちは' },
     { source: 'Good evening', target: 'こんばんは' },
@@ -498,7 +599,6 @@ export const locale: Locale = {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
       target: 'カードは不要です。14日間のPROトライアル期間中、すべての高度な機能を無料で利用できます。'
     },
-    { source: 'or', target: 'または' },
     { source: 'Enter First Name', target: '名前を入力' },
     { source: 'Enter Last Name (optional)', target: '苗字を入力（任意）' },
     { source: 'Enter Email', target: 'メールアドレスを入力' },
@@ -538,6 +638,44 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: 'コードを送信できません' },
     { source: 'Unable to Change Password', target: 'パスワードを変更できません' },
 
+    // Email Verification
+    { source: 'Email Verification', target: 'メール確認' },
+    { source: 'Resend verification code', target: '確認コードを再送' },
+    { source: 'Verification email sent', target: '確認メールが送信されました' },
+    { source: 'Your Email is now verified', target: 'あなたのメールは確認されました' },
+    { source: 'Request is incorrect', target: 'リクエストが不正です' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: '<span class="auth-form__accent">{0}</span>に参加'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong> が <strong>{1}</strong> に参加するように招待しました'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: '誰かが <strong>{0}</strong> に参加するように招待しました'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: '招待リンクを使用して <strong>{0}</strong> に参加しています'
+    },
+    { source: 'Join', target: '参加' },
+    { source: 'Go to home page', target: 'ホームページに戻る' },
+    { source: 'Invite link is wrong', target: '招待リンクが間違っています' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target:
+        '招待リンクが期限切れになっているか、おそらく間違ったリンクをたどったようです。再度招待を依頼してください。'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: 'この招待についての情報の読み込みに失敗しました'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: '{0}のメンバー' },
     { source: 'How to get started', target: 'はじめ方' },
@@ -546,7 +684,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: 'メンバーを招待' },
     { source: 'Add User property', target: 'ユーザープロパティを追加' },
     { source: 'Add Team property', target: 'チームプロパティを追加' },
-    { source: 'Add', target: '追加' },
     { source: 'Edit property', target: 'プロパティを編集' },
     { source: 'Delete property', target: 'プロパティを削除' },
     { source: 'Users', target: 'ユーザー' },

@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: 'Exportar' },
     { source: 'Import', target: 'Importar' },
     { source: 'Delete', target: 'Excluir' },
+    { source: 'Continue', target: 'Continuar' },
+    { source: 'Cancel', target: 'Cancelar' },
+    { source: 'Loading', target: 'Carregando' },
+    { source: 'Please wait...', target: 'Por favor, espere...' },
+    { source: 'Loading failed', target: 'O carregamento falhou' },
+    { source: 'Unknown error', target: 'Erro desconhecido' },
+    { source: 'Add', target: 'Adicionar' },
+    { source: 'or', target: 'ou' },
+    { source: 'Hours', target: 'Horas' },
+    { source: 'Minutes', target: 'Minutos' },
+    { source: 'Seconds', target: 'Segundos' },
+    { source: 'Saved', target: 'Salvo' },
+    { source: 'Error', target: 'Erro' },
+    { source: 'Page not found', target: 'Página não encontrada' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: 'O endereço especificado está incorreto ou a página não existe'
+    },
+    { source: 'Not allowed', target: 'Não permitido' },
+    {
+      source: "You don't have permissions to access this page",
+      target: 'Você não tem permissões para acessar esta página'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: 'Ação executada' },
+    { source: 'Action executed successfully', target: 'Ação executada com sucesso' },
+    { source: 'Action failed', target: 'Ação falhou' },
+    {
+      source: "You don't have permission for run this operation",
+      target: 'Você não tem permissão para executar esta operação'
+    },
+    { source: 'Specify parameters', target: 'Especificar parâmetros' },
+    { source: 'Executing action', target: 'Executando ação' },
+    { source: 'You are executing <strong>{0}</strong>', target: 'Você está executando <strong>{0}</strong>' },
+    { source: 'Please fill in the parameters below.', target: 'Por favor, preencha os parâmetros abaixo.' },
+    { source: 'Execute', target: 'Executar' },
+    { source: 'Executing', target: 'Executando' },
+    { source: 'Finished', target: 'Concluído' },
+    { source: 'Done', target: 'Feito' },
+
+    // Export
+    { source: 'Records Export', target: 'Exportação de registros' },
+    { source: 'Downloading records data as a file', target: 'Baixando dados dos registros como um arquivo' },
+    { source: 'Choose format', target: 'Escolher formato' },
+    { source: 'Number of exporting records', target: 'Número de registros a exportar' },
+    { source: { label: 'Export', context: 'submit' }, target: 'Exportar' },
+    { source: 'Exporting', target: 'Exportando' },
+    { source: 'Export completed', target: 'Exportação concluída' },
+    { source: 'Failed to export', target: 'Falha ao exportar' },
+
+    // Components
     { source: 'optional', target: 'opcional' },
     { source: 'choose', target: 'escolher' },
     { source: 'Clear value', target: 'Limpar valor' },
@@ -22,9 +72,51 @@ export const locale: Locale = {
     { source: 'Nothing found', target: 'Nada encontrado' },
     { source: 'Search...', target: 'Procurar...' },
     { source: 'Enter at least {0} characters', target: 'Digite pelo menos {0} caracteres' },
+    { source: 'No options', target: 'Sem opções' },
+    { source: 'Drop files here or', target: 'Solte os arquivos aqui ou' },
+    { source: 'Upload new', target: 'Enviar novo' },
+    { source: 'Clear', target: 'Limpar' },
+    { source: 'Download', target: 'Baixar' },
+    { source: 'Choose file', target: 'Escolher arquivo' },
+    { source: 'Choose files', target: 'Escolher arquivos' },
+    { source: 'Scan with Camera', target: 'Digitalizar com a câmera' },
+    { source: 'Scan Image file', target: 'Digitalizar arquivo de imagem' },
+    { source: 'Choose camera', target: 'Escolher câmera' },
+    { source: 'Stop scanning', target: 'Parar digitalização' },
+    { source: 'Scan again', target: 'Digitalizar novamente' },
+    { source: 'Use this scan', target: 'Usar esta digitalização' },
+    { source: 'Failed to scan', target: 'Falha ao digitalizar' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: 'O código falhou ao digitalizar, por favor, tente outra imagem'
+    },
+    { source: 'current', target: 'atual' },
+    { source: 'Day', target: 'Dia' },
+    { source: 'Week', target: 'Semana' },
+    { source: 'Month', target: 'Mês' },
+    { source: 'Year', target: 'Ano' },
+    { source: 'Today', target: 'Hoje' },
+    { source: 'Daily', target: 'Diário' },
+    { source: 'Weekly', target: 'Semanal' },
+    { source: 'Monthly', target: 'Mensal' },
+    { source: 'Quarterly', target: 'Trimestral' },
+    { source: 'Yearly', target: 'Anual' },
+    { source: 'Hourly', target: 'De hora em hora' },
+    { source: 'Minutely', target: 'A cada minuto' },
+    { source: 'Since', target: 'Desde' },
+    { source: 'Before', target: 'Antes' },
+    { source: 'Between', target: 'Entre' },
+    { source: 'From date', target: 'A partir da data' },
+    { source: 'To date', target: 'Até a data' },
+    { source: 'Coordinates', target: 'Coordenadas' },
+    { source: 'Latitude', target: 'Latitude' },
+    { source: 'Longitude', target: 'Longitude' },
+    { source: 'Default color', target: 'Cor padrão' },
+    { source: 'not specified', target: 'não especificado' },
+    { source: 'Sign using your finger or pointer', target: 'Assine usando o dedo ou ponteiro' },
 
     // List components
-    { source: 'Filter', target: 'Filtrar' }, // Filtro subs. Filtrar verb
+    { source: 'Filter', target: 'Filtrar' },
     { source: 'Filter by field', target: 'Filtre por campo' },
     { source: 'Filter by...', target: 'Filtrar por...' },
     { source: 'Back', target: 'De volta' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: 'Adicionar filtro' },
     { source: 'Delete this filter', target: 'Exclua este filtro' },
     { source: 'Toggle ordering', target: 'Trocar ordenação' },
-    { source: 'Loading failed', target: 'O carregamento falhou' },
     { source: 'Not configured', target: 'Não configurado' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -75,7 +166,7 @@ export const locale: Locale = {
     { source: 'Logout', target: 'Sair' },
     { source: 'Activity Log', target: 'Registro de atividade' },
     { source: 'Collaborations', target: 'Colaborações' },
-    { source: 'Open Visual Builder', target: 'Abrir Visual Builder' }, // Visual builder if literaly translated is Construtor Visual
+    { source: 'Open Visual Builder', target: 'Abrir Visual Builder' },
 
     // Filters
     { source: 'equals', target: 'igual a' },
@@ -376,7 +467,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: 'Limite o acesso aos seus dados por propriedades da equipe'
     },
-    { source: 'Cancel', target: 'Cancelar' },
     { source: 'Save Team', target: 'Salvar time' },
     { source: 'Create Team', target: 'Criar time' },
     { source: 'Value', target: 'Valor' },
@@ -387,7 +477,6 @@ export const locale: Locale = {
     { source: 'Home', target: 'Início' },
 
     // Profile
-    { source: 'Loading', target: 'Carregando' },
     {
       source: 'We are fetching user data, please, wait...',
       target: 'Estamos buscando dados do usuário, por favor, espere ...'
@@ -397,10 +486,18 @@ export const locale: Locale = {
     { source: 'Photo', target: 'Foto' },
     { source: 'your photo', target: 'sua foto' },
     { source: 'Change', target: 'Mudar' },
-    { source: 'Upload', target: 'Carregar' }, // Could also be used as Enviar (send) if is an action button
+    { source: 'Upload', target: 'Carregar' },
+    { source: 'Photo was successfully updated', target: 'Foto foi atualizada com sucesso' },
+    { source: 'Photo was successfully deleted', target: 'Foto foi excluída com sucesso' },
     { source: 'First Name', target: 'Primeiro nome' },
     { source: 'Last Name', target: 'Sobrenome' },
     { source: 'Your Email', target: 'Seu email' },
+    { source: 'Email Change', target: 'Mudança de email' },
+    { source: 'New Email', target: 'Novo Email' },
+    { source: 'Change Email', target: 'Mudar Email' },
+    { source: 'Check your inbox', target: 'Verifique sua caixa de entrada' },
+    { source: 'Confirmation Email was sent to {0}', target: 'Email de confirmação foi enviado para {0}' },
+    { source: 'Changing Email failed', target: 'Falha ao mudar email' },
     { source: 'Password Change', target: 'Mudança de senha' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -411,15 +508,26 @@ export const locale: Locale = {
     { source: 'New Password', target: 'Nova Senha' },
     { source: 'Confirm New Password', target: 'Confirme a nova senha' },
     { source: 'Change Password', target: 'Mudar senha' },
+    { source: 'Current password was successfully updated', target: 'Senha atual foi atualizada com sucesso' },
+    { source: 'Saving current password failed', target: 'Falha ao salvar senha atual' },
+    { source: 'Short password', target: 'Senha curta' },
+    { source: "Passwords don't match", target: 'Senhas não coincidem' },
     { source: 'Personal Preferences', target: 'Preferências pessoais' },
     { source: 'Language', target: 'Idioma' },
+    { source: 'Timezone', target: 'Fuso horário' },
+    { source: 'Current time in {0} is', target: 'Hora atual em {0} é' },
     {
       source: 'Customize additional preferences for your account.',
       target: 'Personalize preferências adicionais para sua conta.'
     },
     { source: 'News & Proposals', target: 'Notícias & propostas' },
-    { source: 'Subscribe to our updates and proposals.', target: 'Inscreva-se em nossas atualizações e propostas.' },
+    {
+      source: 'Subscribe to our updates and proposals.',
+      target: 'Inscreva-se em nossas atualizações e propostas.'
+    },
     { source: 'Save changes', target: 'Salvar alterações' },
+    { source: 'Current user was successfully updated', target: 'Usuário atual foi atualizado com sucesso' },
+    { source: 'Saving current user failed', target: 'Falha ao salvar usuário atual' },
 
     // My Apps
     { source: 'Type to search...', target: 'Escreva para pesquisar...' },
@@ -467,7 +575,6 @@ export const locale: Locale = {
     { source: 'Storages', target: 'Armazenamento' },
 
     // Sign In
-    { source: 'Please wait...', target: 'Por favor, espere...' },
     { source: 'Good morning', target: 'Bom dia' },
     { source: 'Good afternoon', target: 'Boa tarde' },
     { source: 'Good evening', target: 'Boa noite' },
@@ -495,7 +602,6 @@ export const locale: Locale = {
       target:
         'Nenhum cartão é necessário. Você receberá toda a funcionalidade avançada gratuitamente durante o teste profissional de 14 dias.'
     },
-    { source: 'or', target: 'ou' },
     { source: 'Enter First Name', target: 'Insira o primeiro nome' },
     { source: 'Enter Last Name (optional)', target: 'Insira o sobrenome (opcional)' },
     { source: 'Enter Email', target: 'Digite o email' },
@@ -535,6 +641,44 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: 'Não foi possível enviar código' },
     { source: 'Unable to Change Password', target: 'Não foi possível alterar a senha' },
 
+    // Email Verification
+    { source: 'Email Verification', target: 'Verificação de email' },
+    { source: 'Resend verification code', target: 'Reenviar código de verificação' },
+    { source: 'Verification email sent', target: 'Email de verificação enviado' },
+    { source: 'Your Email is now verified', target: 'Seu e-mail agora está verificado' },
+    { source: 'Request is incorrect', target: 'A solicitação está incorreta' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: 'Junte-se a <span class="auth-form__accent">{0}</span>'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong> convidou você para se juntar a <strong>{1}</strong>'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: 'Alguém convidou você para se juntar a <strong>{0}</strong>'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: 'Você está se juntando a <strong>{0}</strong> usando link de convite'
+    },
+    { source: 'Join', target: 'Junte-se' },
+    { source: 'Go to home page', target: 'Ir para a página inicial' },
+    { source: 'Invite link is wrong', target: 'Link de convite está errado' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target:
+        'Parece que seu link de convite expirou ou talvez você tenha seguido o link errado. Por favor tente pedir para ser convidado novamente.'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: 'Infelizmente não conseguimos carregar informações sobre este convite'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: 'Membros de {0}' },
     { source: 'How to get started', target: 'Como começar' },
@@ -543,7 +687,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: 'Convidar um membro' },
     { source: 'Add User property', target: 'Adicionar propriedade do usuário' },
     { source: 'Add Team property', target: 'Adicionar propriedade do time' },
-    { source: 'Add', target: 'Adicionar' },
     { source: 'Edit property', target: 'Editar propriedade' },
     { source: 'Delete property', target: 'Excluir propriedade' },
     { source: 'Users', target: 'Usuários' },

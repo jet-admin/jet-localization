@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: 'Dışa Aktar' },
     { source: 'Import', target: 'İçe Aktar' },
     { source: 'Delete', target: 'Sil' },
+    { source: 'Continue', target: 'Devam et' },
+    { source: 'Cancel', target: 'İptal' },
+    { source: 'Loading', target: 'Yükleniyor' },
+    { source: 'Please wait...', target: 'Lütfen bekleyin...' },
+    { source: 'Loading failed', target: 'Yükleme başarısız' },
+    { source: 'Unknown error', target: 'Bilinmeyen hata' },
+    { source: 'Add', target: 'Ekle' },
+    { source: 'or', target: 'veya' },
+    { source: 'Hours', target: 'Saatler' },
+    { source: 'Minutes', target: 'Dakikalar' },
+    { source: 'Seconds', target: 'Saniyeler' },
+    { source: 'Saved', target: 'Kaydedildi' },
+    { source: 'Error', target: 'Hata' },
+    { source: 'Page not found', target: 'Sayfa bulunamadı' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: 'Belirtilen adres yanlış veya sayfa mevcut değil'
+    },
+    { source: 'Not allowed', target: 'İzin verilmedi' },
+    {
+      source: "You don't have permissions to access this page",
+      target: 'Bu sayfaya erişim izniniz yok'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: 'Eylem yürütüldü' },
+    { source: 'Action executed successfully', target: 'Eylem başarıyla yürütüldü' },
+    { source: 'Action failed', target: 'Eylem başarısız oldu' },
+    {
+      source: "You don't have permission for run this operation",
+      target: 'Bu işlemi gerçekleştirmek için izniniz yok'
+    },
+    { source: 'Specify parameters', target: 'Parametreleri belirtin' },
+    { source: 'Executing action', target: 'Eylem yürütülüyor' },
+    { source: 'You are executing <strong>{0}</strong>', target: 'Şu anda <strong>{0}</strong> işlemi yürütülüyor' },
+    { source: 'Please fill in the parameters below.', target: 'Lütfen aşağıdaki parametreleri doldurun.' },
+    { source: 'Execute', target: 'Yürüt' },
+    { source: 'Executing', target: 'Yürütülüyor' },
+    { source: 'Finished', target: 'Tamamlandı' },
+    { source: 'Done', target: 'Bitti' },
+
+    // Export
+    { source: 'Records Export', target: 'Kayıtların Dışa Aktarımı' },
+    { source: 'Downloading records data as a file', target: 'Kayıt verileri dosya olarak indiriliyor' },
+    { source: 'Choose format', target: 'Formatı seçin' },
+    { source: 'Number of exporting records', target: 'Dışa aktarılacak kayıt sayısı' },
+    { source: { label: 'Export', context: 'submit' }, target: 'Dışa Aktar' },
+    { source: 'Exporting', target: 'Dışa aktarılıyor' },
+    { source: 'Export completed', target: 'Dışa aktarma tamamlandı' },
+    { source: 'Failed to export', target: 'Dışa aktarma başarısız oldu' },
+
+    // Components
     { source: 'optional', target: 'isteğe bağlı' },
     { source: 'choose', target: 'seç' },
     { source: 'Clear value', target: 'Değeri Temizle' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: 'Sonuç Bulunamadı' },
     { source: 'Search...', target: 'Ara...' },
     { source: 'Enter at least {0} characters', target: 'En az {0} karakter girin' },
+    { source: 'No options', target: 'Seçenek yok' },
+    { source: 'Drop files here or', target: 'Dosyaları buraya bırakın veya' },
+    { source: 'Upload new', target: 'Yeni yükle' },
+    { source: 'Clear', target: 'Temizle' },
+    { source: 'Download', target: 'İndir' },
+    { source: 'Choose file', target: 'Dosya seç' },
+    { source: 'Choose files', target: 'Dosyaları seç' },
+    { source: 'Scan with Camera', target: 'Kamerayla Tara' },
+    { source: 'Scan Image file', target: 'Resim Dosyasını Tara' },
+    { source: 'Choose camera', target: 'Kamera seç' },
+    { source: 'Stop scanning', target: 'Taramayı durdur' },
+    { source: 'Scan again', target: 'Yeniden tara' },
+    { source: 'Use this scan', target: 'Bu taramayı kullan' },
+    { source: 'Failed to scan', target: 'Tarama başarısız oldu' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: 'Kod taranamadı, lütfen başka bir resim deneyin'
+    },
+    { source: 'current', target: 'mevcut' },
+    { source: 'Day', target: 'Gün' },
+    { source: 'Week', target: 'Hafta' },
+    { source: 'Month', target: 'Ay' },
+    { source: 'Year', target: 'Yıl' },
+    { source: 'Today', target: 'Bugün' },
+    { source: 'Daily', target: 'Günlük' },
+    { source: 'Weekly', target: 'Haftalık' },
+    { source: 'Monthly', target: 'Aylık' },
+    { source: 'Quarterly', target: 'Üç Aylık' },
+    { source: 'Yearly', target: 'Yıllık' },
+    { source: 'Hourly', target: 'Saatlik' },
+    { source: 'Minutely', target: 'Dakikalık' },
+    { source: 'Since', target: 'Beraberinde' },
+    { source: 'Before', target: 'Öncesinde' },
+    { source: 'Between', target: 'Arasında' },
+    { source: 'From date', target: 'Tarihinden itibaren' },
+    { source: 'To date', target: 'Tarihine kadar' },
+    { source: 'Coordinates', target: 'Koordinatlar' },
+    { source: 'Latitude', target: 'Enlem' },
+    { source: 'Longitude', target: 'Boylam' },
+    { source: 'Default color', target: 'Varsayılan renk' },
+    { source: 'not specified', target: 'belirtilmemiş' },
+    { source: 'Sign using your finger or pointer', target: 'Parmağınızı veya işaretçinizi kullanarak imzalayın' },
 
     // List components
     { source: 'Filter', target: 'Filtrele' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: 'Filtre Ekle' },
     { source: 'Delete this filter', target: 'Bu Filtreyi Sil' },
     { source: 'Toggle ordering', target: 'Sıralamayı Değiştir' },
-    { source: 'Loading failed', target: 'Yükleme başarısız' },
     { source: 'Not configured', target: 'Yapılandırılmamış' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -382,7 +473,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: 'Verilerinize erişimi ekip özelliklerine göre sınırlayın'
     },
-    { source: 'Cancel', target: 'İptal' },
     { source: 'Save Team', target: 'Ekibi Kaydet' },
     { source: 'Create Team', target: 'Ekip Oluştur' },
     { source: 'Value', target: 'Değer' },
@@ -393,7 +483,6 @@ export const locale: Locale = {
     { source: 'Home', target: 'Ana Sayfa' },
 
     // Profile
-    { source: 'Loading', target: 'Yükleniyor' },
     {
       source: 'We are fetching user data, please, wait...',
       target: 'Kullanıcı verileri alınıyor, lütfen bekleyin...'
@@ -404,9 +493,17 @@ export const locale: Locale = {
     { source: 'your photo', target: 'fotoğrafınız' },
     { source: 'Change', target: 'Değiştir' },
     { source: 'Upload', target: 'Yükle' },
+    { source: 'Photo was successfully updated', target: 'Fotoğraf başarıyla güncellendi' },
+    { source: 'Photo was successfully deleted', target: 'Fotoğraf başarıyla silindi' },
     { source: 'First Name', target: 'Ad' },
     { source: 'Last Name', target: 'Soyad' },
     { source: 'Your Email', target: 'E-posta Adresiniz' },
+    { source: 'Email Change', target: 'E-posta Değişikliği' },
+    { source: 'New Email', target: 'Yeni E-posta' },
+    { source: 'Change Email', target: 'E-postayı Değiştir' },
+    { source: 'Check your inbox', target: 'Gelen kutunuzu kontrol edin' },
+    { source: 'Confirmation Email was sent to {0}', target: '{0} adresine onay E-postası gönderildi' },
+    { source: 'Changing Email failed', target: 'E-posta değişikliği başarısız oldu' },
     { source: 'Password Change', target: 'Şifre Değiştirme' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -417,8 +514,14 @@ export const locale: Locale = {
     { source: 'New Password', target: 'Yeni Şifre' },
     { source: 'Confirm New Password', target: 'Yeni Şifreyi Onayla' },
     { source: 'Change Password', target: 'Şifreyi Değiştir' },
+    { source: 'Current password was successfully updated', target: 'Mevcut şifre başarıyla güncellendi' },
+    { source: 'Saving current password failed', target: 'Mevcut şifre kaydedilemedi' },
+    { source: 'Short password', target: 'Kısa şifre' },
+    { source: "Passwords don't match", target: 'Şifreler uyuşmuyor' },
     { source: 'Personal Preferences', target: 'Kişisel Tercihler' },
     { source: 'Language', target: 'Dil' },
+    { source: 'Timezone', target: 'Saat Dilimi' },
+    { source: 'Current time in {0} is', target: 'Şu anki saat {0} saat diliminde' },
     {
       source: 'Customize additional preferences for your account.',
       target: 'Hesabınız için ek tercihleri özelleştirin.'
@@ -426,6 +529,8 @@ export const locale: Locale = {
     { source: 'News & Proposals', target: 'Haberler ve Öneriler' },
     { source: 'Subscribe to our updates and proposals.', target: 'Güncellemelerimize ve önerilerimize abone olun.' },
     { source: 'Save changes', target: 'Değişiklikleri Kaydet' },
+    { source: 'Current user was successfully updated', target: 'Geçerli kullanıcı başarıyla güncellendi' },
+    { source: 'Saving current user failed', target: 'Geçerli kullanıcı kaydedilemedi' },
 
     // My Apps
     { source: 'Type to search...', target: 'Aramak için yazın...' },
@@ -473,7 +578,6 @@ export const locale: Locale = {
     { source: 'Storages', target: 'Depolama Alanları' },
 
     // Sign In
-    { source: 'Please wait...', target: 'Lütfen bekleyin...' },
     { source: 'Good morning', target: 'Günaydın' },
     { source: 'Good afternoon', target: 'İyi günler' },
     { source: 'Good evening', target: 'İyi akşamlar' },
@@ -500,7 +604,6 @@ export const locale: Locale = {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
       target: 'Kart gerekmiyor. 14 günlük PRO deneme süresi boyunca tüm gelişmiş işlevleri ücretsiz kullanacaksınız.'
     },
-    { source: 'or', target: 'veya' },
     { source: 'Enter First Name', target: 'Adınızı Girin' },
     { source: 'Enter Last Name (optional)', target: 'Soyadınızı Girin (isteğe bağlı)' },
     { source: 'Enter Email', target: 'E-posta Girin' },
@@ -540,6 +643,44 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: 'Kod Gönderilemiyor' },
     { source: 'Unable to Change Password', target: 'Şifre Değiştirilemiyor' },
 
+    // Email Verification
+    { source: 'Email Verification', target: 'E-posta Doğrulaması' },
+    { source: 'Resend verification code', target: 'Doğrulama kodunu yeniden gönder' },
+    { source: 'Verification email sent', target: 'Doğrulama e-postası gönderildi' },
+    { source: 'Your Email is now verified', target: 'E-posta adresiniz doğrulandı' },
+    { source: 'Request is incorrect', target: 'İstek yanlış' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: '<span class="auth-form__accent">{0}</span> katılın'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong> sizi <strong>{1}</strong> katılmaya davet etti'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: 'Birisi sizi <strong>{0}</strong> katılmaya davet etti'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: 'Davet bağlantısını kullanarak <strong>{0}</strong> katılıyorsunuz'
+    },
+    { source: 'Join', target: 'Katıl' },
+    { source: 'Go to home page', target: 'Ana sayfaya git' },
+    { source: 'Invite link is wrong', target: 'Davet bağlantısı yanlış' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target:
+        'Görünüşe göre davet linkinizin süresi dolmuş veya yanlış linki takip etmiş olabilirsiniz. Lütfen tekrar davet etmesini isteyin.'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: 'Maalesef bu davet hakkında bilgi yüklenemedi'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: '{0} üyeleri' },
     { source: 'How to get started', target: 'Nasıl başlanır' },
@@ -548,7 +689,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: 'Üye Davet Et' },
     { source: 'Add User property', target: 'Kullanıcı özelliği ekle' },
     { source: 'Add Team property', target: 'Takım özelliği ekle' },
-    { source: 'Add', target: 'Ekle' },
     { source: 'Edit property', target: 'Özelliği düzenle' },
     { source: 'Delete property', target: 'Özelliği sil' },
     { source: 'Users', target: 'Kullanıcılar' },

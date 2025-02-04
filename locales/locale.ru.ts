@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: 'Экспорт' },
     { source: 'Import', target: 'Импорт' },
     { source: 'Delete', target: 'Удалить' },
+    { source: 'Continue', target: 'Продолжить' },
+    { source: 'Cancel', target: 'Отменить' },
+    { source: 'Loading', target: 'Загрузка' },
+    { source: 'Please wait...', target: 'Пожалуйста, подождите...' },
+    { source: 'Loading failed', target: 'Ошибка загрузки' },
+    { source: 'Unknown error', target: 'Неизвестная ошибка' },
+    { source: 'Add', target: 'Добавить' },
+    { source: 'or', target: 'или' },
+    { source: 'Hours', target: 'Часы' },
+    { source: 'Minutes', target: 'Минуты' },
+    { source: 'Seconds', target: 'Секунды' },
+    { source: 'Saved', target: 'Сохранено' },
+    { source: 'Error', target: 'Ошибка' },
+    { source: 'Page not found', target: 'Страница не найдена' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: 'Неправильно указан адрес или такой страницы не существует'
+    },
+    { source: 'Not allowed', target: 'Нет доступа' },
+    {
+      source: "You don't have permissions to access this page",
+      target: 'У вас недостаточно прав для доступа к этой странице'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: 'Выполнено' },
+    { source: 'Action executed successfully', target: 'Действие выполнено успешно' },
+    { source: 'Action failed', target: 'Ошибка выполнения' },
+    {
+      source: "You don't have permission for run this operation",
+      target: 'У вас недостаточно прав для выполнения этой операции'
+    },
+    { source: 'Specify parameters', target: 'Укажите параметры' },
+    { source: 'Executing action', target: 'Выполнение' },
+    { source: 'You are executing <strong>{0}</strong>', target: 'Вы выполняете <strong>{0}</strong>' },
+    { source: 'Please fill in the parameters below.', target: 'Пожалуйста, заполните параметры ниже.' },
+    { source: 'Execute', target: 'Выполнить' },
+    { source: 'Executing', target: 'Выполняется' },
+    { source: 'Finished', target: 'Завершено' },
+    { source: 'Done', target: 'Завершить' },
+
+    // Export
+    { source: 'Records Export', target: 'Экспорт данных' },
+    { source: 'Downloading records data as a file', target: 'Выгрузка данных в виде файла' },
+    { source: 'Choose format', target: 'Выберите формат' },
+    { source: 'Number of exporting records', target: 'Количество экспортируемых данных' },
+    { source: { label: 'Export', context: 'submit' }, target: 'Экспортировать' },
+    { source: 'Exporting', target: 'Экспорт' },
+    { source: 'Export completed', target: 'Экспорт завершен' },
+    { source: 'Failed to export', target: 'Ошибка при экспорте' },
+
+    // Components
     { source: 'optional', target: 'необязательно' },
     { source: 'choose', target: 'выберите' },
     { source: 'Clear value', target: 'Очистить' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: 'Ничего не найдено' },
     { source: 'Search...', target: 'Поиск...' },
     { source: 'Enter at least {0} characters', target: 'Ввведите минимум {0} символа' },
+    { source: 'No options', target: 'Нет опций' },
+    { source: 'Drop files here or', target: 'Перетащите файлы или' },
+    { source: 'Upload new', target: 'Загрузить заново' },
+    { source: 'Clear', target: 'Очистить' },
+    { source: 'Download', target: 'Скачать' },
+    { source: 'Choose file', target: 'Выберите файл' },
+    { source: 'Choose files', target: 'Выберите файлы' },
+    { source: 'Scan with Camera', target: 'Сканировать с помощью камеры' },
+    { source: 'Scan Image file', target: 'Сканировать изображение' },
+    { source: 'Choose camera', target: 'Выбрать камеру' },
+    { source: 'Stop scanning', target: 'Остановить сканирование' },
+    { source: 'Scan again', target: 'Сканировать снова' },
+    { source: 'Use this scan', target: 'Использовать скан' },
+    { source: 'Failed to scan', target: 'Не удалось отсканировать' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: 'Код не распознан, пожалуйста, попробуйте другое изображение'
+    },
+    { source: 'current', target: 'текущая' },
+    { source: 'Day', target: 'День' },
+    { source: 'Week', target: 'Неделя' },
+    { source: 'Month', target: 'Месяц' },
+    { source: 'Year', target: 'Год' },
+    { source: 'Today', target: 'Сегодня' },
+    { source: 'Daily', target: 'По дням' },
+    { source: 'Weekly', target: 'По неделям' },
+    { source: 'Monthly', target: 'По месяцам' },
+    { source: 'Quarterly', target: 'По кварталам' },
+    { source: 'Yearly', target: 'По годам' },
+    { source: 'Hourly', target: 'По часам' },
+    { source: 'Minutely', target: 'По минутам' },
+    { source: 'Since', target: 'С даты' },
+    { source: 'Before', target: 'До даты' },
+    { source: 'Between', target: 'В промежутке' },
+    { source: 'From date', target: 'Начало' },
+    { source: 'To date', target: 'Конец' },
+    { source: 'Coordinates', target: 'Координаты' },
+    { source: 'Latitude', target: 'Широта' },
+    { source: 'Longitude', target: 'Долгота' },
+    { source: 'Default color', target: 'Цвет по умолчанию' },
+    { source: 'not specified', target: 'не указано' },
+    { source: 'Sign using your finger or pointer', target: 'Подпишите, используя палец или указатель' },
 
     // List components
     { source: 'Filter', target: 'Фильтр' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: 'Фильтр' },
     { source: 'Delete this filter', target: 'Удалить фильтр' },
     { source: 'Toggle ordering', target: 'Сортировать' },
-    { source: 'Loading failed', target: 'Ошибка загрузки' },
     { source: 'Not configured', target: 'Не настроено' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -375,7 +466,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: 'Ограничивайте доступ к данным с помощью свойств команды'
     },
-    { source: 'Cancel', target: 'Отменить' },
     { source: 'Save Team', target: 'Сохранить Команду' },
     { source: 'Create Team', target: 'Создать Команду' },
     { source: 'Value', target: 'Значение' },
@@ -386,7 +476,6 @@ export const locale: Locale = {
     { source: 'Home', target: 'Главная' },
 
     // Profile
-    { source: 'Loading', target: 'Загрузка' },
     {
       source: 'We are fetching user data, please, wait...',
       target: 'Мы загружаем пользовательские данные, пожалуйста, подождите...'
@@ -397,9 +486,17 @@ export const locale: Locale = {
     { source: 'your photo', target: 'ваше фото' },
     { source: 'Change', target: 'Изменить' },
     { source: 'Upload', target: 'Загрузить' },
+    { source: 'Photo was successfully updated', target: 'Фото было успешно изменено' },
+    { source: 'Photo was successfully deleted', target: 'Фото было успешно удалено' },
     { source: 'First Name', target: 'Имя' },
     { source: 'Last Name', target: 'Фамилия' },
     { source: 'Your Email', target: 'Ваш Email' },
+    { source: 'Email Change', target: 'Смена Email' },
+    { source: 'New Email', target: 'Новый Email' },
+    { source: 'Change Email', target: 'Поменять Email' },
+    { source: 'Check your inbox', target: 'Проверьте ваш почтовый ящик' },
+    { source: 'Confirmation Email was sent to {0}', target: 'Email подтверждение отправено на {0}' },
+    { source: 'Changing Email failed', target: 'Ошибка смены Email' },
     { source: 'Password Change', target: 'Смена пароля' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -410,8 +507,14 @@ export const locale: Locale = {
     { source: 'New Password', target: 'Новый пароль' },
     { source: 'Confirm New Password', target: 'Подтвердите новый пароль' },
     { source: 'Change Password', target: 'Поменять пароль' },
+    { source: 'Current password was successfully updated', target: 'Текущий пароль успешно изменен' },
+    { source: 'Saving current password failed', target: 'Ошибка смены текущего пароля' },
+    { source: 'Short password', target: 'Короткий пароль' },
+    { source: "Passwords don't match", target: 'Пароли не совпадают' },
     { source: 'Personal Preferences', target: 'Личные настройки' },
     { source: 'Language', target: 'Язык' },
+    { source: 'Timezone', target: 'Часовой пояс' },
+    { source: 'Current time in {0} is', target: 'Текущее время в {0}' },
     {
       source: 'Customize additional preferences for your account.',
       target: 'Задайте дополнительные параметры вашего аккаунта.'
@@ -422,6 +525,8 @@ export const locale: Locale = {
       target: 'Подпишитесь на наши обновления и специальные предложения.'
     },
     { source: 'Save changes', target: 'Сохранить изменения' },
+    { source: 'Current user was successfully updated', target: 'Текущий пользователь успешно изменен' },
+    { source: 'Saving current user failed', target: 'Ошибка сохранения текущего пользователя' },
 
     // My Apps
     { source: 'Type to search...', target: 'Поиск...' },
@@ -469,7 +574,6 @@ export const locale: Locale = {
     { source: 'Storages', target: 'Хранение данных' },
 
     // Sign In
-    { source: 'Please wait...', target: 'Пожалуйста, подождите...' },
     { source: 'Good morning', target: 'Доброе утро' },
     { source: 'Good afternoon', target: 'Добрый день' },
     { source: 'Good evening', target: 'Добрый вечер' },
@@ -496,7 +600,6 @@ export const locale: Locale = {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
       target: 'Карта не требуется. Бесплатный доступ к всему функционалу в течение 14 дневного PRO триала.'
     },
-    { source: 'or', target: 'или' },
     { source: 'Enter First Name', target: 'Введите имя' },
     { source: 'Enter Last Name (optional)', target: 'Введите фамилию (необязательно)' },
     { source: 'Enter Email', target: 'Введите Email' },
@@ -530,6 +633,44 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: 'Невозможно отправить код' },
     { source: 'Unable to Change Password', target: 'Невозможно изменить пароль' },
 
+    // Email Verification
+    { source: 'Email Verification', target: 'Подтверждение Email' },
+    { source: 'Resend verification code', target: 'Повторно отправить код подтвержения' },
+    { source: 'Verification email sent', target: 'Код подтверждения отправлен' },
+    { source: 'Your Email is now verified', target: 'Ваш Email сейчас подтвержден' },
+    { source: 'Request is incorrect', target: 'Некорректный запрос' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: 'Присоединиться к <span class="auth-form__accent">{0}</span>'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong> пригласил(а) вас присоединиться к <strong>{1}</strong>'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: 'Кто-то пригласил вас присоединиться к <strong>{0}</strong>'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: 'При присоединяетесь к <strong>{0}</strong>, используя пригласительную ссылку'
+    },
+    { source: 'Join', target: 'Присоединиться' },
+    { source: 'Go to home page', target: 'Перейти на главную' },
+    { source: 'Invite link is wrong', target: 'Ссылка на приглашение неправильная' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target:
+        'Похоже эта ссылка на приглашение уже недействительна или возможно вы перешли по некорректной ссылке. Пожалуйста, попросите пригласить вас еще раз.'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: 'К сожалению, нам не удалось загрузить информацию об этом приглашении'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: 'Участники {0}' },
     { source: 'How to get started', target: 'Как пользоваться' },
@@ -538,7 +679,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: 'Пригласить' },
     { source: 'Add User property', target: 'Добавить свойство пользователя' },
     { source: 'Add Team property', target: 'Добавить свойство команды' },
-    { source: 'Add', target: 'Добавить' },
     { source: 'Edit property', target: 'Редактировать свойство' },
     { source: 'Delete property', target: 'Удалить свойство' },
     { source: 'Users', target: 'Участники' },

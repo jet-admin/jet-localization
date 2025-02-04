@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: 'Eksporter' },
     { source: 'Import', target: 'Importer' },
     { source: 'Delete', target: 'Slet' },
+    { source: 'Continue', target: 'Fortsæt' },
+    { source: 'Cancel', target: 'Ophæv' },
+    { source: 'Loading', target: 'Indlæser' },
+    { source: 'Please wait...', target: 'Vent venligst...' },
+    { source: 'Loading failed', target: 'Indlæsning mislykkedes' },
+    { source: 'Unknown error', target: 'Ukendt fejl' },
+    { source: 'Add', target: 'Tilføj' },
+    { source: 'or', target: 'eller' },
+    { source: 'Hours', target: 'Timer' },
+    { source: 'Minutes', target: 'Minutter' },
+    { source: 'Seconds', target: 'Sekunder' },
+    { source: 'Saved', target: 'Gemt' },
+    { source: 'Error', target: 'Fejl' },
+    { source: 'Page not found', target: 'Siden kunne ikke findes' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: 'Den angivne adresse er forkert, eller siden eksisterer ikke'
+    },
+    { source: 'Not allowed', target: 'Ikke tilladt' },
+    {
+      source: "You don't have permissions to access this page",
+      target: 'Du har ikke tilladelse til at få adgang til denne side'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: 'Handling udført' },
+    { source: 'Action executed successfully', target: 'Handling udført succesfuldt' },
+    { source: 'Action failed', target: 'Handling mislykkedes' },
+    {
+      source: "You don't have permission for run this operation",
+      target: 'Du har ikke tilladelse til at udføre denne operation'
+    },
+    { source: 'Specify parameters', target: 'Angiv parametre' },
+    { source: 'Executing action', target: 'Udfører handling' },
+    { source: 'You are executing <strong>{0}</strong>', target: 'Du udfører <strong>{0}</strong>' },
+    { source: 'Please fill in the parameters below.', target: 'Udfyld venligst parametrene nedenfor.' },
+    { source: 'Execute', target: 'Udfør' },
+    { source: 'Executing', target: 'Udfører' },
+    { source: 'Finished', target: 'Afsluttet' },
+    { source: 'Done', target: 'Færdig' },
+
+    // Export
+    { source: 'Records Export', target: 'Eksport af optegnelser' },
+    { source: 'Downloading records data as a file', target: 'Downloader optegnelsesdata som en fil' },
+    { source: 'Choose format', target: 'Vælg format' },
+    { source: 'Number of exporting records', target: 'Antal optegnelser der eksporteres' },
+    { source: { label: 'Export', context: 'submit' }, target: 'Eksporter' },
+    { source: 'Exporting', target: 'Eksporterer' },
+    { source: 'Export completed', target: 'Eksport fuldført' },
+    { source: 'Failed to export', target: 'Kunne ikke eksportere' },
+
+    // Components
     { source: 'optional', target: 'valgfrit' },
     { source: 'choose', target: 'vælg' },
     { source: 'Clear value', target: 'Klar værdi' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: 'Intet fundet' },
     { source: 'Search...', target: 'Søg...' },
     { source: 'Enter at least {0} characters', target: 'Indtast mindst {0} karakterer' },
+    { source: 'No options', target: 'Ingen muligheder' },
+    { source: 'Drop files here or', target: 'Slip filerne her eller' },
+    { source: 'Upload new', target: 'Upload ny' },
+    { source: 'Clear', target: 'Ryd' },
+    { source: 'Download', target: 'Hent' },
+    { source: 'Choose file', target: 'Vælg fil' },
+    { source: 'Choose files', target: 'Vælg filer' },
+    { source: 'Scan with Camera', target: 'Scan med kamera' },
+    { source: 'Scan Image file', target: 'Scan billede' },
+    { source: 'Choose camera', target: 'Vælg kamera' },
+    { source: 'Stop scanning', target: 'Stop scanning' },
+    { source: 'Scan again', target: 'Scan igen' },
+    { source: 'Use this scan', target: 'Brug denne scanning' },
+    { source: 'Failed to scan', target: 'Scanning mislykkedes' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: 'Koden kunne ikke scannes, prøv venligst et andet billede'
+    },
+    { source: 'current', target: 'nuværende' },
+    { source: 'Day', target: 'Dag' },
+    { source: 'Week', target: 'Uge' },
+    { source: 'Month', target: 'Måned' },
+    { source: 'Year', target: 'År' },
+    { source: 'Today', target: 'I dag' },
+    { source: 'Daily', target: 'Dagligt' },
+    { source: 'Weekly', target: 'Ugentligt' },
+    { source: 'Monthly', target: 'Månedligt' },
+    { source: 'Quarterly', target: 'Kvartalsvist' },
+    { source: 'Yearly', target: 'Årligt' },
+    { source: 'Hourly', target: 'Hver time' },
+    { source: 'Minutely', target: 'Hvert minut' },
+    { source: 'Since', target: 'Siden' },
+    { source: 'Before', target: 'Før' },
+    { source: 'Between', target: 'Mellem' },
+    { source: 'From date', target: 'Fra dato' },
+    { source: 'To date', target: 'Til dato' },
+    { source: 'Coordinates', target: 'Koordinater' },
+    { source: 'Latitude', target: 'Breddegrad' },
+    { source: 'Longitude', target: 'Længdegrad' },
+    { source: 'Default color', target: 'Standardfarve' },
+    { source: 'not specified', target: 'ikke angivet' },
+    { source: 'Sign using your finger or pointer', target: 'Signér med din finger eller markør' },
 
     // List components
     { source: 'Filter', target: 'Filter' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: 'Tilføj filter' },
     { source: 'Delete this filter', target: 'Slet dette filter' },
     { source: 'Toggle ordering', target: 'Skift sortering' },
-    { source: 'Loading failed', target: 'Indlæsning mislykkedes' },
     { source: 'Not configured', target: 'Ikke konfigureret' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -299,7 +390,10 @@ export const locale: Locale = {
     { source: 'Cancel invite', target: 'Annuller invitation' },
     { source: 'Active Members', target: 'Aktive medlemmer' },
     { source: 'Remove member', target: 'Slet medlem' },
-    { source: 'You are setting sharing for the current page', target: 'Du indstiller deling for den nuværende side.' },
+    {
+      source: 'You are setting sharing for the current page',
+      target: 'Du indstiller deling for den nuværende side.'
+    },
     {
       source: 'You are setting sharing for all pages of your App.',
       target: 'Du indstiller deling for alle sider af din app.'
@@ -373,7 +467,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: 'Begræns adgangen til dine data efter teamegenskaber'
     },
-    { source: 'Cancel', target: 'Ophæv' },
     { source: 'Save Team', target: 'Gem Team' },
     { source: 'Create Team', target: 'Opret Team' },
     { source: 'Value', target: 'Værdi' },
@@ -384,17 +477,27 @@ export const locale: Locale = {
     { source: 'Home', target: 'Hjem' },
 
     // Profile
-    { source: 'Loading', target: 'Indlæser' },
-    { source: 'We are fetching user data, please, wait...', target: 'Vi henter brugerdata, vent venligst...' },
+    {
+      source: 'We are fetching user data, please, wait...',
+      target: 'Vi henter brugerdata, vent venligst...'
+    },
     { source: 'Profile Settings', target: 'Profil Indstillinger' },
     { source: 'Basic information about your account.', target: 'Grundlæggende oplysninger om din konto.' },
     { source: 'Photo', target: 'Foto' },
     { source: 'your photo', target: 'dit foto' },
     { source: 'Change', target: 'Skift' },
     { source: 'Upload', target: 'Upload' },
+    { source: 'Photo was successfully updated', target: 'Foto blev opdateret' },
+    { source: 'Photo was successfully deleted', target: 'Foto blev slettet' },
     { source: 'First Name', target: 'Fornavn' },
     { source: 'Last Name', target: 'Efternavn' },
     { source: 'Your Email', target: 'Din Email' },
+    { source: 'Email Change', target: 'Email ændring' },
+    { source: 'New Email', target: 'Ny Email' },
+    { source: 'Change Email', target: 'Ændre Email' },
+    { source: 'Check your inbox', target: 'Tjek din indbakke' },
+    { source: 'Confirmation Email was sent to {0}', target: 'Bekræftelse Email blev sendt til {0}' },
+    { source: 'Changing Email failed', target: 'Ændring af Email mislykkedes' },
     { source: 'Password Change', target: 'Ændre password' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -404,15 +507,26 @@ export const locale: Locale = {
     { source: 'New Password', target: 'Ny Password' },
     { source: 'Confirm New Password', target: 'Bekæft nyt Password' },
     { source: 'Change Password', target: 'Ændre Password' },
+    { source: 'Current password was successfully updated', target: 'Nuværende password blev opdateret' },
+    { source: 'Saving current password failed', target: 'Opdatering af nuværende password mislykkedes' },
+    { source: 'Short password', target: 'Kort password' },
+    { source: "Passwords don't match", target: 'Password stemmer ikke overens' },
     { source: 'Personal Preferences', target: 'Personlige Indstillinger' },
     { source: 'Language', target: 'Sprog' },
+    { source: 'Timezone', target: 'Tidszone' },
+    { source: 'Current time in {0} is', target: 'Aktuel tid i {0} er' },
     {
       source: 'Customize additional preferences for your account.',
       target: 'Tilpas yderligere præferencer for din konto.'
     },
     { source: 'News & Proposals', target: 'Nyheder og forslag' },
-    { source: 'Subscribe to our updates and proposals.', target: 'Abonner på vores opdateringer og forslag.' },
+    {
+      source: 'Subscribe to our updates and proposals.',
+      target: 'Abonner på vores opdateringer og forslag.'
+    },
     { source: 'Save changes', target: 'Gem ændringer' },
+    { source: 'Current user was successfully updated', target: 'Nuværende bruger blev opdateret' },
+    { source: 'Saving current user failed', target: 'Gem nuværende bruger mislykkedes' },
 
     // My Apps
     { source: 'Type to search...', target: 'Skriv for at søge...' },
@@ -457,7 +571,6 @@ export const locale: Locale = {
     { source: 'Storages', target: 'Opbevaringer' },
 
     // Sign In
-    { source: 'Please wait...', target: 'Vent venligst...' },
     { source: 'Good morning', target: 'Godmorgen' },
     { source: 'Good afternoon', target: 'God eftermiddag' },
     { source: 'Good evening', target: 'Godaften' },
@@ -485,13 +598,15 @@ export const locale: Locale = {
       target:
         'Intet kort påkrævet. Du får al den avancerede funktionalitet gratis i løbet af 14 dages PRO-prøveversion.'
     },
-    { source: 'or', target: 'eller' },
     { source: 'Enter First Name', target: 'Indstast Fornavn' },
     { source: 'Enter Last Name (optional)', target: 'Indtast Efternavn (valgfrit)' },
     { source: 'Enter Email', target: 'Indtast Email' },
     { source: 'Password', target: 'Password' },
     { source: 'Repeat Password', target: 'Gentag Password' },
-    { source: 'By signing in you’re okay with our', target: 'Ved at logge ind er du okay med vores' },
+    {
+      source: 'By signing in you’re okay with our',
+      target: 'Ved at logge ind er du okay med vores'
+    },
     {
       source: 'Creating an account means you’re okay with our',
       target: 'Oprettelse af en konto betyder, at du er okay med vores'
@@ -522,6 +637,44 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: 'Kan ikke sende kode' },
     { source: 'Unable to Change Password', target: 'Kan ikke ændre Password' },
 
+    // Email Verification
+    { source: 'Email Verification', target: 'Emailbekræftelse' },
+    { source: 'Resend verification code', target: 'Gensend bekræftelseskode' },
+    { source: 'Verification email sent', target: 'Bekræftelsesemail sendt' },
+    { source: 'Your Email is now verified', target: 'Din email er nu bekræftet' },
+    { source: 'Request is incorrect', target: 'Forespørgsel er forkert' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: 'Deltag <span class="auth-form__accent">{0}</span>'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong> har inviteret dig til at deltage i <strong>{1}</strong>'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: 'Nogen har inviteret dig til at deltage i <strong>{0}</strong>'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: 'Du deltager i <strong>{0}</strong> ved at bruge invitationslink'
+    },
+    { source: 'Join', target: 'Deltag' },
+    { source: 'Go to home page', target: 'Gå til startside' },
+    { source: 'Invite link is wrong', target: 'Invitationslinket er forkert' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target:
+        'Ser ud til, at dit invitationslink er udløbet, eller måske har du fulgt det forkerte link. Prøv venligst at bede om invitation igen.'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: 'Desværre kunne vi ikke indlæse information om denne invitation'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: 'Medlem af {0}' },
     { source: 'How to get started', target: 'Sådan kommer du i gang' },
@@ -530,7 +683,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: 'Inviter medlem' },
     { source: 'Add User property', target: 'Tilføj brugeregenskab' },
     { source: 'Add Team property', target: 'Tilføj holdegenskab' },
-    { source: 'Add', target: 'Tilføj' },
     { source: 'Edit property', target: 'Rediger egenskaber' },
     { source: 'Delete property', target: 'Slet egenskaber' },
     { source: 'Users', target: 'Brugere' },

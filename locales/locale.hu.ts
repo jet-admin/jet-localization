@@ -13,8 +13,58 @@ export const locale: Locale = {
     { source: 'Export', target: 'Export' },
     { source: 'Import', target: 'Import' },
     { source: 'Delete', target: 'Töröl' },
+    { source: 'Continue', target: 'Folytat' },
+    { source: 'Cancel', target: 'Mégse' },
+    { source: 'Loading', target: 'Betöltés' },
+    { source: 'Please wait...', target: 'Kérem, várjon...' },
+    { source: 'Loading failed', target: 'A betöltés nem sikerült' },
+    { source: 'Unknown error', target: 'Ismeretlen hiba' },
+    { source: 'Add', target: 'Hozzáadás' },
+    { source: 'or', target: 'vagy' },
+    { source: 'Hours', target: 'Órák' },
+    { source: 'Minutes', target: 'Percek' },
+    { source: 'Seconds', target: 'Másodpercek' },
+    { source: 'Saved', target: 'Mentve' },
+    { source: 'Error', target: 'Hiba' },
+    { source: 'Page not found', target: 'Az oldal nem található' },
+    {
+      source: 'The specified address is incorrect, or the page does not exist',
+      target: 'A megadott cím helytelen, vagy az oldal nem létezik'
+    },
+    { source: 'Not allowed', target: 'Nem engedélyezett' },
+    {
+      source: "You don't have permissions to access this page",
+      target: 'Önnek nincs jogosultsága az oldal megtekintéséhez'
+    },
 
-    // Fields
+    // Actions
+    { source: 'Action executed', target: 'Művelet végrehajtva' },
+    { source: 'Action executed successfully', target: 'Művelet sikeresen végrehajtva' },
+    { source: 'Action failed', target: 'A művelet sikertelen' },
+    {
+      source: "You don't have permission for run this operation",
+      target: 'Nincs jogosultsága a művelet végrehajtásához'
+    },
+    { source: 'Specify parameters', target: 'Paraméterek megadása' },
+    { source: 'Executing action', target: 'Művelet végrehajtása' },
+    { source: 'You are executing <strong>{0}</strong>', target: 'Ön végrehajtja a(z) <strong>{0}</strong>' },
+    { source: 'Please fill in the parameters below.', target: 'Kérem, töltse ki az alábbi paramétereket.' },
+    { source: 'Execute', target: 'Végrehajt' },
+    { source: 'Executing', target: 'Végrehajtás' },
+    { source: 'Finished', target: 'Befejezve' },
+    { source: 'Done', target: 'Kész' },
+
+    // Export
+    { source: 'Records Export', target: 'Rekordok exportálása' },
+    { source: 'Downloading records data as a file', target: 'Rekordadatok letöltése fájlként' },
+    { source: 'Choose format', target: 'Formátum kiválasztása' },
+    { source: 'Number of exporting records', target: 'Exportálandó rekordok száma' },
+    { source: { label: 'Export', context: 'submit' }, target: 'Export' },
+    { source: 'Exporting', target: 'Exportálás' },
+    { source: 'Export completed', target: 'Exportálás befejezve' },
+    { source: 'Failed to export', target: 'Exportálás sikertelen' },
+
+    // Components
     { source: 'optional', target: 'választható' },
     { source: 'choose', target: 'válasszon' },
     { source: 'Clear value', target: 'Érték törlése' },
@@ -22,6 +72,48 @@ export const locale: Locale = {
     { source: 'Nothing found', target: 'Nincs találat' },
     { source: 'Search...', target: 'Keresés...' },
     { source: 'Enter at least {0} characters', target: 'Írjon be legalább {0} karaktert!' },
+    { source: 'No options', target: 'Nincsenek lehetőségek' },
+    { source: 'Drop files here or', target: 'Húzza ide a fájlokat, vagy' },
+    { source: 'Upload new', target: 'Új feltöltése' },
+    { source: 'Clear', target: 'Törlés' },
+    { source: 'Download', target: 'Letöltés' },
+    { source: 'Choose file', target: 'Fájl kiválasztása' },
+    { source: 'Choose files', target: 'Fájlok kiválasztása' },
+    { source: 'Scan with Camera', target: 'Szkennelés kamerával' },
+    { source: 'Scan Image file', target: 'Kép fájl szkennelése' },
+    { source: 'Choose camera', target: 'Kamera kiválasztása' },
+    { source: 'Stop scanning', target: 'Szkennelés leállítása' },
+    { source: 'Scan again', target: 'Újra szkennelés' },
+    { source: 'Use this scan', target: 'Ezt a szkennelést használja' },
+    { source: 'Failed to scan', target: 'Szkennelés nem sikerült' },
+    {
+      source: 'Code failed to scan, please try another image',
+      target: 'A kód szkennelése nem sikerült, próbáljon meg egy másik képet'
+    },
+    { source: 'current', target: 'jelenlegi' },
+    { source: 'Day', target: 'Nap' },
+    { source: 'Week', target: 'Hét' },
+    { source: 'Month', target: 'Hónap' },
+    { source: 'Year', target: 'Év' },
+    { source: 'Today', target: 'Ma' },
+    { source: 'Daily', target: 'Napi' },
+    { source: 'Weekly', target: 'Heti' },
+    { source: 'Monthly', target: 'Havi' },
+    { source: 'Quarterly', target: 'Negyedéves' },
+    { source: 'Yearly', target: 'Éves' },
+    { source: 'Hourly', target: 'Óránkénti' },
+    { source: 'Minutely', target: 'Percenkénti' },
+    { source: 'Since', target: 'Óta' },
+    { source: 'Before', target: 'Előtt' },
+    { source: 'Between', target: 'Között' },
+    { source: 'From date', target: 'Dátumtól' },
+    { source: 'To date', target: 'Dátumig' },
+    { source: 'Coordinates', target: 'Koordináták' },
+    { source: 'Latitude', target: 'Szélesség' },
+    { source: 'Longitude', target: 'Hosszúság' },
+    { source: 'Default color', target: 'Alapértelmezett szín' },
+    { source: 'not specified', target: 'nincs megadva' },
+    { source: 'Sign using your finger or pointer', target: 'Írjon alá az ujjával vagy a mutatóval' },
 
     // List components
     { source: 'Filter', target: 'Szűrés' },
@@ -53,7 +145,6 @@ export const locale: Locale = {
     { source: 'Add filter', target: 'Szűrő hozzáadása' },
     { source: 'Delete this filter', target: 'Törölje ezt a szűrőt' },
     { source: 'Toggle ordering', target: 'Rendezés megváltoztatása' },
-    { source: 'Loading failed', target: 'A betöltés nem sikerült' },
     { source: 'Not configured', target: 'Nincs beállítva' },
     {
       source: 'Unfortunately, this component is not configured yet',
@@ -299,7 +390,10 @@ export const locale: Locale = {
     { source: 'Cancel invite', target: 'Meghívás visszavonása' },
     { source: 'Active Members', target: 'Aktív tagok' },
     { source: 'Remove member', target: 'Tag eltávolítása' },
-    { source: 'You are setting sharing for the current page', target: 'Az aktuális oldal megosztását állítja be' },
+    {
+      source: 'You are setting sharing for the current page',
+      target: 'Az aktuális oldal megosztását állítja be'
+    },
     {
       source: 'You are setting sharing for all pages of your App.',
       target: 'Megosztást állít be az alkalmazás összes oldalára.'
@@ -373,7 +467,6 @@ export const locale: Locale = {
       source: 'Limit access to your data by team properties',
       target: 'Korlátozza az adatokhoz való hozzáférést a csoport tulajdonságai szerint'
     },
-    { source: 'Cancel', target: 'Mégse' },
     { source: 'Save Team', target: 'Csoport mentése' },
     { source: 'Create Team', target: 'Csoport létrehozása' },
     { source: 'Value', target: 'Érték' },
@@ -384,7 +477,6 @@ export const locale: Locale = {
     { source: 'Home', target: 'Kezdőlap' },
 
     // Profile
-    { source: 'Loading', target: 'Betöltés' },
     {
       source: 'We are fetching user data, please, wait...',
       target: 'Felhasználói adatok beolvasása folyamatban van, kérem, várjon...'
@@ -395,9 +487,17 @@ export const locale: Locale = {
     { source: 'your photo', target: 'képem' },
     { source: 'Change', target: 'Megváltoztatás' },
     { source: 'Upload', target: 'Feltöltés' },
+    { source: 'Photo was successfully updated', target: 'A fénykép sikeresen frissült' },
+    { source: 'Photo was successfully deleted', target: 'A fénykép törölve lett' },
     { source: 'First Name', target: 'Keresztnév' },
     { source: 'Last Name', target: 'Vezetéknév' },
     { source: 'Your Email', target: 'E-mail cím' },
+    { source: 'Email Change', target: 'E-mail cím megváltoztatása' },
+    { source: 'New Email', target: 'Új e-mail cím' },
+    { source: 'Change Email', target: 'E-mail cím módosítása' },
+    { source: 'Check your inbox', target: 'Ellenőrizze a postafiókját' },
+    { source: 'Confirmation Email was sent to {0}', target: 'A megerősítő e-mail el lett küldve: {0}' },
+    { source: 'Changing Email failed', target: 'Az e-mail cím megváltoztatása nem sikerült' },
     { source: 'Password Change', target: 'Jelszó változtatás' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
@@ -408,8 +508,14 @@ export const locale: Locale = {
     { source: 'New Password', target: 'új jelszó' },
     { source: 'Confirm New Password', target: 'Erősítse meg az új jelszót' },
     { source: 'Change Password', target: 'Jelszó módosítása' },
+    { source: 'Current password was successfully updated', target: 'A jelenlegi jelszó sikeresen frissítve lett' },
+    { source: 'Saving current password failed', target: 'A jelenlegi jelszó mentése sikertelen' },
+    { source: 'Short password', target: 'Rövid jelszó' },
+    { source: "Passwords don't match", target: 'A jelszavak nem egyeznek' },
     { source: 'Personal Preferences', target: 'Személyes preferenciák' },
     { source: 'Language', target: 'Nyelv' },
+    { source: 'Timezone', target: 'Időzóna' },
+    { source: 'Current time in {0} is', target: 'Jelenlegi idő {0} időzónában' },
     {
       source: 'Customize additional preferences for your account.',
       target: 'Személyre szabhatja fiókja további beállításait.'
@@ -417,6 +523,8 @@ export const locale: Locale = {
     { source: 'News & Proposals', target: 'hírek' },
     { source: 'Subscribe to our updates and proposals.', target: 'Iratkozzon fel frissítéseinkre és ajánlatainkra.' },
     { source: 'Save changes', target: 'Változtatások mentése' },
+    { source: 'Current user was successfully updated', target: 'A felhasználó sikeresen frissült' },
+    { source: 'Saving current user failed', target: 'A felhasználó mentése sikertelen' },
 
     // My Apps
     { source: 'Type to search...', target: 'Gépeljen a kereséshez...' },
@@ -461,7 +569,6 @@ export const locale: Locale = {
     { source: 'Storages', target: 'Tárhelyek' },
 
     // Sign In
-    { source: 'Please wait...', target: 'Kérem, várjon...' },
     { source: 'Good morning', target: 'Jó reggelt!' },
     { source: 'Good afternoon', target: 'Jó napot!' },
     { source: 'Good evening', target: 'Jó estét!' },
@@ -488,7 +595,6 @@ export const locale: Locale = {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
       target: 'Nem szükséges bankkártya. A 14 napos PRO-próbaidőszak alatt az összes fejlett funkciót ingyen megkapja.'
     },
-    { source: 'or', target: 'vagy' },
     { source: 'Enter First Name', target: 'Írja be a keresztnevet' },
     { source: 'Enter Last Name (optional)', target: 'Írja be a vezetéknevet (nem kötelező)' },
     { source: 'Enter Email', target: 'Írja be az e-mail címet' },
@@ -505,7 +611,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Szolgáltatási feltételek' },
     { source: 'Privacy Policy', target: 'Adatvédelmi irányelvek' },
     { source: 'and', target: 'és' },
-    { source: 'Create your free account', target: 'Fiók létrehozása' }, // Temporary solution for avoid the 'free' word where its meaning would be unclear (e.g. customer portals).
+    { source: 'Create your free account', target: 'Fiók létrehozása' },
     { source: 'Already have an account', target: 'Már van fiókom' },
     { source: 'Unable to Sign Up', target: 'Nem lehet regisztrálni' },
 
@@ -528,6 +634,44 @@ export const locale: Locale = {
     { source: 'Unable to Send Code', target: 'A kód elküldése nem sikerült' },
     { source: 'Unable to Change Password', target: 'A jelszóváltoztatás nem sikerült' },
 
+    // Email Verification
+    { source: 'Email Verification', target: 'E-mail megerősítés' },
+    { source: 'Resend verification code', target: 'Ellenőrző kód újraküldése' },
+    { source: 'Verification email sent', target: 'Ellenőrző e-mail elküldve' },
+    { source: 'Your Email is now verified', target: 'Az e-mail címe most már ellenőrizve lett' },
+    { source: 'Request is incorrect', target: 'A kérés hibás' },
+
+    // Invites
+    {
+      source: 'Join <span class="auth-form__accent">{0}</span>',
+      target: 'Csatlakozzon ide: <span class="auth-form__accent">{0}</span>'
+    },
+    {
+      source: '<strong>{0}</strong> has invited you to join <strong>{1}</strong>',
+      target: '<strong>{0}</strong> meghívta Önt a következőhöz: <strong>{1}</strong>'
+    },
+    {
+      source: 'Someone has invited you to join <strong>{0}</strong>',
+      target: 'Valaki meghívta Önt, hogy csatlakozzon: <strong>{0}</strong>'
+    },
+    {
+      source: 'You are joining <strong>{0}</strong> using invite link',
+      target: 'Ön csatlakozik a következőhöz: <strong>{0}</strong> a meghívólink használatával'
+    },
+    { source: 'Join', target: 'Csatlakozás' },
+    { source: 'Go to home page', target: 'Menjen a kezdőlapra' },
+    { source: 'Invite link is wrong', target: 'A meghívólink hibás' },
+    {
+      source:
+        'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
+      target:
+        'Úgy tűnik, hogy meghívó linkje lejárt, vagy lehet, hogy rossz linket követett. Kérjük, próbálkozzon újra a meghívással.'
+    },
+    {
+      source: 'Unfortunately we failed to load information about this invitation',
+      target: 'Sajnáljuk, nem sikerült betölteni a meghívás adatait'
+    },
+
     // Users & Teams
     { source: 'Members of {0}', target: 'A(z) {0} tagjai' },
     { source: 'How to get started', target: 'Hogyan kezdje:' },
@@ -536,7 +680,6 @@ export const locale: Locale = {
     { source: 'Invite Member', target: 'Tag meghívása' },
     { source: 'Add User property', target: 'Felhasználói tulajdonság hozzáadása' },
     { source: 'Add Team property', target: 'Csoporttulajdonság hozzáadása' },
-    { source: 'Add', target: 'Hozzáadás' },
     { source: 'Edit property', target: 'Tulajdonság szerkesztése' },
     { source: 'Delete property', target: 'Tulajdonság törlése' },
     { source: 'Users', target: 'Felhasználók' },

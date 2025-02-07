@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Nhập khẩu' },
     { source: 'Delete', target: 'Xóa' },
     { source: 'Continue', target: 'Tiếp tục' },
+    { source: 'Submit', target: 'Gửi đi' },
     { source: 'Cancel', target: 'Hủy bỏ' },
     { source: 'Loading', target: 'Đang tải' },
     { source: 'Please wait...', target: 'Vui lòng chờ...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'Bạn không có quyền truy cập trang này'
     },
+    { source: 'Are you sure want to close?', target: 'Bạn có chắc muốn đóng không?' },
+    { source: 'Close', target: 'Đóng' },
 
     // Actions
     { source: 'Action executed', target: 'Hành động đã thực hiện' },

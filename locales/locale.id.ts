@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Impor' },
     { source: 'Delete', target: 'Hapus' },
     { source: 'Continue', target: 'Lanjutkan' },
+    { source: 'Submit', target: 'Kirim' },
     { source: 'Cancel', target: 'Batal' },
     { source: 'Loading', target: 'Memuat' },
     { source: 'Please wait...', target: 'Silakan tunggu...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'Anda tidak memiliki izin untuk mengakses halaman ini'
     },
+    { source: 'Are you sure want to close?', target: 'Apakah Anda yakin ingin menutup?' },
+    { source: 'Close', target: 'Tutup' },
 
     // Actions
     { source: 'Action executed', target: 'Aksi dijalankan' },

@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Importeren' },
     { source: 'Delete', target: 'Verwijderen' },
     { source: 'Continue', target: 'Doorgaan' },
+    { source: 'Submit', target: 'Indienen' },
     { source: 'Cancel', target: 'Annuleren' },
     { source: 'Loading', target: 'Laden' },
     { source: 'Please wait...', target: 'Even geduld aub...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'U heeft geen toestemming om deze pagina te bekijken'
     },
+    { source: 'Are you sure want to close?', target: 'Weet u zeker dat u wilt afsluiten?' },
+    { source: 'Close', target: 'Sluiten' },
 
     // Actions
     { source: 'Action executed', target: 'Actie uitgevoerd' },

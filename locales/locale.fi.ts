@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Tuo' },
     { source: 'Delete', target: 'Poista' },
     { source: 'Continue', target: 'Jatka' },
+    { source: 'Submit', target: 'Lähetä' },
     { source: 'Cancel', target: 'Peruuta' },
     { source: 'Loading', target: 'Ladataan' },
     { source: 'Please wait...', target: 'Odota...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'Sinulla ei ole oikeuksia tälle sivulle'
     },
+    { source: 'Are you sure want to close?', target: 'Oletko varma, että haluat sulkea?' },
+    { source: 'Close', target: 'Sulje' },
 
     // Actions
     { source: 'Action executed', target: 'Toiminto suoritettu' },

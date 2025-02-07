@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Εισαγωγή' },
     { source: 'Delete', target: 'Διαγραφή' },
     { source: 'Continue', target: 'Συνέχεια' },
+    { source: 'Submit', target: 'Υποβολή' },
     { source: 'Cancel', target: 'Ακύρωση' },
     { source: 'Loading', target: 'Φόρτωση' },
     { source: 'Please wait...', target: 'Παρακαλώ περιμένετε...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'Δεν έχετε άδεια για να εισέλθετε σε αυτή τη σελίδα'
     },
+    { source: 'Are you sure want to close?', target: 'Είστε βέβαιοι ότι θέλετε να κλείσετε;' },
+    { source: 'Close', target: 'Κλείσιμο' },
 
     // Actions
     { source: 'Action executed', target: 'Η ενέργεια εκτελέστηκε' },

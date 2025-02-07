@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Importovat' },
     { source: 'Delete', target: 'Smazat' },
     { source: 'Continue', target: 'Pokračovat' },
+    { source: 'Submit', target: 'Odeslat' },
     { source: 'Cancel', target: 'Zrušit' },
     { source: 'Loading', target: 'Načítání' },
     { source: 'Please wait...', target: 'Prosím, čekejte...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'Nemáte oprávnění k přístupu na tuto stránku'
     },
+    { source: 'Are you sure want to close?', target: 'Opravdu chcete zavřít?' },
+    { source: 'Close', target: 'Zavřít' },
 
     // Actions
     { source: 'Action executed', target: 'Akce provedena' },

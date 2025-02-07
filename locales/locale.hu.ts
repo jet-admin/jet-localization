@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Import' },
     { source: 'Delete', target: 'Töröl' },
     { source: 'Continue', target: 'Folytat' },
+    { source: 'Submit', target: 'Beküld' },
     { source: 'Cancel', target: 'Mégse' },
     { source: 'Loading', target: 'Betöltés' },
     { source: 'Please wait...', target: 'Kérem, várjon...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'Önnek nincs jogosultsága az oldal megtekintéséhez'
     },
+    { source: 'Are you sure want to close?', target: 'Biztosan be akarja zárni?' },
+    { source: 'Close', target: 'Bezárás' },
 
     // Actions
     { source: 'Action executed', target: 'Művelet végrehajtva' },

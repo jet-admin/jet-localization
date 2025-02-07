@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: '가져오기' },
     { source: 'Delete', target: '삭제' },
     { source: 'Continue', target: '계속하다' },
+    { source: 'Submit', target: '제출하다' },
     { source: 'Cancel', target: '취소' },
     { source: 'Loading', target: '로딩 중' },
     { source: 'Please wait...', target: '잠시 기다려주세요...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: '이 페이지에 접근할 권한이 없습니다'
     },
+    { source: 'Are you sure want to close?', target: '정말 닫으시겠습니까?' },
+    { source: 'Close', target: '닫기' },
 
     // Actions
     { source: 'Action executed', target: '작업 실행됨' },

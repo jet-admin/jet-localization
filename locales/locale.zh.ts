@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: '导入' },
     { source: 'Delete', target: '删除' },
     { source: 'Continue', target: '继续' },
+    { source: 'Submit', target: '提交' },
     { source: 'Cancel', target: '取消' },
     { source: 'Loading', target: '加载中' },
     { source: 'Please wait...', target: '请稍候...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: '你没有权限访问此页面'
     },
+    { source: 'Are you sure want to close?', target: '您确定要关闭吗？' },
+    { source: 'Close', target: '关闭' },
 
     // Actions
     { source: 'Action executed', target: '操作已执行' },

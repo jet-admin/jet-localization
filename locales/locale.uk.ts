@@ -14,6 +14,7 @@ export const locale: Locale = {
     { source: 'Import', target: 'Імпорт' },
     { source: 'Delete', target: 'Видалити' },
     { source: 'Continue', target: 'Продовжити' },
+    { source: 'Submit', target: 'Надіслати' },
     { source: 'Cancel', target: 'Скасувати' },
     { source: 'Loading', target: 'Завантаження' },
     { source: 'Please wait...', target: 'Будь ласка, зачекайте...' },
@@ -36,6 +37,8 @@ export const locale: Locale = {
       source: "You don't have permissions to access this page",
       target: 'У вас немає дозволу на доступ до цієї сторінки'
     },
+    { source: 'Are you sure want to close?', target: 'Ви впевнені, що хочете закрити?' },
+    { source: 'Close', target: 'Закрити' },
 
     // Actions
     { source: 'Action executed', target: 'Дію виконано' },

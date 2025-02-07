@@ -510,7 +510,10 @@ export const locale: Locale = {
     { source: 'New Password', target: '새 비밀번호' },
     { source: 'Confirm New Password', target: '새 비밀번호 확인' },
     { source: 'Change Password', target: '비밀번호 변경하기' },
-    { source: 'Current password was successfully updated', target: '현재 비밀번호가 성공적으로 업데이트되었습니다' },
+    {
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: '현재 비밀번호가 성공적으로 업데이트되었습니다. 다른 모든 세션은 곧 로그아웃됩니다'
+    },
     { source: 'Saving current password failed', target: '현재 비밀번호 저장 실패' },
     { source: 'Short password', target: '비밀번호가 짧습니다' },
     { source: "Passwords don't match", target: '비밀번호가 일치하지 않습니다' },

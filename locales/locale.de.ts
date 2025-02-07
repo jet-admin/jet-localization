@@ -510,8 +510,8 @@ export const locale: Locale = {
     { source: 'Confirm New Password', target: 'Neues Passwort bestätigen' },
     { source: 'Change Password', target: 'Passwort ändern' },
     {
-      source: 'Current password was successfully updated',
-      target: 'Aktuelles Passwort wurde erfolgreich aktualisiert'
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: 'Das aktuelle Passwort wurde erfolgreich aktualisiert, alle anderen Sitzungen werden in Kürze abgemeldet'
     },
     { source: 'Saving current password failed', target: 'Speichern des aktuellen Passworts fehlgeschlagen' },
     { source: 'Short password', target: 'Kurzes Passwort' },

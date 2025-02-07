@@ -510,7 +510,10 @@ export const locale: Locale = {
     { source: 'New Password', target: '新しいパスワード' },
     { source: 'Confirm New Password', target: '新しいパスワード（確認）' },
     { source: 'Change Password', target: 'パスワードを変更' },
-    { source: 'Current password was successfully updated', target: '現在のパスワードが正常に更新されました' },
+    {
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: '現在のパスワードが正常に更新されました。他のすべてのセッションはまもなくログアウトされます。'
+    },
     { source: 'Saving current password failed', target: '現在のパスワードの保存に失敗しました' },
     { source: 'Short password', target: '短すぎるパスワード' },
     { source: "Passwords don't match", target: 'パスワードが一致しません' },

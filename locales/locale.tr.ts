@@ -514,7 +514,10 @@ export const locale: Locale = {
     { source: 'New Password', target: 'Yeni Şifre' },
     { source: 'Confirm New Password', target: 'Yeni Şifreyi Onayla' },
     { source: 'Change Password', target: 'Şifreyi Değiştir' },
-    { source: 'Current password was successfully updated', target: 'Mevcut şifre başarıyla güncellendi' },
+    {
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: 'Mevcut şifre başarıyla güncellendi, diğer tüm oturumlar kısa süre içinde sonlandırılacaktır'
+    },
     { source: 'Saving current password failed', target: 'Mevcut şifre kaydedilemedi' },
     { source: 'Short password', target: 'Kısa şifre' },
     { source: "Passwords don't match", target: 'Şifreler uyuşmuyor' },

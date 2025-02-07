@@ -508,7 +508,10 @@ export const locale: Locale = {
     { source: 'New Password', target: 'Новий пароль' },
     { source: 'Confirm New Password', target: 'Підтвердьте новий пароль' },
     { source: 'Change Password', target: 'Змінити пароль' },
-    { source: 'Current password was successfully updated', target: 'Поточний пароль був успішно оновлений' },
+    {
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: 'Поточний пароль успішно оновлено, всі інші сеанси незабаром будуть завершені'
+    },
     { source: 'Saving current password failed', target: 'Не вдалося зберегти поточний пароль' },
     { source: 'Short password', target: 'Короткий пароль' },
     { source: "Passwords don't match", target: 'Паролі не співпадають' },

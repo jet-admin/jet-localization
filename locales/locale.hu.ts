@@ -508,7 +508,10 @@ export const locale: Locale = {
     { source: 'New Password', target: 'új jelszó' },
     { source: 'Confirm New Password', target: 'Erősítse meg az új jelszót' },
     { source: 'Change Password', target: 'Jelszó módosítása' },
-    { source: 'Current password was successfully updated', target: 'A jelenlegi jelszó sikeresen frissítve lett' },
+    {
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: 'A jelenlegi jelszó sikeresen frissült, minden más munkamenet hamarosan kijelentkeztethető lesz'
+    },
     { source: 'Saving current password failed', target: 'A jelenlegi jelszó mentése sikertelen' },
     { source: 'Short password', target: 'Rövid jelszó' },
     { source: "Passwords don't match", target: 'A jelszavak nem egyeznek' },

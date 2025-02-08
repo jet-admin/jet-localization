@@ -509,7 +509,10 @@ export const locale: Locale = {
     { source: 'New Password', target: '' },
     { source: 'Confirm New Password', target: '' },
     { source: 'Change Password', target: '' },
-    { source: 'Current password was successfully updated', target: '' },
+    {
+      source: 'Current password was successfully updated, all other sessions will be logged out shortly',
+      target: ''
+    },
     { source: 'Saving current password failed', target: '' },
     { source: 'Short password', target: '' },
     { source: "Passwords don't match", target: '' },

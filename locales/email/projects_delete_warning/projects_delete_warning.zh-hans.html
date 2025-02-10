@@ -147,9 +147,9 @@ a img {
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
                           <strong>
                             {% if single_project %}
-                              应用程序 "{{single_project.name}}" 已被删除
+                              应用 "{{single_project.name}}" 可能会被删除
                             {% else %}
-                              应用程序已被删除
+                              应用可能会被删除
                             {% endif %}
                           </strong>
                         </div>
@@ -180,21 +180,21 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          为了保持 <strong>Jet Admin cloud</strong> 的高性能，我们正在删除超过 90 天未活跃的免费版本项目。<br>
+                          为了维持 <strong>Jet Admin cloud</strong> 实例的高性能，我们正在删除超过 90 天未活动的免费项目。<br>
                           <br>
-                          我们注意到您有权访问的应用程序已超过 90 天未活跃。<br>
+                          我们注意到您有权限访问的应用已超过 90 天未活动。<br>
                           <br>
-                          在 90 天未活跃后，我们已多次发送警告。不幸的是，由于未采取任何措施，我们已删除以下应用程序：<br>
+                          您可以通过简单地<strong>打开应用页面</strong>或<strong>升级到付费计划</strong>来避免删除。<br>
                           <br>
                           {% for project in projects %}
                             <strong>
-                              免费版应用程序
+                              应用
                               {% if project.domain %}
                               <a href="https://{{project.domain.actual_domain}}/builder/{{project.unique_name}}">{{project.name}}</a>
                               {% else %}
                               <a href="{{frontend_url}}/builder/{{project.unique_name}}">{{project.name}}</a>
                               {% endif %}
-                              因未活跃已被删除。
+                              将于 {{project.delete_date}} 自动删除，如果您不开始使用它。
                             </strong><br>
                           {% endfor %}
                         </div>

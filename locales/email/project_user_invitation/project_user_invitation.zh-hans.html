@@ -184,7 +184,9 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
-                          <strong>电子邮件验证</strong>
+                          <strong>
+                            加入 {{project.name}} {% if not project.domain or not project.domain.white_label %} 在 Jet {% endif %}
+                          </strong>
                         </div>
                       </td>
                     </tr>
@@ -213,15 +215,9 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          您好，{{user.first_name}}!
-                        </div>
-
-                        <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">&nbsp;</div>
-
-                        <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          您或其他人已在
-                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %} 注册。
-                          如果这不是您，请忽略此消息。否则，请单击下面的按钮。
+                          {{inviter.first_name}} ({{inviter.email}}) 邀请您加入
+                          {% if not project.domain or not project.domain.white_label %} Jet 工作区 {% endif %}
+                          {{project.name}}。现在加入以开始协作！
                         </div>
                       </td>
                     </tr>
@@ -252,13 +248,9 @@ a img {
                         <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
                           <tbody>
                           <tr>
-                            <td>
-                              {% if domain %}
-                              <a href="https://{{domain.actual_domain}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">验证电子邮件</a>
-                              {% else %}
-                              <a href="{{frontend_url}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">验证电子邮件</a>
-                              {% endif %}
-                            </td>
+                            <td><a href="{{frontend_url}}/projects/invite/{{code}}{% if registered %}?registered=1{% endif %}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">
+                              立即加入
+                            </a></td>
                           </tr>
                           </tbody>
                         </table>
@@ -279,7 +271,29 @@ a img {
       <table cellpadding="0" cellspacing="0" data-record-type="637" id="rec70851008" style="width:100%; border-collapse:collapse; border-spacing:0; margin:0; border:0;">
         <tbody>
         <tr>
-          <td style="padding-left:15px; padding-right:15px; ">&nbsp;</td>
+          <td style="padding-left:15px; padding-right:15px; ">
+            <table align="center" class="r" id="recin70851008" style="margin: 0 auto;background-color:#ffffff;border-spacing: 0;width:600px;">
+              <tbody>
+              <tr>
+                <td style="padding-top:0px;padding-bottom:0px;padding-left:30px;padding-right:30px;">
+                  <table border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
+                    <tbody>
+                    <tr>
+                      <td height="15px" style="height:15px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1px" style="height:1px; background-color:#dedede;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="15px" style="height:15px;">&nbsp;</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
         </tr>
         </tbody>
       </table>
@@ -288,7 +302,26 @@ a img {
       <table cellpadding="0" cellspacing="0" data-record-type="629" id="rec70851018" style="width:100%; border-collapse:collapse; border-spacing:0; margin:0; border:0;">
         <tbody>
         <tr>
-          <td style="padding-left:15px; padding-right:15px; ">&nbsp;</td>
+          <td style="padding-left:15px; padding-right:15px; ">
+            <table align="center" class="r" id="recin70851018" style="margin: 0 auto;background-color:#ffffff;border-spacing: 0;width:600px;">
+              <tbody>
+              <tr>
+                <td style="padding-top:45px;padding-bottom:45px;padding-left:30px;padding-right:30px;">
+                  <table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;" width="100%">
+                    <tbody>
+                    <tr>
+                      <td style="padding-right: 30px;" valign="top">
+
+                      </td>
+                      <td valign="top" width="60px">{% if project.logo %} <img src="{{project.logo}}" style="display: block; width: 60px;" width="60" /> {% endif %}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
         </tr>
         </tbody>
       </table>

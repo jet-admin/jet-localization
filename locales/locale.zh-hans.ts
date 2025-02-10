@@ -1,13 +1,13 @@
 import { Locale } from './locale';
 
 export const locale: Locale = {
-  name: 'chinese',
-  language: 'zh',
+  name: 'chinese (Simplified)',
+  language: 'zh-hans',
   items: [
     // General
     { source: 'Save', target: '保存' },
     { source: 'Create', target: '创建' },
-    { source: 'Duplicating', target: '复制中' },
+    { source: 'Duplicating', target: '正在复制' },
     { source: 'Duplicate', target: '复制' },
     { source: 'Mass Edit', target: '批量编辑' },
     { source: 'Export', target: '导出' },
@@ -17,7 +17,7 @@ export const locale: Locale = {
     { source: 'Submit', target: '提交' },
     { source: 'Cancel', target: '取消' },
     { source: 'Loading', target: '加载中' },
-    { source: 'Please wait...', target: '请稍候...' },
+    { source: 'Please wait...', target: '请等待...' },
     { source: 'Loading failed', target: '加载失败' },
     { source: 'Unknown error', target: '未知错误' },
     { source: 'Add', target: '添加' },
@@ -30,27 +30,27 @@ export const locale: Locale = {
     { source: 'Page not found', target: '页面未找到' },
     {
       source: 'The specified address is incorrect, or the page does not exist',
-      target: '地址错误，或页面不存在'
+      target: '指定的地址不正确，或页面不存在'
     },
     { source: 'Not allowed', target: '不允许' },
     {
       source: "You don't have permissions to access this page",
-      target: '你没有权限访问此页面'
+      target: '您没有权限访问此页面'
     },
     { source: 'Are you sure want to close?', target: '您确定要关闭吗？' },
     { source: 'Close', target: '关闭' },
 
     // Actions
     { source: 'Action executed', target: '操作已执行' },
-    { source: 'Action executed successfully', target: '操作成功' },
+    { source: 'Action executed successfully', target: '操作成功执行' },
     { source: 'Action failed', target: '操作失败' },
     {
       source: "You don't have permission for run this operation",
       target: '您没有权限执行此操作'
     },
     { source: 'Specify parameters', target: '指定参数' },
-    { source: 'Executing action', target: '执行操作中' },
-    { source: 'You are executing <strong>{0}</strong>', target: '正在执行<strong>{0}</strong>' },
+    { source: 'Executing action', target: '正在执行操作' },
+    { source: 'You are executing <strong>{0}</strong>', target: '您正在执行<strong>{0}</strong>' },
     { source: 'Please fill in the parameters below.', target: '请填写以下参数。' },
     { source: 'Execute', target: '执行' },
     { source: 'Executing', target: '执行中' },
@@ -59,9 +59,9 @@ export const locale: Locale = {
 
     // Export
     { source: 'Records Export', target: '记录导出' },
-    { source: 'Downloading records data as a file', target: '下载记录数据为文件' },
+    { source: 'Downloading records data as a file', target: '正在将记录数据下载为文件' },
     { source: 'Choose format', target: '选择格式' },
-    { source: 'Number of exporting records', target: '导出记录数' },
+    { source: 'Number of exporting records', target: '导出的记录数' },
     { source: { label: 'Export', context: 'submit' }, target: '导出' },
     { source: 'Exporting', target: '导出中' },
     { source: 'Export completed', target: '导出完成' },
@@ -76,17 +76,17 @@ export const locale: Locale = {
     { source: 'Search...', target: '搜索...' },
     { source: 'Enter at least {0} characters', target: '至少输入 {0} 个字符' },
     { source: 'No options', target: '无选项' },
-    { source: 'Drop files here or', target: '放置文件或' },
-    { source: 'Upload new', target: '上传新文件' },
+    { source: 'Drop files here or', target: '将文件拖到此处或' },
+    { source: 'Upload new', target: '上传新的' },
     { source: 'Clear', target: '清除' },
     { source: 'Download', target: '下载' },
     { source: 'Choose file', target: '选择文件' },
     { source: 'Choose files', target: '选择文件' },
-    { source: 'Scan with Camera', target: '使用相机扫描' },
+    { source: 'Scan with Camera', target: '用摄像头扫描' },
     { source: 'Scan Image file', target: '扫描图像文件' },
-    { source: 'Choose camera', target: '选择相机' },
+    { source: 'Choose camera', target: '选择摄像头' },
     { source: 'Stop scanning', target: '停止扫描' },
-    { source: 'Scan again', target: '再次扫描' },
+    { source: 'Scan again', target: '重新扫描' },
     { source: 'Use this scan', target: '使用此扫描' },
     { source: 'Failed to scan', target: '扫描失败' },
     {
@@ -102,11 +102,11 @@ export const locale: Locale = {
     { source: 'Daily', target: '每天' },
     { source: 'Weekly', target: '每周' },
     { source: 'Monthly', target: '每月' },
-    { source: 'Quarterly', target: '每季' },
+    { source: 'Quarterly', target: '每季度' },
     { source: 'Yearly', target: '每年' },
     { source: 'Hourly', target: '每小时' },
     { source: 'Minutely', target: '每分钟' },
-    { source: 'Since', target: '自从' },
+    { source: 'Since', target: '自' },
     { source: 'Before', target: '之前' },
     { source: 'Between', target: '之间' },
     { source: 'From date', target: '开始日期' },
@@ -116,19 +116,19 @@ export const locale: Locale = {
     { source: 'Longitude', target: '经度' },
     { source: 'Default color', target: '默认颜色' },
     { source: 'not specified', target: '未指定' },
-    { source: 'Sign using your finger or pointer', target: '使用手指或指针签名' },
+    { source: 'Sign using your finger or pointer', target: '用手指或指针签名' },
 
     // List components
-    { source: 'Filter', target: '筛选器' },
+    { source: 'Filter', target: '筛选' },
     { source: 'Filter by field', target: '按字段筛选' },
-    { source: 'Filter by...', target: '筛选条件...' },
+    { source: 'Filter by...', target: '筛选方式...' },
     { source: 'Back', target: '返回' },
     { source: 'Back to {0} fields', target: '返回到 {0} 字段' },
     { source: 'Choose {0} from list', target: '从列表中选择 {0}' },
-    { source: '{0} fields', target: '{0} 字段' },
-    { source: '{0} relationships', target: '{0} 关系' },
+    { source: '{0} fields', target: '{0} 个字段' },
+    { source: '{0} relationships', target: '{0} 个关系' },
     { source: 'Aggregate {0}', target: '汇总 {0}' },
-    { source: 'No fields to select', target: '没有可选择的字段' },
+    { source: 'No fields to select', target: '没有字段可供选择' },
     { source: 'Enter value...', target: '输入值...' },
     { source: 'Exclude', target: '排除' },
     { source: 'Actions', target: '操作' },
@@ -142,33 +142,33 @@ export const locale: Locale = {
     { source: 'Selected', target: '已选' },
     {
       source: 'Unfortunately, no {0} matching your query found',
-      target: '未找到符合您查询的 {0}'
+      target: '不幸的是，未找到与您的查询匹配的 {0}'
     },
-    { source: 'We are fetching {0}, please, wait...', target: '正在获取 {0}，请稍等...' },
-    { source: 'Add filter', target: '添加筛选器' },
-    { source: 'Delete this filter', target: '删除此筛选器' },
+    { source: 'We are fetching {0}, please, wait...', target: '我们正在获取 {0}，请稍候...' },
+    { source: 'Add filter', target: '添加筛选' },
+    { source: 'Delete this filter', target: '删除此筛选' },
     { source: 'Toggle ordering', target: '切换排序' },
     { source: 'Not configured', target: '未配置' },
     {
       source: 'Unfortunately, this component is not configured yet',
-      target: '不幸的是，该组件尚未配置'
+      target: '不幸的是，此组件尚未配置'
     },
     { source: 'records', target: '记录' },
     { source: '{0} items', target: '{0} 项' },
 
     // Menu
     { source: 'Users & Teams', target: '用户和团队' },
-    { source: 'Billing', target: '账单' },
-    { source: 'Billing & Plans', target: '账单和计划' },
+    { source: 'Billing', target: '计费' },
+    { source: 'Billing & Plans', target: '计费和套餐' },
     { source: 'API keys', target: 'API 密钥' },
-    { source: 'Dark Mode', target: '暗模式' },
-    { source: 'Light Mode', target: '亮模式' },
+    { source: 'Dark Mode', target: '夜间模式' },
+    { source: 'Light Mode', target: '日间模式' },
     { source: 'Disable Staff', target: '禁用员工' },
     { source: 'Enable Staff', target: '启用员工' },
     { source: 'Manage Templates', target: '管理模板' },
     { source: 'Logout', target: '登出' },
     { source: 'Activity Log', target: '活动日志' },
-    { source: 'Collaborations', target: '协作' },
+    { source: 'Collaborations', target: '协同' },
     { source: 'Open Visual Builder', target: '打开可视化构建器' },
 
     // Filters
@@ -187,10 +187,10 @@ export const locale: Locale = {
     { source: '{0} starts with {1}', target: '{0} 开始于 {1}' },
     { source: '{0} does not start with {1}', target: '{0} 不开始于 {1}' },
 
-    { source: 'ends with', target: '结尾是' },
-    { source: 'does not end with', target: '不结尾于' },
-    { source: '{0} ends with {1}', target: '{0} 结尾是 {1}' },
-    { source: '{0} does not end with {1}', target: '{0} 不结尾于 {1}' },
+    { source: 'ends with', target: '结束于' },
+    { source: 'does not end with', target: '不结束于' },
+    { source: '{0} ends with {1}', target: '{0} 结束于 {1}' },
+    { source: '{0} does not end with {1}', target: '{0} 不结束于 {1}' },
 
     { source: 'greater than', target: '大于' },
     { source: 'is not greater than', target: '不大于' },
@@ -212,24 +212,24 @@ export const locale: Locale = {
     { source: '{0} is less than or equals {1}', target: '{0} 小于或等于 {1}' },
     { source: '{0} is not less than or equals {1}', target: '{0} 不小于或等于 {1}' },
 
-    { source: 'one of', target: '之一' },
-    { source: 'is one of', target: '是之一' },
-    { source: 'is not one of', target: '不是之一' },
-    { source: '{0} is one of {1}', target: '{0} 是 {1} 之一' },
-    { source: '{0} is not one of {1}', target: '{0} 不是 {1} 之一' },
+    { source: 'one of', target: '其中之一' },
+    { source: 'is one of', target: '是其中之一' },
+    { source: 'is not one of', target: '不是其中之一' },
+    { source: '{0} is one of {1}', target: '{0} 是其中之一 {1}' },
+    { source: '{0} is not one of {1}', target: '{0} 不是其中之一 {1}' },
 
     { source: 'is null', target: '为空' },
     { source: 'is not null', target: '不为空' },
     { source: '{0} is null', target: '{0} 为空' },
     { source: '{0} is not null', target: '{0} 不为空' },
 
-    { source: 'is future', target: '未来的' },
-    { source: 'in the future', target: '在未来' },
-    { source: 'is not in the future', target: '不在未来' },
-    { source: '{0} is in the future', target: '{0} 在未来' },
-    { source: '{0} is not in the future', target: '{0} 不在未来' },
+    { source: 'is future', target: '在将来' },
+    { source: 'in the future', target: '在将来' },
+    { source: 'is not in the future', target: '不在将来' },
+    { source: '{0} is in the future', target: '{0} 在将来' },
+    { source: '{0} is not in the future', target: '{0} 不在将来' },
 
-    { source: 'is past', target: '过去的' },
+    { source: 'is past', target: '在过去' },
     { source: 'in the past', target: '在过去' },
     { source: 'is not in the past', target: '不在过去' },
     { source: '{0} is in the past', target: '{0} 在过去' },
@@ -259,11 +259,11 @@ export const locale: Locale = {
     { source: '{0} is last month', target: '{0} 是上个月' },
     { source: '{0} is not last month', target: '{0} 不是上个月' },
 
-    { source: 'is Last Quarter', target: '是上季度' },
-    { source: 'last quarter', target: '上季度' },
-    { source: 'is not last quarter', target: '不是上季度' },
-    { source: '{0} is last quarter', target: '{0} 是上季度' },
-    { source: '{0} is not last quarter', target: '{0} 不是上季度' },
+    { source: 'is Last Quarter', target: '是上个季度' },
+    { source: 'last quarter', target: '上个季度' },
+    { source: 'is not last quarter', target: '不是上个季度' },
+    { source: '{0} is last quarter', target: '{0} 是上个季度' },
+    { source: '{0} is not last quarter', target: '{0} 不是上个季度' },
 
     { source: 'is Last Year', target: '是去年' },
     { source: 'last year', target: '去年' },
@@ -271,29 +271,29 @@ export const locale: Locale = {
     { source: '{0} is last year', target: '{0} 是去年' },
     { source: '{0} is not last year', target: '{0} 不是去年' },
 
-    { source: 'is Last X Days', target: '是前X天' },
-    { source: 'last X days', target: '前X天' },
-    { source: 'is not last X days', target: '不是前X天' },
-    { source: '{0} is last {1} days', target: '{0} 是前 {1} 天' },
-    { source: '{0} is not last {1} days', target: '{0} 不是前 {1} 天' },
+    { source: 'is Last X Days', target: '是过去 X 天' },
+    { source: 'last X days', target: '过去 X 天' },
+    { source: 'is not last X days', target: '不是过去 X 天' },
+    { source: '{0} is last {1} days', target: '{0} 是过去 {1} 天' },
+    { source: '{0} is not last {1} days', target: '{0} 不是过去 {1} 天' },
 
-    { source: 'is Current Week', target: '是本周' },
-    { source: 'current week', target: '本周' },
-    { source: 'is not current week', target: '不是本周' },
-    { source: '{0} is current week', target: '{0} 是本周' },
-    { source: '{0} is not current week', target: '{0} 不是本周' },
+    { source: 'is Current Week', target: '是当前周' },
+    { source: 'current week', target: '当前周' },
+    { source: 'is not current week', target: '不是当前周' },
+    { source: '{0} is current week', target: '{0} 是当前周' },
+    { source: '{0} is not current week', target: '{0} 不是当前周' },
 
-    { source: 'is Current Month', target: '是本月' },
-    { source: 'current month', target: '本月' },
-    { source: 'is not current month', target: '不是本月' },
-    { source: '{0} is current month', target: '{0} 是本月' },
-    { source: '{0} is not current month', target: '{0} 不是本月' },
+    { source: 'is Current Month', target: '是当前月' },
+    { source: 'current month', target: '当前月' },
+    { source: 'is not current month', target: '不是当前月' },
+    { source: '{0} is current month', target: '{0} 是当前月' },
+    { source: '{0} is not current month', target: '{0} 不是当前月' },
 
-    { source: 'is Current Quarter', target: '是本季度' },
-    { source: 'current quarter', target: '本季度' },
-    { source: 'is not current quarter', target: '不是本季度' },
-    { source: '{0} is current quarter', target: '{0} 是本季度' },
-    { source: '{0} is not current quarter', target: '{0} 不是本季度' },
+    { source: 'is Current Quarter', target: '是当前季度' },
+    { source: 'current quarter', target: '当前季度' },
+    { source: 'is not current quarter', target: '不是当前季度' },
+    { source: '{0} is current quarter', target: '{0} 是当前季度' },
+    { source: '{0} is not current quarter', target: '{0} 不是当前季度' },
 
     { source: 'is Current Year', target: '是今年' },
     { source: 'current year', target: '今年' },
@@ -313,11 +313,11 @@ export const locale: Locale = {
     { source: '{0} is previous month', target: '{0} 是上个月' },
     { source: '{0} is not previous month', target: '{0} 不是上个月' },
 
-    { source: 'is Previous Quarter', target: '是上季度' },
-    { source: 'previous quarter', target: '上季度' },
-    { source: 'is not previous quarter', target: '不是上季度' },
-    { source: '{0} is previous quarter', target: '{0} 是上季度' },
-    { source: '{0} is not previous quarter', target: '{0} 不是上季度' },
+    { source: 'is Previous Quarter', target: '是上个季度' },
+    { source: 'previous quarter', target: '上个季度' },
+    { source: 'is not previous quarter', target: '不是上个季度' },
+    { source: '{0} is previous quarter', target: '{0} 是上个季度' },
+    { source: '{0} is not previous quarter', target: '{0} 不是上个季度' },
 
     { source: 'is Previous Year', target: '是去年' },
     { source: 'previous year', target: '去年' },
@@ -325,9 +325,9 @@ export const locale: Locale = {
     { source: '{0} is previous year', target: '{0} 是去年' },
     { source: '{0} is not previous year', target: '{0} 不是去年' },
 
-    { source: 'is Previous X Days', target: '是前X天' },
-    { source: 'previous X days', target: '前X天' },
-    { source: 'is not previous X days', target: '不是前X天' },
+    { source: 'is Previous X Days', target: '是前 X 天' },
+    { source: 'previous X days', target: '前 X 天' },
+    { source: 'is not previous X days', target: '不是前 X 天' },
     { source: '{0} is previous {1} days', target: '{0} 是前 {1} 天' },
     { source: '{0} is not previous {1} days', target: '{0} 不是前 {1} 天' },
 
@@ -336,16 +336,16 @@ export const locale: Locale = {
     { source: '{0} is empty', target: '{0} 为空' },
     { source: '{0} is not empty', target: '{0} 不为空' },
 
-    { source: 'covered by', target: '被覆盖' },
-    { source: 'is not covered by', target: '未被覆盖' },
+    { source: 'covered by', target: '覆盖' },
+    { source: 'is not covered by', target: '不覆盖' },
     { source: '{0} covered by {1}', target: '{0} 被 {1} 覆盖' },
-    { source: '{0} is not covered by {1}', target: '{0} 未被 {1} 覆盖' },
+    { source: '{0} is not covered by {1}', target: '{0} 没被 {1} 覆盖' },
 
     // Activity log
     { source: 'No activities found', target: '未找到活动' },
     {
       source: 'Start to working with data to log activities.',
-      target: '开始使用数据记录活动。'
+      target: '开始处理数据以记录活动。'
     },
     { source: 'All Activity', target: '所有活动' },
     { source: 'Create Record', target: '创建记录' },
@@ -354,13 +354,13 @@ export const locale: Locale = {
     { source: 'All Members', target: '所有成员' },
 
     // Collaboration
-    { source: 'Timeline', target: '时间线' },
+    { source: 'Timeline', target: '时间轴' },
     { source: 'Messages', target: '消息' },
     { source: 'Activity', target: '活动' },
     { source: 'Start chatting with your team', target: '开始与您的团队聊天' },
     {
       source: 'Take a message about current page to keep track of important info.',
-      target: '撰写关于当前页面的信息以跟踪重要信息。'
+      target: '传递有关当前页面的消息以跟踪重要信息。'
     },
     { source: 'Your Message', target: '您的消息' },
     { source: 'Send', target: '发送' },
@@ -375,11 +375,11 @@ export const locale: Locale = {
     { source: 'Send Invite', target: '发送邀请' },
     {
       source: 'Limit access to your data by user properties',
-      target: '通过用户属性限制数据访问'
+      target: '通过用户属性限制对您数据的访问'
     },
     {
       source: 'Enter the email of the user you’d like to invite to collaborate.',
-      target: '输入您想要邀请协作的用户电子邮件。'
+      target: '输入您希望邀请合作的用户的电子邮件。'
     },
     { source: 'Copy', target: '复制' },
     { source: 'Invite with Link', target: '通过链接邀请' },
@@ -389,56 +389,50 @@ export const locale: Locale = {
       source: 'Anyone on the internet with this link will be able to join the selected team.',
       target: '互联网上的任何人都可以通过此链接加入选定的团队。'
     },
-    { source: 'Pending Invites', target: '待处理邀请' },
+    { source: 'Pending Invites', target: '待处理的邀请' },
     { source: 'Cancel invite', target: '取消邀请' },
     { source: 'Active Members', target: '活跃成员' },
     { source: 'Remove member', target: '移除成员' },
-    {
-      source: 'You are setting sharing for the current page',
-      target: '您正在为当前页面设置共享'
-    },
-    {
-      source: 'You are setting sharing for all pages of your App.',
-      target: '您正在为应用程序的所有页面设置共享。'
-    },
-    { source: 'Public access link', target: '公开访问链接' },
-    { source: 'Updating public access...', target: '更新公开访问中...' },
+    { source: 'You are setting sharing for the current page', target: '您正在为当前页面设置共享' },
+    { source: 'You are setting sharing for all pages of your App.', target: '您正在为您的应用的所有页面设置共享。' },
+    { source: 'Public access link', target: '公众访问链接' },
+    { source: 'Updating public access...', target: '更新公共访问...' },
     {
       source:
         'Anyone with this link will be able to view current page. This way you can also embed current page into another website.',
-      target: '任何具有此链接的人都可以查看当前页面。通过这种方式，您还可以将当前页面嵌入到其他网站中。'
+      target: '任何有此链接的人都可以查看当前页面。这样，您还可以将当前页面嵌入到另一个网站中。'
     },
     { source: 'Embed code (IFRAME)', target: '嵌入代码（IFRAME）' },
     {
       source: 'Paste this code into the HTML code of your website where you would like current page to appear.',
-      target: '将此代码粘贴到您希望当前页面出现的网站HTML代码中。'
+      target: '将此代码粘贴到您希望当前页面出现的网站的HTML代码中。'
     },
     { source: 'link', target: '链接' },
     { source: 'invited', target: '已邀请' },
     { source: 'Choose Team', target: '选择团队' },
     { source: 'App Teams', target: '应用团队' },
     { source: 'Built-In Teams', target: '内置团队' },
-    { source: 'Clear Team', target: '清空团队' },
+    { source: 'Clear Team', target: '清除团队' },
     { source: 'Can build application and modify data', target: '可以构建应用程序和修改数据' },
     { source: 'Can modify data in application', target: '可以修改应用程序中的数据' },
-    { source: 'Can only view data without modification', target: '只能查看数据，不能修改' },
+    { source: 'Can only view data without modification', target: '只能查看数据而无法进行修改' },
     { source: 'Add Team', target: '添加团队' },
     { source: 'Edit Team', target: '编辑团队' },
     { source: 'Adding Team', target: '添加团队' },
     {
       source: 'Keep control over who has access to current App',
-      target: '保持对谁可以访问当前应用程序的控制'
+      target: '控制谁有权访问当前应用'
     },
     { source: 'Enter Team Name', target: '输入团队名称' },
     {
       source: 'Type the team name, i.e: Support, Sales, Marketing, etc.',
       target: '输入团队名称，例如：支持、销售、市场等。'
     },
-    { source: 'Add a new member to this team.', target: '向团队添加新成员。' },
+    { source: 'Add a new member to this team.', target: '向此团队添加新成员。' },
     { source: 'Invite new member', target: '邀请新成员' },
     { source: 'User', target: '用户' },
     { source: 'Date Added', target: '添加日期' },
-    { source: 'You', target: '你' },
+    { source: 'You', target: '您' },
     { source: 'Edit', target: '编辑' },
     { source: 'No users in this team', target: '此团队中没有用户' },
     { source: 'Page Permissions', target: '页面权限' },
@@ -455,15 +449,15 @@ export const locale: Locale = {
     { source: { label: 'Delete', context: 'permissions' }, target: '删除' },
     { source: 'Custom Access', target: '自定义访问' },
     { source: 'Read, create, update and delete data', target: '读取、创建、更新和删除数据' },
-    { source: 'Choose allowed operations granularly', target: '逐个选择允许的操作' },
-    { source: 'Without any access to data', target: '无数据访问权限' },
+    { source: 'Choose allowed operations granularly', target: '逐一选择允许的操作' },
+    { source: 'Without any access to data', target: '没有任何数据访问权限' },
     { source: 'Name', target: '姓名' },
     { source: 'Active', target: '活跃' },
     { source: 'Settings', target: '设置' },
     { source: 'Members and Teams', target: '成员和团队' },
     { source: 'App Builder', target: '应用构建器' },
     { source: 'Collection Permissions', target: '集合权限' },
-    { source: "Grant permissions to app's collection", target: '授予应用程序集合的权限' },
+    { source: "Grant permissions to app's collection", target: '授予应用程序集合权限' },
     { source: 'Collection', target: '集合' },
     {
       source: 'Limit access to your data by team properties',
@@ -476,7 +470,7 @@ export const locale: Locale = {
 
     // Navigation
     { source: 'Current App', target: '当前应用' },
-    { source: 'Home', target: '主页' },
+    { source: 'Home', target: '首页' },
 
     // Profile
     {
@@ -489,21 +483,21 @@ export const locale: Locale = {
     { source: 'your photo', target: '您的照片' },
     { source: 'Change', target: '更改' },
     { source: 'Upload', target: '上传' },
-    { source: 'Photo was successfully updated', target: '照片更新成功' },
-    { source: 'Photo was successfully deleted', target: '照片删除成功' },
+    { source: 'Photo was successfully updated', target: '照片已成功更新' },
+    { source: 'Photo was successfully deleted', target: '照片已成功删除' },
     { source: 'First Name', target: '名字' },
     { source: 'Last Name', target: '姓氏' },
-    { source: 'Your Email', target: '您的电子邮件' },
-    { source: 'Email Change', target: '更改电子邮件' },
-    { source: 'New Email', target: '新电子邮件' },
-    { source: 'Change Email', target: '更改电子邮件' },
+    { source: 'Your Email', target: '您的电子邮箱' },
+    { source: 'Email Change', target: '更改电子邮箱' },
+    { source: 'New Email', target: '新电子邮箱' },
+    { source: 'Change Email', target: '更改电子邮箱' },
     { source: 'Check your inbox', target: '检查您的收件箱' },
-    { source: 'Confirmation Email was sent to {0}', target: '确认电子邮件已发送到 {0}' },
-    { source: 'Changing Email failed', target: '更改电子邮件失败' },
+    { source: 'Confirmation Email was sent to {0}', target: '确认邮件已发送到 {0}' },
+    { source: 'Changing Email failed', target: '更改电子邮箱失败' },
     { source: 'Password Change', target: '更改密码' },
     {
       source: 'A password should be strong enough to protect your account, so make it at least 12 characters long.',
-      target: '密码应足够强大以保护您的帐户，因此请使其至少为12个字符。'
+      target: '密码应足够强大以保护您的帐户，因此请设置至少 12 个字符的密码。'
     },
     { source: 'Current Password', target: '当前密码' },
     { source: 'New Password', target: '新密码' },
@@ -511,7 +505,7 @@ export const locale: Locale = {
     { source: 'Change Password', target: '更改密码' },
     {
       source: 'Current password was successfully updated, all other sessions will be logged out shortly',
-      target: '当前密码已成功更新，所有其他会话将很快退出。'
+      target: '当前密码更新成功，所有其他会话将很快注销'
     },
     { source: 'Saving current password failed', target: '保存当前密码失败' },
     { source: 'Short password', target: '密码太短' },
@@ -522,15 +516,15 @@ export const locale: Locale = {
     { source: 'Current time in {0} is', target: '{0} 的当前时间是' },
     {
       source: 'Customize additional preferences for your account.',
-      target: '为您的帐户自定义其他偏好设置。'
+      target: '自定义帐户的其他偏好设置。'
     },
-    { source: 'News & Proposals', target: '新闻和提案' },
+    { source: 'News & Proposals', target: '新闻和提议' },
     {
       source: 'Subscribe to our updates and proposals.',
-      target: '订阅我们的更新和提案。'
+      target: '订阅我们的更新和提议。'
     },
     { source: 'Save changes', target: '保存更改' },
-    { source: 'Current user was successfully updated', target: '当前用户已成功更新' },
+    { source: 'Current user was successfully updated', target: '当前用户更新成功' },
     { source: 'Saving current user failed', target: '保存当前用户失败' },
 
     // My Apps
@@ -548,21 +542,21 @@ export const locale: Locale = {
     { source: 'Contact Support', target: '联系支持' },
     { source: 'Documentation', target: '文档' },
     { source: 'Feature Requests', target: '功能请求' },
-    { source: 'See What’s New', target: '查看新内容' },
+    { source: 'See What’s New', target: '查看最新资讯' },
     { source: 'Search templates...', target: '搜索模板...' },
-    { source: 'any', target: '任何' },
+    { source: 'any', target: '任意' },
     { source: 'more', target: '更多' },
     { source: 'Choose Data Source', target: '选择数据源' },
-    { source: 'works with 30+ data sources', target: '适用于30多个数据源' },
+    { source: 'works with 30+ data sources', target: '与 30 多个数据源协同工作' },
     { source: 'Use this template', target: '使用此模板' },
-    { source: 'stores data in Jet Tables', target: '在 Jet 表中存储数据' },
+    { source: 'stores data in Jet Tables', target: '将数据存储在 Jet 表中' },
     { source: 'New Data', target: '新数据' },
     { source: 'using {0}', target: '使用 {0}' },
     { source: "Can't find resource you're looking for?", target: '找不到您要找的资源？' },
     { source: 'Admin Panel', target: '管理面板' },
     {
       source: 'List, create and update (CRUD) operations on top of your data',
-      target: '在您的数据之上执行列表、创建和更新 (CRUD) 操作'
+      target: '在您的数据上执行列出、创建和更新（CRUD）操作'
     },
     {
       source: 'Build a custom admin panel based on any databases, apps and APIs like Stripe, Twilio and GraphQL.',
@@ -587,19 +581,19 @@ export const locale: Locale = {
     { source: 'Login', target: '登录' },
     { source: 'Create new account', target: '创建新帐户' },
     { source: 'Forgot my password', target: '忘记密码' },
-    { source: 'required', target: '必需' },
-    { source: 'incorrect Email', target: '电子邮件错误' },
-    { source: 'Minimum password length {0}', target: '密码最小长度 {0}' },
+    { source: 'required', target: '必需的' },
+    { source: 'incorrect Email', target: '电子邮件不正确' },
+    { source: 'Minimum password length {0}', target: '密码最短长度 {0}' },
     { source: 'Unable to Sign In', target: '无法登录' },
 
     // Sign Up
     {
       source: 'Get Started <span class="auth-form__accent">Free today</span>',
-      target: '立即开始 <span class="auth-form__accent">今天免费</span>'
+      target: '开始 <span class="auth-form__accent">今天免费</span>'
     },
     {
       source: "No card required. You'll get all the advanced functionality for free during the 14 day PRO trial.",
-      target: '无需信用卡。在14天的专业版试用期间，您将免费获得所有高级功能。'
+      target: '无需卡。在为期 14 天的专业试用期间，您将免费获得所有高级功能。'
     },
     { source: 'Enter First Name', target: '输入名字' },
     { source: 'Enter Last Name (optional)', target: '输入姓氏（可选）' },
@@ -612,38 +606,38 @@ export const locale: Locale = {
     },
     {
       source: 'Creating an account means you’re okay with our',
-      target: '创建帐户即表示您同意我们的'
+      target: '创建帐户意味着您同意我们的'
     },
     { source: 'Terms of Service', target: '服务条款' },
     { source: 'Privacy Policy', target: '隐私政策' },
     { source: 'and', target: '和' },
     { source: 'Create your free account', target: '创建您的免费帐户' },
-    { source: 'Already have an account', target: '已经有一个帐户' },
+    { source: 'Already have an account', target: '已经有帐户了' },
     { source: 'Unable to Sign Up', target: '无法注册' },
 
     // Restore password
     { source: 'Reset your password', target: '重置密码' },
     { source: 'Email Address', target: '电子邮件地址' },
     { source: 'Reset password', target: '重置密码' },
-    { source: 'Return to Sign In', target: '返回登录' },
+    { source: 'Return to Sign In', target: '返回到登录' },
     {
       source:
         'Please check your Email – <strong>{0}</strong>. We have sent the validation link you should follow to change your password.',
-      target: '请检查您的电子邮件 – <strong>{0}</strong>。我们已发送验证链接，您应按此链接更改密码。'
+      target: '请检查您的电子邮件 – <strong>{0}</strong>。我们已发送验证链接，您应该按照该链接更改密码。'
     },
     {
       source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
-      target: '快完成了，只需在下方输入新密码。<br>必须至少包含8个字符。'
+      target: '快完成了，只需在下面输入您的新密码。 <br>必须至少为 8 个字符。'
     },
     { source: 'Reset password & Sign In', target: '重置密码并登录' },
     { source: 'Unable to Send Code', target: '无法发送代码' },
     { source: 'Unable to Change Password', target: '无法更改密码' },
 
     // Email Verification
-    { source: 'Email Verification', target: '电子邮件验证' },
+    { source: 'Email Verification', target: '电子邮箱验证' },
     { source: 'Resend verification code', target: '重新发送验证码' },
-    { source: 'Verification email sent', target: '验证码邮件已发送' },
-    { source: 'Your Email is now verified', target: '您的电子邮件现已验证' },
+    { source: 'Verification email sent', target: '已发送验证邮件' },
+    { source: 'Your Email is now verified', target: '您的电子邮箱已验证' },
     { source: 'Request is incorrect', target: '请求不正确' },
 
     // Invites
@@ -669,11 +663,11 @@ export const locale: Locale = {
     {
       source:
         'Looks like your invitation link has expired or maybe you have followed the wrong link. Please try to ask to invite your again.',
-      target: '看起来您的邀请链接已过期，或者您使用了错误的链接。请尝试请求重新邀请您。'
+      target: '您的邀请链接似乎已过期，或者您可能已点击错误的链接。请尝试再次请求邀请。'
     },
     {
       source: 'Unfortunately we failed to load information about this invitation',
-      target: '很遗憾，我们无法加载有关此邀请的信息'
+      target: '很遗憾，我们未能加载有关此邀请的信息'
     },
 
     // Users & Teams

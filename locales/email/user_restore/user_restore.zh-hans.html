@@ -197,7 +197,7 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
-                          <strong>电子邮件更改</strong>
+                          <strong>密码恢复</strong>
                         </div>
                       </td>
                     </tr>
@@ -229,7 +229,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          您好，{{user.first_name}}!
+                          您好, {{user.first_name}}!
                         </div>
 
                         <div
@@ -239,8 +239,9 @@ a img {
 
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          您或其他人申请了将电子邮件从{{old_email}}更改为{{new_email}}，网址为{% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}。
-                          如果您没有申请更改电子邮件，请忽略此邮件。否则，请点击下方按钮。
+                          您或其他人请求更改在
+                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %} 上的密码。
+                          如果您尚未请求密码恢复，请忽略此消息。否则请点击下面的按钮。
                         </div>
                       </td>
                     </tr>
@@ -275,9 +276,9 @@ a img {
                           <tr>
                             <td>
                               {% if domain %}
-                              <a href="https://{{domain.actual_domain}}/change_email/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">更改电子邮件</a>
+                              <a href="https://{{domain.actual_domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">恢复密码</a>
                               {% else %}
-                              <a href="{{frontend_url}}/change_email/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">更改电子邮件</a>
+                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">恢复密码</a>
                               {% endif %}
                             </td>
                           </tr>

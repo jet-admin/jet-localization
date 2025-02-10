@@ -147,7 +147,7 @@ a img {
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
                           <strong>
                             {% if single_project %}
-                              {{single_project.name}} uygulaması silindi
+                              "{{single_project.name}}" uygulaması silindi
                             {% else %}
                               Uygulamalar silindi
                             {% endif %}
@@ -180,21 +180,21 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          <strong>Jet Admin bulut örneğinin yüksek performansını korumak için</strong>, 90 günden uzun süredir etkin olmayan ücretsiz katman projelerini kaldırıyoruz.<br>
+                          <strong>Jet Admin cloud</strong>'un yüksek performansını korumak için, 90 günden fazla süredir aktif olmayan ücretsiz projeleri kaldırıyoruz.<br>
                           <br>
-                          Erişiminiz olan uygulamaların 90 günden uzun süredir etkin olmadığını fark ettik.<br>
+                          Erişiminiz olan uygulamaların 90 günden fazla süredir aktif olmadığını fark ettik.<br>
                           <br>
-                          90 günlük hareketsizlikten sonra birden fazla uyarı gönderdik. Maalesef herhangi bir işlem yapılmadığı için aşağıdaki uygulamaları sildik:<br>
+                          90 günlük atıl kalma süresinden sonra birden fazla uyarı gönderdik. Ne yazık ki, herhangi bir işlem yapılmadığından, aşağıdaki Uygulamalar silindi:<br>
                           <br>
                           {% for project in projects %}
                             <strong>
-                              Ücretsiz katman uygulaması
+                              Ücretsiz uygulama
                               {% if project.domain %}
                               <a href="https://{{project.domain.actual_domain}}/builder/{{project.unique_name}}">{{project.name}}</a>
                               {% else %}
                               <a href="{{frontend_url}}/builder/{{project.unique_name}}">{{project.name}}</a>
                               {% endif %}
-                              hareketsizlik nedeniyle silindi.
+                              atıl olduğu için silindi.
                             </strong><br>
                           {% endfor %}
                         </div>

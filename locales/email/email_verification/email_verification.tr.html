@@ -219,9 +219,10 @@ a img {
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">&nbsp;</div>
 
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          Siz veya bir başkası
-                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %} üzerinde kayıt oldu.
-                          Eğer bu siz değilseniz lütfen bu mesajı dikkate almayın. Aksi takdirde aşağıdaki butona tıklayın.
+                          Siz veya başka biri 
+                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}
+                          üzerinde kayıt yaptırdı.
+                          Eğer siz değilseniz bu mesajı yoksayın. Aksi takdirde aşağıdaki butona tıklayın.
                         </div>
                       </td>
                     </tr>
@@ -256,7 +257,7 @@ a img {
                               {% if domain %}
                               <a href="https://{{domain.actual_domain}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">E-posta Doğrula</a>
                               {% else %}
-                              <a href="{{frontend_url}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">Verify Email</a>
+                              <a href="{{frontend_url}}{{verify_path}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">E-posta Doğrula</a>
                               {% endif %}
                             </td>
                           </tr>

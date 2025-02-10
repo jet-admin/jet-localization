@@ -229,7 +229,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          Hello, {{user.first_name}}!
+                          안녕하세요, {{user.first_name}}님!
                         </div>
 
                         <div
@@ -239,9 +239,8 @@ a img {
 
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          당신 또는 다른 사람이 {{old_email}}에서 {{new_email}}로 이메일 변경을 요청했습니다.
-                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}에서.
-                          이메일 변경을 요청하지 않았다면 이 메시지를 무시하세요. 그렇지 않다면 아래 버튼을 클릭하세요.
+                          귀하 또는 다른 사람이 {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}에서 이메일을 {{old_email}}에서 {{new_email}}로 변경을 요청하셨습니다.
+                          이메일 변경을 요청하지 않으셨다면 이 메시지를 무시하십시오. 그렇지 않으면 아래 버튼을 클릭하십시오.
                         </div>
                       </td>
                     </tr>

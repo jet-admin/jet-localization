@@ -185,7 +185,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
                           <strong>
-                            Jet で {{project.name}} {% if not project.domain or not project.domain.white_label %} に参加する {% endif %}
+                            {{project.name}} に参加{% if not project.domain or not project.domain.white_label %} Jet で{% endif %}
                           </strong>
                         </div>
                       </td>
@@ -215,9 +215,9 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          {{inviter.first_name}} ({{inviter.email}}) があなたをワークスペースに招待しています！
-                          {% if not project.domain or not project.domain.white_label %} Jet workspace {%endif %}
-                          {{project.name}} に今すぐ参加して、共同製作を開始しましょう！
+                          {{inviter.first_name}} ({{inviter.email}}) 様があなたを招待しました
+                          {% if not project.domain or not project.domain.white_label %} Jet ワークスペース{% endif %}
+                          {{project.name}}。
                         </div>
                       </td>
                     </tr>
@@ -249,7 +249,7 @@ a img {
                           <tbody>
                           <tr>
                             <td><a href="{{frontend_url}}/projects/invite/{{code}}{% if registered %}?registered=1{% endif %}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">
-                              参加する
+                              今すぐ参加
                             </a></td>
                           </tr>
                           </tbody>

@@ -197,7 +197,7 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
-                          <strong>암호 복원</strong>
+                          <strong>비밀번호 복구</strong>
                         </div>
                       </td>
                     </tr>
@@ -229,7 +229,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          Hello, {{user.first_name}}!
+                          안녕하세요, {{user.first_name}}님!
                         </div>
 
                         <div
@@ -239,9 +239,9 @@ a img {
 
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          당신 또는 다른 사람이
-                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}에서 비밀번호 변경을 요청했습니다.
-                          비밀번호 복원을 요청하지 않았다면 이 메시지를 무시하세요. 요청한 것이 맞다면 아래 버튼을 클릭하세요.
+                          귀하 또는 다른 사람이
+                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}
+                          에서 비밀번호 변경을 요청하셨습니다. 비밀번호 복구 요청을 하지 않으셨다면 이 메시지를 무시하십시오. 그렇지 않으면 아래 버튼을 클릭하세요.
                         </div>
                       </td>
                     </tr>
@@ -276,9 +276,9 @@ a img {
                           <tr>
                             <td>
                               {% if domain %}
-                              <a href="https://{{domain.actual_domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">암호 복원</a>
+                              <a href="https://{{domain.actual_domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">비밀번호 복구</a>
                               {% else %}
-                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">암호 복원</a>
+                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">비밀번호 복구</a>
                               {% endif %}
                             </td>
                           </tr>

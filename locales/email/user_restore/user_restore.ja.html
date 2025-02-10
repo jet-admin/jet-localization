@@ -197,7 +197,7 @@ a img {
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
                         <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
-                          <strong>パスワードを再発行する</strong>
+                          <strong>パスワードリストア</strong>
                         </div>
                       </td>
                     </tr>
@@ -229,7 +229,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          {{user.first_name}}さん、こんにちは！
+                          こんにちは、{{user.first_name}}様
                         </div>
 
                         <div
@@ -239,10 +239,8 @@ a img {
 
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          あなた（または他の誰か）がワークスペース
-                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}
-                          におけるパスワード変更をリクエストしました。下のボタンをクリックしてパスワードの変更を完了してください。
-                          もし心当たりが無い場合は、このメッセージを無視してください。
+                          あなたまたは他の誰かが、パスワード変更を依頼しました。
+                          {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}でパスワードリストアをリクエストしていない場合は、このメッセージを無視してください。それ以外の場合は、以下のボタンをクリックしてください。
                         </div>
                       </td>
                     </tr>
@@ -277,9 +275,9 @@ a img {
                           <tr>
                             <td>
                               {% if domain %}
-                              <a href="https://{{domain.actual_domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">パスワードの再発行</a>
+                              <a href="https://{{domain.actual_domain}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">パスワードを復元する</a>
                               {% else %}
-                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">パスワードの再発行</a>
+                              <a href="{{frontend_url}}/restore/complete/{{code}}" style="display: table-cell; text-decoration: none; padding: 15px 30px; font-size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff; border:0px solid ; background-color:#2b50ed; border-radius: 3px;">パスワードを復元する</a>
                               {% endif %}
                             </td>
                           </tr>

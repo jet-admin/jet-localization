@@ -196,9 +196,9 @@ a img {
                     <tbody>
                     <tr>
                       <td style="text-align: left; padding: 0 0 0;">
-                        <div
-                          style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
-                          <strong>Jelszó visszaállítás</strong></div>
+                        <div style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size:26px;line-height:1.3;">
+                          <strong>Jelszó visszaállítása</strong>
+                        </div>
                       </td>
                     </tr>
                     </tbody>
@@ -229,7 +229,7 @@ a img {
                       <td style="text-align: left; padding: 0 0 0;">
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          Helló, {{user.first_name}}!
+                          Üdvözöljük, {{user.first_name}}!
                         </div>
 
                         <div
@@ -239,10 +239,9 @@ a img {
 
                         <div
                           style="margin-right: auto; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#444444;font-size:18px;line-height:1.45;max-width:700px;">
-                          Ön vagy valaki más jelszómódosítást kért a következőn:
+                          Ön vagy valaki más jelszómódosítást kért a
                           {% if domain %}https://{{domain.actual_domain}}{% else %}{{frontend_url}}{% endif %}.
-                          Ha nem kérte a jelszó visszaállítását, kérjük, hagyja figyelmen kívül ezt az üzenetet.
-                          Ellenkező esetben kattintson az alábbi gombra.
+                          Ha nem Ön kérte a jelszó visszaállítást, hagyja figyelmen kívül ezt az üzenetet. Ellenkező esetben kattintson az alábbi gombra.
                         </div>
                       </td>
                     </tr>

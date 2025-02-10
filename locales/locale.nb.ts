@@ -1,8 +1,8 @@
 import { Locale } from './locale';
 
 export const locale: Locale = {
-  name: 'norwegian',
-  language: 'no',
+  name: 'norwegian (Bokmål)',
+  language: 'nb',
   items: [
     // General
     { source: 'Save', target: 'Lagre' },

@@ -632,7 +632,7 @@ export const locale: Locale = {
         'দয়া করে আপনার ইমেল চেক করুন – <strong>{0}</strong>. আমরা যা করেছি তার একটি বৈধতা লিঙ্ক প্রেরণ করেছি যা আপনি প্রয়োজনীয় পদক্ষেপগুলি অনুসরণ করবেন।'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'প্রায় শেষ, কেবল নীচে আপনার নতুন পাসওয়ার্ড প্রবেশ করুন। <br>অন্যান্য ক্ষেত্রে ৮ অক্ষর দীর্ঘ হতে হবে।'
     },
     { source: 'Reset password & Sign In', target: 'পাসওয়ার্ড রিসেট করুন এবং সাইন ইন করুন' },

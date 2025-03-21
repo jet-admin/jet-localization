@@ -640,7 +640,7 @@ export const locale: Locale = {
         'Iltimos, emailingizni tekshiring – <strong>{0}</strong>. Parolingizni o‘zgartirish uchun amal qilish kerak bo‘lgan tekshiruv havolasini yubordik.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Deyarli tugadi, faqat quyida yangi parolingizni kiriting. <br>Kami 8 ta belgidan kam boʻlmasligi kerak.'
     },
     { source: 'Reset password & Sign In', target: 'Parolni tiklash va Kirish' },

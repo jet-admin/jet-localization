@@ -631,7 +631,7 @@ export const locale: Locale = {
         'Lūdzu, pārbaudiet savu e-pastu – <strong>{0}</strong>. Mēs esam nosūtījuši validācijas saiti, kurai jāseko, lai mainītu paroli.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Gandrīz pabeigts, vienkārši ievadiet jauno paroli zemāk. <br>Jābūt vismaz 8 rakstzīmēm.'
     },
     { source: 'Reset password & Sign In', target: 'Atiestatīt paroli un pieteikties' },

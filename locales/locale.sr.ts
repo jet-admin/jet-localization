@@ -633,7 +633,7 @@ export const locale: Locale = {
         'Molimo proverite vaš Email – <strong>{0}</strong>. Poslali smo vam link za validaciju koji treba da pratite da biste promenili lozinku.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Skoro gotovo, samo unesite vašu novu lozinku ispod. <br>Mora biti najmanje 8 znakova.'
     },
     { source: 'Reset password & Sign In', target: 'Resetujte lozinku i Prijavite se' },

@@ -636,7 +636,7 @@ export const locale: Locale = {
         'Tjek venligst din email – <strong>{0}</strong>. Vi har sendt det valideringslink, du skal følge for at ændre din adgangskode.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Næsten færdig, skal du blot indtaste din nye adgangskode nedenfor. <br>Skal bestå af mindst 8 tegn.'
     },
     { source: 'Reset password & Sign In', target: 'Nulstil adgangskode og log ind' },

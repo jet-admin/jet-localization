@@ -636,7 +636,7 @@ export const locale: Locale = {
         'Zəhmət olmasa, Emailinizi yoxlayın – <strong>{0}</strong>. Şifrənizi dəyişmək üçün izləmeniz lazım olan doğrulama linkini göndərmişik.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Demək olar ki, bitdi, sadəcə yeni şifrənizi aşağıya daxil edin. <br>Ən azı 8 simvol olmalıdır.'
     },
     { source: 'Reset password & Sign In', target: 'Şifrəni yeniləyin və daxil olun' },

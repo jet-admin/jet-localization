@@ -632,7 +632,7 @@ export const locale: Locale = {
         'Iċċekkja l-email tiegħek – <strong>{0}</strong>. Aħna bgħatna rabta ta’ validazzjoni li għandek issegwi biex tbiddel il-password tiegħek.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Kważi lest, sempliċement daħħal il-password ġdida tiegħek hawn taħt. <br>Għandu jkollu mill-inqas 8 karattri.'
     },

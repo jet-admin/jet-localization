@@ -635,7 +635,7 @@ export const locale: Locale = {
         'Vui lòng kiểm tra Email của bạn – <strong>{0}</strong>. Chúng tôi đã gửi liên kết xác thực mà bạn nên theo dõi để thay đổi mật khẩu của mình.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Gần hoàn thành, chỉ cần nhập mật khẩu mới của bạn dưới đây. <br>Phải ít nhất 8 ký tự.'
     },
     { source: 'Reset password & Sign In', target: 'Đặt lại mật khẩu & Đăng nhập' },

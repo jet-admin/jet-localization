@@ -636,7 +636,7 @@ export const locale: Locale = {
       target: '이메일을 확인해 주세요 – <strong>{0}</strong>. 비밀번호를 변경할 수 있는 유효성 검사 링크를 보냈습니다.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: '거의 완료되었습니다. 아래에 새 비밀번호를 입력하세요. <br>최소 8자 이상이어야 합니다.'
     },
     { source: 'Reset password & Sign In', target: '비밀번호 재설정 및 로그인' },

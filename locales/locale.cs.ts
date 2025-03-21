@@ -632,7 +632,7 @@ export const locale: Locale = {
         'Zkontrolujte prosím svůj e-mail – <strong>{0}</strong>. Odeslali jsme validační odkaz, který byste měli následovat, abyste mohli změnit své heslo.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Ještě chvíli, zadejte nové heslo níže. <br>Musí mít alespoň 8 znaků.'
     },
     { source: 'Reset password & Sign In', target: 'Obnovte heslo a přihlaste se' },

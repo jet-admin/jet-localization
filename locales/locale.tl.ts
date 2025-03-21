@@ -642,7 +642,7 @@ export const locale: Locale = {
         'Mangyaring suriin ang iyong Email – <strong>{0}</strong>. Nagpadala kami ng validation link na dapat mong sundan upang mabago ang iyong password.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Halos tapos na, ilagay lamang ang iyong bagong password sa ibaba. <br>Dapat ay hindi bababa sa 8 character.'
     },

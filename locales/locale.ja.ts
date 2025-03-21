@@ -636,7 +636,7 @@ export const locale: Locale = {
       target: 'メールを確認してください – <strong>{0}</strong>。パスワードを変更するための確認URLを送信しました。'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'もうすぐ完了です。新しいパスワードを下に入力してください。<br>パスワードは8文字以上でなければなりません。'
     },

@@ -628,7 +628,7 @@ export const locale: Locale = {
         'Vennligst sjekk e-posten din – <strong>{0}</strong>. Vi har sendt valideringslinken du skal følge for å endre passordet ditt.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Nesten ferdig, skriv bare inn det nye passordet ditt nedenfor. <br>Må ha minst 8 tegn.'
     },
     { source: 'Reset password & Sign In', target: 'Tilbakestill passord og logg inn' },

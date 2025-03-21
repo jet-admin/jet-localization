@@ -633,7 +633,7 @@ export const locale: Locale = {
         'โปรดตรวจสอบอีเมลของคุณ – <strong>{0}</strong> เราได้ส่งลิงก์ยืนยันที่คุณควรทำตามเพื่อเปลี่ยนรหัสผ่านของคุณ'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'เกือบเสร็จ กรุณาใส่รหัสผ่านใหม่ของคุณด้านล่าง <br>ต้องมีอย่างน้อย 8 ตัวอักษร'
     },
     { source: 'Reset password & Sign In', target: 'รีเซ็ตรหัสผ่าน & เข้าสู่ระบบ' },

@@ -637,7 +637,7 @@ export const locale: Locale = {
         'Kontrollera din e-post – <strong>{0}</strong>. Vi har skickat valideringslänken du ska följa för att byta ditt lösenord.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Nästan klart, ange bara ditt nya lösenord nedan. <br> Måste vara minst 8 tecken.'
     },
     { source: 'Reset password & Sign In', target: 'Återställ lösenord och logga in' },

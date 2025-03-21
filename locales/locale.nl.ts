@@ -629,7 +629,7 @@ export const locale: Locale = {
         'Controleer alstublieft uw e-mail – <strong>{0}</strong>. We hebben de validatielink verzonden die u moet volgen om uw wachtwoord te wijzigen.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Bijna klaar, voer hieronder uw nieuwe wachtwoord in. <br>Moet minstens 8 tekens bevatten.'
     },
     { source: 'Reset password & Sign In', target: 'Wachtwoord resetten & Inloggen' },

@@ -637,7 +637,7 @@ export const locale: Locale = {
         'Vă rugăm să verificați email-ul dvs. – <strong>{0}</strong>. Am trimis linkul de validare pe care trebuie să-l urmați pentru a vă schimba parola.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Aproape gata, introduceți noua parolă mai jos. <br>Trebuie să aibă cel puțin 8 caractere.'
     },
     { source: 'Reset password & Sign In', target: 'Resetați parola & Accesați' },

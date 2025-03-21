@@ -635,7 +635,7 @@ export const locale: Locale = {
         'Silakan periksa Email Anda – <strong>{0}</strong>. Kami telah mengirimkan tautan validasi yang harus Anda ikuti untuk mengubah kata sandi Anda.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Hampir selesai, masukkan kata sandi baru Anda di bawah ini. <br>Harus setidaknya 8 karakter.'
     },
     { source: 'Reset password & Sign In', target: 'Setel Ulang Kata Sandi & Masuk' },

@@ -637,7 +637,7 @@ export const locale: Locale = {
         'Sprawdź swoją skrzynkę e-mailową – <strong>{0}</strong>. Wysłaliśmy Ci link weryfikacyjny, który powinieneś kliknąć, aby zmienić hasło.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Prawie gotowe, wprowadź swoje nowe hasło poniżej. <br>Musi mieć co najmniej 8 znaków.'
     },
     { source: 'Reset password & Sign In', target: 'Zresetuj hasło i zaloguj się' },

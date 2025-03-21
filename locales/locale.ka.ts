@@ -629,7 +629,7 @@ export const locale: Locale = {
         'გთხოვთ შეამოწმოთ თქვენი ელფოსტა – <strong>{0}</strong>. გამოგზავნეთ დადასტურების ლინკი, რომელიც უნდა გამოიყენოთ პაროლის შესაცვლელად.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'თითქმის მზად, უბრალოდ შეიყვანეთ თქვენი ახალი პაროლი ქვემოთ. <br>მინიმუმ 8 სიმბოლო.'
     },
     { source: 'Reset password & Sign In', target: 'პაროლის გადატვირთვა & შესვლა' },

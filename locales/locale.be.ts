@@ -630,7 +630,7 @@ export const locale: Locale = {
         'Калі ласка, праверце ваш Email – <strong>{0}</strong>. Мы адправілі спасылку для валідацыі, якую вам трэба перайсці для змянення пароля.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Амаль гатова, проста увядзіце ваш новы пароль ніжэй. <br>Мінімум 8 сімвалаў.'
     },
     { source: 'Reset password & Sign In', target: 'Скідванне пароля і ўваход' },

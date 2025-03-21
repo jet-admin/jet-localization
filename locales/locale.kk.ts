@@ -630,7 +630,7 @@ export const locale: Locale = {
         'Электрондық поштаңызды тексеріңіз – <strong>{0}</strong>. Біз жіберген парольді өзгерту үшін сілтемені растауды орындаңыз.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Дайын болуға жақын, төмендегідей жаңа құпия сөзіңізді енгізіңіз. <br>Кемінде 8 таңба болуы керек.'
     },
     { source: 'Reset password & Sign In', target: 'Құпиясөзді қалпына келтіру және кіру' },

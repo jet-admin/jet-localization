@@ -650,7 +650,7 @@ export const locale: Locale = {
         'Veuillez vérifier votre e-mail - <strong>{0}</strong> . Nous vous avons envoyé le lien de validation que vous devez suivre pour changer votre mot de passe.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Presque terminé, entrez simplement votre nouveau mot de passe ci-dessous.<br> Doit contenir au moins 8 caractères.'
     },

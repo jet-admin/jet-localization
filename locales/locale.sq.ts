@@ -639,7 +639,7 @@ export const locale: Locale = {
         'Ju lutemi kontrolloni Emailin tuaj – <strong>{0}</strong>. Ne kemi dërguar lidhjen e vlerësimit që duhet të ndiqni për të ndryshuar fjalëkalimin tuaj.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Pothuajse gati, thjesht shtypni fjalëkalimin tuaj të ri më poshtë. <br>Duhet të jetë së paku 8 karaktere.'
     },

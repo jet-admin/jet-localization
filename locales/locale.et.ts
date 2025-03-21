@@ -635,7 +635,7 @@ export const locale: Locale = {
         'Palun kontrollige oma e-posti aadressi – <strong>{0}</strong>. Saatsime kinnituslingi, mille abil peaksite oma salasõna muutma.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Peaaegu valmis, lihtsalt sisestage allpool oma uus salasõna. <br>Peab olema vähemalt 8 tähemärki.'
     },
     { source: 'Reset password & Sign In', target: 'Lähtesta salasõna ja logige sisse' },

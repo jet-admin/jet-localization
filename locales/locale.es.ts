@@ -637,7 +637,7 @@ export const locale: Locale = {
         'Verifique su correo electrónico: <strong>{0}</strong> . Le hemos enviado el enlace de validación que debe seguir para cambiar su contraseña.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Casi listo, simplemente ingrese su nueva contraseña a continuación.<br> Debe tener al menos 8 caracteres.'
     },

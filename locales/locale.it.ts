@@ -635,7 +635,7 @@ export const locale: Locale = {
         'Controlla la tua Email – <strong>{0}</strong>. Abbiamo inviato il link di validazione che dovresti seguire per cambiare la tua password.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Quasi fatto, inserisci qui sotto la tua nuova password. <br>Deve essere lunga almeno 8 caratteri.'
     },
     { source: 'Reset password & Sign In', target: 'Reimposta password e Accedi' },

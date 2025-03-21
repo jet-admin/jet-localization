@@ -620,7 +620,7 @@ export const locale: Locale = {
         'Tarkista sähköpostisi – <strong>{0}</strong>. Olemme lähettäneet vahvistuslinkin, jota sinun tulee seurata vaihtaaksesi salasanasi.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Melkein valmis, syötä vain uusi salasanasi alla. <br>Täytyy olla vähintään 8 merkkiä.'
     },
     { source: 'Reset password & Sign In', target: 'Nollaa salasana ja kirjaudu' },

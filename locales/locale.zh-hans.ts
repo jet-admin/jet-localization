@@ -626,7 +626,7 @@ export const locale: Locale = {
       target: '请检查您的电子邮件 – <strong>{0}</strong>。我们已发送验证链接，您应该按照该链接更改密码。'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: '快完成了，只需在下面输入您的新密码。 <br>必须至少为 8 个字符。'
     },
     { source: 'Reset password & Sign In', target: '重置密码并登录' },

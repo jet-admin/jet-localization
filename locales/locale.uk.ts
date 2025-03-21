@@ -636,7 +636,7 @@ export const locale: Locale = {
         'Будь ласка, перевірте ваш Email – <strong>{0}</strong>. Ми надіслали вам посилання для підтвердження, яке ви повинні виконати, щоб змінити свій пароль.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Майже готово, просто введіть ваш новий пароль нижче. <br> Можливо не менше 8 символів.'
     },
     { source: 'Reset password & Sign In', target: 'Скинути пароль та Увійти' },

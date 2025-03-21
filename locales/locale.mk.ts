@@ -637,7 +637,7 @@ export const locale: Locale = {
         'Проверете го вашиот Email – <strong>{0}</strong>. Ви испративме линк за валидација што треба да го следите за да ја промените вашата лозинка.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Почти готово, само внесете нова лозинка подолу. <br>Мора да биде најмалку 8 карактери.'
     },
     { source: 'Reset password & Sign In', target: 'Ресетирајте лозинка и Најавете се' },

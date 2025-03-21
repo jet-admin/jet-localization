@@ -636,7 +636,7 @@ export const locale: Locale = {
         'Vinsamlegast skoðaðu netfangið þitt – <strong>{0}</strong>. Við höfum sent þér staðfestingartengil sem þú ættir að fylgja til að breyta lykilorðinu þínu.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Næstum búið, sláðu bara inn nýja lykilorðið þitt hér að neðan. <br>Þarf að vera að minnsta kosti 8 stafir.'
     },

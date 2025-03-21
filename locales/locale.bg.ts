@@ -634,7 +634,7 @@ export const locale: Locale = {
         'Моля, проверете вашия имейл – <strong>{0}</strong>. Изпратили сме връзка за валидация, която трябва да следвате, за да промените паролата си.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Почти готово, просто въведете новата си парола по-долу. <br>Трябва да е поне 8 символа.'
     },
     { source: 'Reset password & Sign In', target: 'Нулирай парола и влез' },

@@ -641,7 +641,7 @@ export const locale: Locale = {
         'Παρακαλώ ελέγξτε το email σας – <strong>{0}</strong>. Σας έχουμε στείλει τον σύνδεσμο επιβεβαίωσης που πρέπει να ακολουθήσετε για να αλλάξετε τον κωδικό σας.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target:
         'Σχεδόν τελειώσατε, απλώς εισάγετε τον νέο σας κωδικό πρόσβασης παρακάτω. <br>Πρέπει να είναι τουλάχιστον 8 χαρακτήρες.'
     },

@@ -632,7 +632,7 @@ export const locale: Locale = {
       target: '請檢查您的電子郵件 – <strong>{0}</strong>。我們已經發送驗證鏈接，您應按照它來更改密碼。'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: '快完成了，只要在下方輸入您的新密碼即可。<br>必須至少8個字符。'
     },
     { source: 'Reset password & Sign In', target: '重設密碼並登入' },

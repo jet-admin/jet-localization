@@ -637,7 +637,7 @@ export const locale: Locale = {
         'Sila periksa E-mel anda – <strong>{0}</strong>. Kami telah menghantar pautan pengesahan yang perlu anda ikuti untuk menukar kata laluan anda.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Hampir selesai, cuma masukkan kata laluan baru anda di bawah. <br>Mesti sekurang-kurangnya 8 aksara.'
     },
     { source: 'Reset password & Sign In', target: 'Tetapkan semula kata laluan & Log masuk' },

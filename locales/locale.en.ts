@@ -632,7 +632,7 @@ export const locale: Locale = {
       target: ''
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: ''
     },
     { source: 'Reset password & Sign In', target: '' },

@@ -633,7 +633,7 @@ export const locale: Locale = {
         'Patikrinkite savo el. paštą – <strong>{0}</strong>. Mes išsiuntėme patvirtinimo nuorodą, kurią turėtumėte sekti, kad pakeistumėte savo slaptažodį.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Beveik baigta, tiesiog įveskite žemiau naują slaptažodį. <br>Turi būti bent 8 simbolių.'
     },
     { source: 'Reset password & Sign In', target: 'Atkurti slaptažodį ir prisijungti' },

@@ -640,7 +640,7 @@ export const locale: Locale = {
         'Por favor, verifique seu Email – <strong>{0}</strong>. Nós mandamos um link de validação para que você troque a sua senha.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Quase pronto, basta inserir sua nova senha abaixo. <br> Deve ter pelo menos 8 caracteres.'
     },
     { source: 'Reset password & Sign In', target: 'Redefinir senha e fazer login' },

@@ -633,7 +633,7 @@ export const locale: Locale = {
         'Kérjük, ellenőrizze e-mailjét – <strong>{0}</strong> . Elküldtük az érvényesítési linket a jelszó megváltoztatásához szükséges lépésekkel.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Majdnem kész, csak írja be alább az új jelszavát.<br> Legalább 8 karakterből kell állnia.'
     },
     { source: 'Reset password & Sign In', target: 'Jelszóvisszaállítás és bejelentkezés' },

@@ -632,7 +632,7 @@ export const locale: Locale = {
         'Пожалуйста, проверьте ваш email – <strong>{0}</strong>. Перейдите по ссылке, которую мы отправили, чтобы поменять пароль.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Почти закончили, укажите новый пароль ниже. <br>Пароль должен быть не короче 8 символов.'
     },
     { source: 'Reset password & Sign In', target: 'Восстановить пароль и войти' },

@@ -635,7 +635,7 @@ export const locale: Locale = {
         'Prosimo, preverite svoj e-mail – <strong>{0}</strong>. Poslali smo validacijsko povezavo, ki ji morate slediti, da spremenite geslo.'
     },
     {
-      source: 'Almost done, just enter your new password below. <br>Must be al least 8 characters.',
+      source: 'Almost done, just enter your new password below. <br>Must be at least 8 characters.',
       target: 'Skoraj končano, samo vnesite svoje novo geslo spodaj. <br>Mora biti dolgo vsaj 8 znakov.'
     },
     { source: 'Reset password & Sign In', target: 'Ponastavi geslo & Prijavi se' },

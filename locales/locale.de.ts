@@ -142,7 +142,7 @@ export const locale: Locale = {
     { source: 'Selected', target: 'Ausgewählt' },
     {
       source: 'Unfortunately, no {0} matching your query found',
-      target: 'Leider wurde kein {0} gefunden, das Ihrer Anfrage entspricht'
+      target: 'Leider wurden keine {0} gefunden, die Ihrer Anfrage entsprechen'
     },
     { source: 'We are fetching {0}, please, wait...', target: 'Wir laden {0}, bitte warten...' },
     { source: 'Add filter', target: 'Filter hinzufügen' },

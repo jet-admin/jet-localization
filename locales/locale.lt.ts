@@ -617,7 +617,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Paslaugų teikimo sąlygos' },
     { source: 'Privacy Policy', target: 'Privatumo politika' },
     { source: 'and', target: 'ir' },
-    { source: 'Create your free account', target: 'Sukurti savo nemokamą paskyrą' },
+    { source: 'Create account', target: 'Sukurti paskyrą' },
     { source: 'Already have an account', target: 'Jau turite paskyrą' },
     { source: 'Unable to Sign Up', target: 'Nepavyksta užsiregistruoti' },
 

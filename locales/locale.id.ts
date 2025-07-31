@@ -619,7 +619,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Ketentuan Layanan' },
     { source: 'Privacy Policy', target: 'Kebijakan Privasi' },
     { source: 'and', target: 'dan' },
-    { source: 'Create your free account', target: 'Buat akun gratis Anda' },
+    { source: 'Create account', target: 'Buat akun' },
     { source: 'Already have an account', target: 'Sudah memiliki akun' },
     { source: 'Unable to Sign Up', target: 'Tidak dapat Mendaftar' },
 

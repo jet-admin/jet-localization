@@ -616,7 +616,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'পরিষেবার শর্তাবলী' },
     { source: 'Privacy Policy', target: 'গোপনীয়তা নীতি' },
     { source: 'and', target: 'এবং' },
-    { source: 'Create your free account', target: 'আপনার বিনামূল্যের অ্যাকাউন্ট তৈরি করুন' },
+    { source: 'Create account', target: 'অ্যাকাউন্ট তৈরি করুন' },
     { source: 'Already have an account', target: 'ইতিমধ্যে একটি অ্যাকাউন্ট আছে' },
     { source: 'Unable to Sign Up', target: 'নিবন্ধন করতে অক্ষম' },
 

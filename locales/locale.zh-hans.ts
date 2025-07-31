@@ -611,7 +611,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: '服务条款' },
     { source: 'Privacy Policy', target: '隐私政策' },
     { source: 'and', target: '和' },
-    { source: 'Create your free account', target: '创建您的免费帐户' },
+    { source: 'Create account', target: '创建账户' },
     { source: 'Already have an account', target: '已经有帐户了' },
     { source: 'Unable to Sign Up', target: '无法注册' },
 

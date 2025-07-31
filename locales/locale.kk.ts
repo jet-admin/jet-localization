@@ -614,7 +614,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Қызмет көрсету шарттары' },
     { source: 'Privacy Policy', target: 'Құпиялық саясаты' },
     { source: 'and', target: 'және' },
-    { source: 'Create your free account', target: 'Тегін есептік жазбаңызды жасаңыз' },
+    { source: 'Create account', target: 'Тіркелгі жасау' },
     { source: 'Already have an account', target: 'Есептік жазбаңыз бар ма' },
     { source: 'Unable to Sign Up', target: 'Тіркелу мүмкін емес' },
 

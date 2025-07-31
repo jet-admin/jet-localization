@@ -621,7 +621,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: '서비스 약관' },
     { source: 'Privacy Policy', target: '개인정보 처리방침' },
     { source: 'and', target: '그리고' },
-    { source: 'Create your free account', target: '무료 계정 만들기' },
+    { source: 'Create account', target: '계정 만들기' },
     { source: 'Already have an account', target: '이미 계정이 있습니다' },
     { source: 'Unable to Sign Up', target: '가입할 수 없습니다' },
 

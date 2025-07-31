@@ -619,7 +619,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Điều khoản dịch vụ' },
     { source: 'Privacy Policy', target: 'Chính sách bảo mật' },
     { source: 'and', target: 'và' },
-    { source: 'Create your free account', target: 'Tạo tài khoản miễn phí' },
+    { source: 'Create account', target: 'Tạo tài khoản' },
     { source: 'Already have an account', target: 'Đã có tài khoản' },
     { source: 'Unable to Sign Up', target: 'Không thể đăng ký' },
 

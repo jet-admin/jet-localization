@@ -616,7 +616,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Termini tas-Servizz' },
     { source: 'Privacy Policy', target: 'Politika tal-Privatezza' },
     { source: 'and', target: 'u' },
-    { source: 'Create your free account', target: 'Oħloq il-kont b’xejn tiegħek' },
+    { source: 'Create account', target: 'Oħloq kont' },
     { source: 'Already have an account', target: 'Diġà għandek kont?' },
     { source: 'Unable to Sign Up', target: 'Mhux ħila li tiffirma' },
 

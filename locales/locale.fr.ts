@@ -634,7 +634,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: "Conditions d'utilisation" },
     { source: 'Privacy Policy', target: 'Politique de confidentialité' },
     { source: 'and', target: 'et' },
-    { source: 'Create your free account', target: 'Créez votre compte gratuit' },
+    { source: 'Create account', target: 'Créer un compte' },
     { source: 'Already have an account', target: 'Vous avez déjà un compte' },
     { source: 'Unable to Sign Up', target: "Impossible de s'inscrire" },
 

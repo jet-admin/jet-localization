@@ -613,7 +613,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Servicevoorwaarden' },
     { source: 'Privacy Policy', target: 'Privacybeleid' },
     { source: 'and', target: 'en' },
-    { source: 'Create your free account', target: 'Maak uw gratis account aan' },
+    { source: 'Create account', target: 'Account aanmaken' },
     { source: 'Already have an account', target: 'Heeft u al een account' },
     { source: 'Unable to Sign Up', target: 'Niet mogelijk om aan te melden' },
 

@@ -620,7 +620,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Умовами надання послуг' },
     { source: 'Privacy Policy', target: 'Політикою конфіденційності' },
     { source: 'and', target: 'та' },
-    { source: 'Create your free account', target: 'Створіть свій безкоштовний обліковий запис' },
+    { source: 'Create account', target: 'Створити акаунт' },
     { source: 'Already have an account', target: 'Вже є обліковий запис' },
     { source: 'Unable to Sign Up', target: 'Не вдалося зареєструватися' },
 

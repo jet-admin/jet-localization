@@ -620,7 +620,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Skilmálar þjónustu' },
     { source: 'Privacy Policy', target: 'Persónuverndarstefna' },
     { source: 'and', target: 'og' },
-    { source: 'Create your free account', target: 'Búðu til ókeypis reikning' },
+    { source: 'Create account', target: 'Búa til aðgang' },
     { source: 'Already have an account', target: 'Ertu þegar með reikning' },
     { source: 'Unable to Sign Up', target: 'Tókst ekki að skrá sig' },
 

@@ -619,7 +619,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Teenuse tingimused' },
     { source: 'Privacy Policy', target: 'Privaatsuspoliitika' },
     { source: 'and', target: 'ja' },
-    { source: 'Create your free account', target: 'Loo oma tasuta konto' },
+    { source: 'Create account', target: 'Loo konto' },
     { source: 'Already have an account', target: 'Teil on juba konto' },
     { source: 'Unable to Sign Up', target: 'Registreerimine pole võimalik' },
 

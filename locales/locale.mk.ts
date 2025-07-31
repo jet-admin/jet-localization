@@ -621,7 +621,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Услови на користење' },
     { source: 'Privacy Policy', target: 'Политика на приватност' },
     { source: 'and', target: 'и' },
-    { source: 'Create your free account', target: 'Креирајте бесплатен профил' },
+    { source: 'Create account', target: 'Креирај сметка' },
     { source: 'Already have an account', target: 'Веќе имате профил' },
     { source: 'Unable to Sign Up', target: 'Не е можно да се регистрирате' },
 

@@ -621,7 +621,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: '利用規約' },
     { source: 'Privacy Policy', target: 'プライバシーポリシー' },
     { source: 'and', target: 'および' },
-    { source: 'Create your free account', target: '無料アカウントを作成' },
+    { source: 'Create account', target: 'アカウント作成' },
     { source: 'Already have an account', target: 'すでにアカウントを持っている' },
     { source: 'Unable to Sign Up', target: 'サインアップできません' },
 

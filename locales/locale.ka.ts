@@ -613,7 +613,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'მომსახურების პირობები' },
     { source: 'Privacy Policy', target: 'პირადი ცხოვრების პოლიტიკა' },
     { source: 'and', target: 'და' },
-    { source: 'Create your free account', target: 'შექმენით თქვენი უფასო ანგარიში' },
+    { source: 'Create account', target: 'ანგარიშის შექმნა' },
     { source: 'Already have an account', target: 'უკვე გაქვთ ანგარიში?' },
     { source: 'Unable to Sign Up', target: 'რეგისტრაცია ვერ შესრულდა' },
 

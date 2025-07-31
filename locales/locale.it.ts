@@ -619,7 +619,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Termini di Servizio' },
     { source: 'Privacy Policy', target: 'Politica sulla Privacy' },
     { source: 'and', target: 'e' },
-    { source: 'Create your free account', target: 'Crea il tuo account gratuito' },
+    { source: 'Create account', target: 'Crea account' },
     { source: 'Already have an account', target: 'Hai già un account' },
     { source: 'Unable to Sign Up', target: 'Impossibile Registrarsi' },
 

@@ -617,7 +617,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Uslove korišćenja' },
     { source: 'Privacy Policy', target: 'Politiku privatnosti' },
     { source: 'and', target: 'i' },
-    { source: 'Create your free account', target: 'Napravite besplatan nalog' },
+    { source: 'Create account', target: 'Kreiraj nalog' },
     { source: 'Already have an account', target: 'Već imate nalog' },
     { source: 'Unable to Sign Up', target: 'Nije moguće registrovati se' },
 

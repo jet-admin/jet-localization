@@ -604,7 +604,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Käyttöehdot' },
     { source: 'Privacy Policy', target: 'Tietosuojakäytäntö' },
     { source: 'and', target: 'ja' },
-    { source: 'Create your free account', target: 'Luo ilmainen tilisi' },
+    { source: 'Create account', target: 'Luo tili' },
     { source: 'Already have an account', target: 'Onko sinulla jo tili' },
     { source: 'Unable to Sign Up', target: 'Ei voida rekisteröityä' },
 

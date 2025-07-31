@@ -626,7 +626,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Hizmet Şartları' },
     { source: 'Privacy Policy', target: 'Gizlilik Politikası' },
     { source: 'and', target: 've' },
-    { source: 'Create your free account', target: 'Ücretsiz hesabınızı oluşturun' },
+    { source: 'Create account', target: 'Hesap oluştur' },
     { source: 'Already have an account', target: 'Zaten bir hesabınız var mı' },
     { source: 'Unable to Sign Up', target: 'Kayıt Olunamıyor' },
 

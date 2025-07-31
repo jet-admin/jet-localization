@@ -610,7 +610,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Podmienkami služby' },
     { source: 'Privacy Policy', target: 'Zásadami ochrany osobných údajov' },
     { source: 'and', target: 'a' },
-    { source: 'Create your free account', target: 'Vytvorte si bezplatný účet' },
+    { source: 'Create account', target: 'Vytvoriť účet' },
     { source: 'Already have an account', target: 'Už máte účet' },
     { source: 'Unable to Sign Up', target: 'Nie je možné sa zaregistrovať' },
 

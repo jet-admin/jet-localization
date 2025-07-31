@@ -621,7 +621,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Termenii Serviciului' },
     { source: 'Privacy Policy', target: 'Politica de Confidențialitate' },
     { source: 'and', target: 'și' },
-    { source: 'Create your free account', target: 'Creați-vă contul gratuit' },
+    { source: 'Create account', target: 'Creează cont' },
     { source: 'Already have an account', target: 'Aveți deja un cont' },
     { source: 'Unable to Sign Up', target: 'Nu se poate înregistra' },
 

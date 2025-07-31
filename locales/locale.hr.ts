@@ -619,7 +619,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Uvjetima usluge' },
     { source: 'Privacy Policy', target: 'Politikom privatnosti' },
     { source: 'and', target: 'i' },
-    { source: 'Create your free account', target: 'Kreirajte svoj besplatni račun' },
+    { source: 'Create account', target: 'Izradi račun' },
     { source: 'Already have an account', target: 'Već imate račun' },
     { source: 'Unable to Sign Up', target: 'Nije moguće prijaviti se' },
 

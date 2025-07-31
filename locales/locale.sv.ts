@@ -621,7 +621,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Användarvillkor' },
     { source: 'Privacy Policy', target: 'Integritetspolicy' },
     { source: 'and', target: 'och' },
-    { source: 'Create your free account', target: 'Skapa ditt gratis konto' },
+    { source: 'Create account', target: 'Skapa konto' },
     { source: 'Already have an account', target: 'Har du redan ett konto' },
     { source: 'Unable to Sign Up', target: 'Kan inte registrera mig' },
 

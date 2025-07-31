@@ -615,7 +615,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Pakalpojuma noteikumi' },
     { source: 'Privacy Policy', target: 'Privātuma politika' },
     { source: 'and', target: 'un' },
-    { source: 'Create your free account', target: 'Izveidojiet savu bezmaksas kontu' },
+    { source: 'Create account', target: 'Izveidot kontu' },
     { source: 'Already have an account', target: 'Jau ir konts' },
     { source: 'Unable to Sign Up', target: 'Nevar reģistrēties' },
 

@@ -612,7 +612,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Tjenestevilkår' },
     { source: 'Privacy Policy', target: 'Personvernregler' },
     { source: 'and', target: 'og' },
-    { source: 'Create your free account', target: 'Opprett din gratis konto' },
+    { source: 'Create account', target: 'Opprett konto' },
     { source: 'Already have an account', target: 'Har du allerede en konto' },
     { source: 'Unable to Sign Up', target: 'Kan ikke registrere' },
 

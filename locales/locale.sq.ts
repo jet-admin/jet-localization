@@ -623,7 +623,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Kushtet e Shërbimit' },
     { source: 'Privacy Policy', target: 'Politika e Privatësisë' },
     { source: 'and', target: 'dhe' },
-    { source: 'Create your free account', target: 'Krijo llogarinë tuaj falas' },
+    { source: 'Create account', target: 'Krijo llogari' },
     { source: 'Already have an account', target: 'Keni tashmë një llogari' },
     { source: 'Unable to Sign Up', target: 'Nuk mund të regjistroheni' },
 

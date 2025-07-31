@@ -626,7 +626,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Mga Tuntunin ng Serbisyo' },
     { source: 'Privacy Policy', target: 'Patakaran sa Privacy' },
     { source: 'and', target: 'at' },
-    { source: 'Create your free account', target: 'Lumikha ng iyong libreng account' },
+    { source: 'Create account', target: 'Gumawa ng account' },
     { source: 'Already have an account', target: 'Mayroon nang account' },
     { source: 'Unable to Sign Up', target: 'Hindi makapag-sign Up' },
 

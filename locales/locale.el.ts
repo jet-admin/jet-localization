@@ -625,7 +625,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Όρους Χρήσης' },
     { source: 'Privacy Policy', target: 'Πολιτική Απορρήτου' },
     { source: 'and', target: 'και' },
-    { source: 'Create your free account', target: 'Δημιουργήστε τον δωρεάν λογαριασμό σας' },
+    { source: 'Create account', target: 'Δημιουργία λογαριασμού' },
     { source: 'Already have an account', target: 'Ήδη έχετε λογαριασμό' },
     { source: 'Unable to Sign Up', target: 'Αδυναμία εγγραφής' },
 

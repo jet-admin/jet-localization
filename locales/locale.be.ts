@@ -614,7 +614,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Умовамі карыстання' },
     { source: 'Privacy Policy', target: 'Палітыка прыватнасці' },
     { source: 'and', target: 'і' },
-    { source: 'Create your free account', target: 'Стварыце ваш бясплатны акаўнт' },
+    { source: 'Create account', target: 'Стварыць уліковы запіс' },
     { source: 'Already have an account', target: 'Ужо ёсць акаўнт' },
     { source: 'Unable to Sign Up', target: 'Немагчыма зарэгістравацца' },
 

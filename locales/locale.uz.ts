@@ -624,7 +624,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Xizmat shartlari' },
     { source: 'Privacy Policy', target: 'Maxfiylik siyosati' },
     { source: 'and', target: 'va' },
-    { source: 'Create your free account', target: 'Bepul hisobingizni yarating' },
+    { source: 'Create account', target: 'Hisob yaratish' },
     { source: 'Already have an account', target: 'Hisobingiz bormi' },
     { source: 'Unable to Sign Up', target: 'Ro‘yxatdan o‘tolmadi' },
 

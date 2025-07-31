@@ -617,7 +617,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Szolgáltatási feltételek' },
     { source: 'Privacy Policy', target: 'Adatvédelmi irányelvek' },
     { source: 'and', target: 'és' },
-    { source: 'Create your free account', target: 'Fiók létrehozása' },
+    { source: 'Create account', target: 'Fiók létrehozása' },
     { source: 'Already have an account', target: 'Már van fiókom' },
     { source: 'Unable to Sign Up', target: 'Nem lehet regisztrálni' },
 

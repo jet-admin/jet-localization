@@ -620,7 +620,7 @@ export const locale: Locale = {
     { source: 'Terms of Service', target: 'Xidmət şərtləri' },
     { source: 'Privacy Policy', target: 'Məxfilik Siyasəti' },
     { source: 'and', target: 'və' },
-    { source: 'Create your free account', target: 'Pulsuz hesab yaradın' },
+    { source: 'Create account', target: 'Hesab yaradın' },
     { source: 'Already have an account', target: 'Artıq bir hesabınız var' },
     { source: 'Unable to Sign Up', target: 'Qeydiyyatdan keçmək mümkün deyil' },
 

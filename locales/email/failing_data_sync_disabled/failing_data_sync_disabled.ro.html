@@ -188,7 +188,11 @@ a img {
                           <br>
                           {% for resource in resources %}
                             <strong>
-                              {{resource.name}} ({{resource.unique_name}})
+                              {% if resource.domain %}
+                              <a href="https://{{resource.domain.actual_domain}}/builder/{{resource.project_unique_name}}/{{resource.env_unique_name}}/resources/{{resource.unique_name}}">{{resource.name}} ({{resource.unique_name}})</a>
+                              {% else %}
+                              <a href="{{frontend_url}}/builder/{{resource.project_unique_name}}/{{resource.env_unique_name}}/resources/{{resource.unique_name}}">{{resource.name}} ({{resource.unique_name}})</a>
+                              {% endif %}
                             </strong><br>
                           {% endfor %}
                         </div>

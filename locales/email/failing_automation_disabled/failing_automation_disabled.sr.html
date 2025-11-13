@@ -188,7 +188,11 @@ a img {
                           <br>
                           {% for automation in automations %}
                             <strong>
-                              {{automation.name}} ({{automation.uid}})
+                              {% if automation.domain %}
+                              <a href="https://{{automation.domain.actual_domain}}/builder/{{automation.project_unique_name}}/{{automation.env_unique_name}}/automations">{{automation.name}} ({{automation.uid}})</a>
+                              {% else %}
+                              <a href="{{frontend_url}}/builder/{{automation.project_unique_name}}/{{automation.env_unique_name}}/automations">{{automation.name}} ({{automation.uid}})</a>
+                              {% endif %}
                             </strong><br>
                           {% endfor %}
                         </div>
